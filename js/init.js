@@ -31,7 +31,7 @@ var docMenu = [
       /*
       {link : "/#LANG#/installation/",fr_FR:"Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
       */
-      {link : "/#LANG#/Diagral_eOne/",icon:"fas fa-lock",fr_FR:"Diagral eOne"}
+      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/",icon:"fas fa-lock",fr_FR:"Diagral eOne"}
     ]
   },{
     fr_FR : "Plugins Beta",
@@ -52,7 +52,7 @@ var docMenu = [
     pt_PT : "Serviços",
     */
     submenu:[
-      {link : "/#LANG#/Mercedes_me/",icon:"fas fa-language",fr_FR:"Mercedes Me"}
+      {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/",icon:"fas fa-language",fr_FR:"Mercedes Me"}
     ]
   },{
     divider : true
