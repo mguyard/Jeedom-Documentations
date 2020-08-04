@@ -273,7 +273,7 @@ for(var i in docMenu){
     }
   }
 }
-html += '<li class="small"><small>JMguyard Plugins</small></li>'
+html += '<li class="small"><small>Mguyard Plugins</small></li>'
 $('#ul_menu').empty().html(html);
 
 function genText(_menu,_lang){
