@@ -215,6 +215,25 @@ Le plugin inclus un dashboard qui permet de :
 
 ![Dashboard](images/Dashboard.png)
 
+# HomeBridge
+
+> <span style="color:red">__FONCTIONNALITE UNIQUEMENT EN BETA POUR LE MOMENT__</span>
+
+
+Le plugin est compatible avec HomeBridge (merci à Nebz sont auteur) et vous permet ainsi de piloter votre alarme avec Homekit.
+
+Toute la configuration se fait de façon automatique. Il vous suffit uniquement d'activer l'équipement dans HomeBridge et relancer le démon de HomeBridge.
+
+Vous aurez ainsi ceci dans l'application "Domicile" de Homekit
+
+![HomeKit](images/HomeKit.png)
+
+Voici la correspondance des modes HomeKit et des commandes du plugin :
+* A distante : Activation Totale
+* Nuit : Activation Mode Presence
+* Désactivée : Désactivation Total
+
+
 # Diagnostique
 
 Le plugin inclus beaucoup de verbosité en mode DEBUG, il suffit alors de la configurer au niveau du plugin.
@@ -258,7 +277,6 @@ La numérotation des versions est effectuée ainsi pour le moment :
 # Roadmap
 
 - Ajout de nouveaux messages SMS/EMAIL
-- Intégration dans Homebridge
 
 > C'est aussi vous qui aller donner la direction que prendra ce plugin, donc je suis à votre écoute
 > 

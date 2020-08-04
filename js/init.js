@@ -279,9 +279,6 @@ function setLeftMenu(){
     return
   }
   $('#ul_menu a').each(function(){
-    console.log('Log1 : ' + $(this).attr('href'))
-    console.log('Log2 : ' + url)
-    console.log('Log3 : ' + url.indexOf($(this).attr('href')))
     if ($(this).attr('href') && url.indexOf($(this).attr('href')) != -1) {
       $(this).closest('li').addClass('menu_active')
       if ($(this).closest('li').closest('ul').closest('li')) {
