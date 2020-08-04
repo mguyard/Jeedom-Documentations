@@ -20,7 +20,7 @@ var docMenu = [
   },{
     divider : true
   },{
-    fr_FR : "Plugins Stable",
+    fr_FR : "Diagral eOne",
     /*
     en_US : "Install Jeedom",
     es_ES : "Instalar Jeedom",
@@ -31,10 +31,11 @@ var docMenu = [
       /*
       {link : "/#LANG#/installation/",fr_FR:"Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
       */
-      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/",icon:"fas fa-lock",fr_FR:"Diagral eOne"}
+      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/",icon:"fas fa-book",fr_FR:"Documentation"},
+      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/changelog",icon:"fas fa-edit",fr_FR:"Changelog"}
     ]
   },{
-    fr_FR : "Plugins Beta",
+    fr_FR : "Mercedes Me",
     /*
     en_US : "Service",
     es_ES : "Servicios",
@@ -42,17 +43,8 @@ var docMenu = [
     pt_PT : "Serviços",
     */
     submenu:[
-    ]
-  },{
-    fr_FR : "Plugins Developpements",
-    /*
-    en_US : "Service",
-    es_ES : "Servicios",
-    de_DE : "Service",
-    pt_PT : "Serviços",
-    */
-    submenu:[
-      {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/",icon:"fas fa-language",fr_FR:"Mercedes Me"}
+      {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/",icon:"fas fa-book",fr_FR:"Documentation"},
+      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/changelog",icon:"fas fa-edit",fr_FR:"Changelog"}
     ]
   },{
     divider : true

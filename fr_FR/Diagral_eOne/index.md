@@ -1,10 +1,6 @@
 ![Logo](images/Diagral_eOne_icon.png)
 
 
-> 
-> La documentation de la version __BETA__ se trouve [ici](https://github.com/mguyard/Jeedom-Diagral_eOne/blob/develop/docs/fr_FR/index.md)
-> 
-
 # Présentation 
 
 Diagral est un constructeur français d'alarme, appartenant au groupe HAGER :
