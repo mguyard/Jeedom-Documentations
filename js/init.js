@@ -31,7 +31,7 @@ var docMenu = [
       /*
       {link : "/#LANG#/installation/",fr_FR:"Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
       */
-      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/index",icon:"fas fa-book",fr_FR:"Documentation"},
+      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/documentation",icon:"fas fa-book",fr_FR:"Documentation"},
       {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/changelog",icon:"fas fa-edit",fr_FR:"Changelog"}
     ]
   },{
@@ -43,7 +43,7 @@ var docMenu = [
     pt_PT : "Serviços",
     */
     submenu:[
-      {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/",icon:"fas fa-book",fr_FR:"Documentation"},
+      {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/documentation",icon:"fas fa-book",fr_FR:"Documentation"},
       {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/changelog",icon:"fas fa-edit",fr_FR:"Changelog"}
     ]
   },{
