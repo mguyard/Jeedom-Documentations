@@ -1,188 +1,49 @@
 var docMenu = [
   {
-    fr_FR : "Présentation",
-    en_US : "Presentation",
-    es_ES : "Presentación",
-    de_DE : "Präsentation",
-    pt_PT : "Apresentação",
+    fr_FR : "Présentation MGUYARD",
+    /*
+    en_US : "Presentation MGUYARD",
+    es_ES : "Presentación MGUYARD",
+    de_DE : "Präsentation MGUYARD",
+    pt_PT : "Apresentação MGUYARD",
+    */
     link : "/#LANG#/presentation/index"
   },{
-    fr_FR : "Concepts",
-    en_US : "Concepts",
-    es_ES : "Conceptos",
-    de_DE : "Konzepte",
-    pt_PT : "Conceitos",
-    link : "/#LANG#/concept/"
-  },{
-    fr_FR:'Assistance et bug',
-    en_US : 'Assistance and bug',
-    es_ES : "Asistencia y error",
-    de_DE : "Hilfe und Fehler",
-    pt_PT : "Assistência e bug",
-    link : "/#LANG#/howto/remonter_un_bug"
+    fr_FR : "Github",
+    /*
+    en_US : "Github",
+    es_ES : "Github",
+    de_DE : "Github",
+    pt_PT : "Github",
+    */
+    link : "https://github.com/mguyard/"
   },{
     divider : true
   },{
-    fr_FR : "Installer Jeedom",
+    fr_FR : "Plugins Stable",
+    /*
     en_US : "Install Jeedom",
     es_ES : "Instalar Jeedom",
     de_DE : "Installieren Jeedom",
     pt_PT : "Instale o Jeedom",
+    */
     submenu : [
+      /*
       {link : "/#LANG#/installation/",fr_FR:"Installation",en_US:"Installation",es_ES:"Instalación",de_DE:"Installation",pt_PT:""},
-      {link : "/#LANG#/compatibility/",fr_FR:"Compatibilité matériel et logiciel",en_US:"Compatibilité hardware and software",es_ES:"Compatibilidad de hardware y software.",de_DE:"Hardware und Softwarekompatibilität",pt_PT:""},
-      {link : "/#LANG#/premiers-pas/",fr_FR:"Premiers pas",en_US:"First step",es_ES:"Empezando",de_DE:"Erste Schritte",pt_PT:""}
+      */
+      {link : "/#LANG#/Diagral_eOne/",fr_FR:"Diagral eOne"}
     ]
   },{
-    fr_FR : "Services",
+    fr_FR : "Plugins Beta",
+    /*
     en_US : "Service",
     es_ES : "Servicios",
     de_DE : "Service",
     pt_PT : "Serviços",
+    */
     submenu:[
-      {link : "",fr_FR:"Market",en_US:"Market"},
-      {link : "/#LANG#/howto/assistant_vocaux_cloud",fr_FR:"Assistant vocaux",en_US:"Voice assistant",es_ES:"Asistente de voz",de_DE:"Sprachassistent",pt_PT:""},
-      {link : "/#LANG#/howto/backup_cloud",fr_FR:"Sauvegarde",en_US:"Backup",es_ES:"Copia de seguridad",de_DE:"Backup",pt_PT:""},
-      {link : "/#LANG#/howto/mise_en_place_dns_jeedom",fr_FR:"Accès distance",en_US:"Remote access",es_ES:"Acceso remoto",de_DE:"Fernzugriff",pt_PT:""},
-      {link : "/#LANG#/howto/monitoring_cloud",fr_FR:"Monitoring",en_US:"Monitoring",es_ES:"Supervisión",de_DE:"Überwachung",pt_PT:""},
-      {link : "/#LANG#/howto/sms_cloud",fr_FR:"SMS, Appels",en_US:"SMS and call",es_ES:"SMS, manzanas",de_DE:"SMS, Anrufe",pt_PT:""},
+      {link : "/#LANG#/Mercedes_me/",fr_FR:"Mercedes Me"}
     ]
-  },{
-    divider : true
-  },{
-    fr_FR : "Manuel d'utilisation",
-    en_US : "User manual",
-    es_ES : "Manual del usuario",
-    de_DE : "Benutzerhandbuch",
-    pt_PT : "Manual do usuário",
-    submenu:[
-      {link : "/#LANG#/core/#VERSION#/changelog",icon:"fas fa-clipboard-list",fr_FR:"Changelog",en_US:"Changelog",es_ES:"Changelog",de_DE:"Changelog",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/dashboard",icon:"fas fa-tachometer-alt",fr_FR:"Dashboard",en_US:"Dashboard",es_ES:"Tablero",de_DE:"Dashboard",pt_PT:""},
-      {version : ['4.1'],link : "/#LANG#/core/#VERSION#/overview",icon:"fab fa-hubspot",fr_FR:"Synthèse",en_US:"Synthesis",es_ES:"Síntesis",de_DE:"Synthese",pt_PT:"Síntese"},
-      {link : "/#LANG#/core/#VERSION#/view",icon:"far fa-image",fr_FR:"Vues",en_US:"Views",es_ES:"Vistas",de_DE:"Ansichten ",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/design",icon:"fas fa-paint-brush",fr_FR:"Design",en_US:"Design",es_ES:"Diseño",de_DE:"Design",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/design3d",icon:"fas fa-cubes",fr_FR:"Design 3D",en_US:"Design 3D",es_ES:"Diseño 3D",de_DE:"Design 3D",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/log",icon:"far fa-file",fr_FR:"Logs",en_US:"Logs",es_ES:"Logs",de_DE:"Logs",pt_PT:""},
-      {link : "",icon:"fas fa-tachometer-alt",fr_FR:"Temps reel",en_US:"Real time",es_ES:"Tiempo real",de_DE:"Echtzeit",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/eqAnalyse",icon:"fas fa-battery-full",fr_FR:"Analyse équipements",en_US:"Equipments Analyse",es_ES:"Análisis",de_DE:"Analyse",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/display",icon:"fas fa-th",fr_FR:"Résumé Domotique",en_US:"Summary",es_ES:"Resumen de automatización del hogar",de_DE:"Zusammenfassung der Hausautomation",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/history",icon:"fas fa-chart-line",fr_FR:"Historique",en_US:"History",es_ES:"Historia",de_DE:"Historisierung",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/report",icon:"far fa-newspaper",fr_FR:"Rapport",en_US:"Report",es_ES:"Relación",de_DE:"Bericht",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/health",icon:"fas fa-medkit",fr_FR:"Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/object",icon:"far fa-object-group",fr_FR:"Objets",en_US:"Objects",es_ES:"Asuntos",de_DE:"Betreff",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/scenario",icon:"fas fa-cogs",fr_FR:"Scénarios",en_US:"Scenarios",es_ES:"Escenarios",de_DE:"Szenario",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/interact",icon:"far fa-comments",fr_FR:"Intéractions",en_US:"Interactions",es_ES:"Interacciones",de_DE:"Interaktionen",pt_PT:""},
-      {version : ['4.0','4.1'],link : "/#LANG#/core/#VERSION#/widgets",icon:"fas fa-camera-retro",fr_FR:"Widgets",en_US:"Widgets",es_ES:"Widgets",de_DE:"Widgets",pt_PT:""},
-      {link : "",icon:"fas fa-sticky-note",fr_FR:"Notes",en_US:"Notes",es_ES:"Notas",de_DE:"Anmerkungen",pt_PT:""},
-      {link : "",icon:"fas fa-check",fr_FR:"Testeur d'expression",en_US:"Expression tester",es_ES:"Probador de expresión",de_DE:"Expressionstester",pt_PT:""},
-      {link : "",icon:"fas fa-eye",fr_FR:"Variables",en_US:"Variables",es_ES:"Variables",de_DE:"Variables",pt_PT:""},
-      {link : "/#LANG#/core/#VERSION#/plugin",icon:"fas fa-tags",fr_FR:"Plugins",en_US:"Plugins",es_ES:"Plugins",de_DE:"Plugins",pt_PT:"Plugins"},
-      {version : ['4.1'],link : "/#LANG#/core/#VERSION#/search",icon:"fas fa-search",fr_FR:"Recherche",en_US:"Search",es_ES:"Search",de_DE:"Search",pt_PT:""},
-      {link:"/#LANG#/mobile/index",icon:"fas fa-mobile",fr_FR:"Version mobile",en_US:"Mobile version",es_ES:"Versión móvil",de_DE:"Mobile Version",pt_PT:""},
-      {link:"/#LANG#/core/#VERSION#/faq",icon:"fas fa-question-circle",fr_FR:"FAQ",en_US:"FAQ",es_ES:"FAQ",de_DE:"FAQ",pt_PT:"FAQ"}
-    ]
-  },{
-    fr_FR : "Manuel de configuration",
-    en_US : "Configuration manual",
-    es_ES : "Manual de configuración",
-    de_DE : "Konfigurationshandbuch",
-    pt_PT : "",
-    submenu:[
-      {version : ['3.3'],link:"/#LANG#/core/#VERSION#/administration",icon:"fas fa-wrench",fr_FR:"Administration",en_US:"Administration",es_ES:"Administration",de_DE:"Verwaltung",pt_PT:""},
-      {version : ['4.0','4.1'],link:"/#LANG#/core/#VERSION#/administration",icon:"fas fa-wrench",fr_FR:"Configuration",en_US:"Configuration",es_ES:"Configuracion",de_DE:"Konfiguration",pt_PT:"Configuração"},
-      {link:"/#LANG#/core/#VERSION#/backup",icon:"fas fa-save",fr_FR:"Sauvegarde",en_US:"Save",es_ES:"Sauvegarde",de_DE:"Backup",pt_PT:""},
-      {link:"",icon:"fas fa-save",fr_FR:"Restauration Image",en_US:"Image restoration",es_ES:"Restauración de imagen",de_DE:"Bildwiederherstellung",pt_PT:""},
-      {link:"/#LANG#/core/#VERSION#/update",icon:"fas fa-sync-alt",fr_FR:"Mise à jour",en_US:"Update",es_ES:"Mise à jour",de_DE:"Update",pt_PT:""},
-      {link:"/#LANG#/core/#VERSION#/cron",icon:"fas fa-tasks",fr_FR:"Moteur de tâche",en_US:"Cron",es_ES:"Motor de tareas",de_DE:"Task-Engine",pt_PT:""},
-      {link:"/#LANG#/core/#VERSION#/custom",icon:"fas fa-pencil-alt",fr_FR:"Personalisation",en_US:"Personalisation",es_ES:"Personalizacion",de_DE:"Personalisierung",pt_PT:""},
-      {link:"/#LANG#/core/#VERSION#/user",icon:"fas fa-users",fr_FR:"Utilisateur",en_US:"Users",es_ES:"Usuario",de_DE:"Benutzer",pt_PT:""},
-      {link:"/#LANG#/core/#VERSION#/profils",icon:"fas fa-briefcase",fr_FR:"Profils",en_US:"Profils",es_ES:"Perfiles",de_DE:"Profile",pt_PT:""}
-    ]
-  },{
-    divider : true
-  },{
-    fr_FR : "Plugins Officiels",
-    en_US : "Official Plugins",
-    es_ES : "Plugins Oficiales",
-    de_DE : "Offizielle Plugins",
-    pt_PT : "Plugins oficiais",
-    submenu:[
-      {link:"/#LANG#/plugins/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security",es_ES:"Sécurité",de_DE:"Sicherheit",pt_PT:""},
-      {link:"/#LANG#/plugins/automation%20protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol",es_ES:"Protocolo de domótica",de_DE:"Hausautomationsprotokoll",pt_PT:""},
-      {link:"/#LANG#/plugins/home%20automation%20protocol/",icon:"fas fa-asterisk",fr_FR:"Passerelle domotique",en_US:"Home gateway",es_ES:"Pasarela domótica",de_DE:"Hausautomations-Gateway",pt_PT:""},
-      {link:"/#LANG#/plugins/programming/",icon:"fas fa-code",fr_FR:"Programmation",en_US:"Programming",es_ES:"Programmation",de_DE:"Programmierung",pt_PT:""},
-      {link:"/#LANG#/plugins/organization/",icon:"fas fa-calendar-alt",fr_FR:"Organisation",en_US:"Organize",es_ES:"Organisation",de_DE:"Organisation",pt_PT:""},
-      {link:"/#LANG#/plugins/weather/",icon:"fas fa-sun",fr_FR:"Météo",en_US:"Weather",es_ES:"Météo",de_DE:"Wettervorhersage",pt_PT:""},
-      {link:"/#LANG#/plugins/communication/",icon:"fas fa-comment",fr_FR:"Communication",en_US:"Communication",es_ES:"Comunicación",de_DE:"Kommunikation",pt_PT:""},
-      {link:"/#LANG#/plugins/devicecommunication/",icon:"fas fa-language",fr_FR:"Objets connectés",en_US:"Connected object",es_ES:"Objets connectés",de_DE:"Verbundene Objekte",pt_PT:""},
-      {link:"/#LANG#/plugins/multimedia/",icon:"fas fa-sliders-h",fr_FR:"Multimédia",en_US:"Multimedia",es_ES:"Multimédia",de_DE:"Multimedia",pt_PT:""},
-      {link:"/#LANG#/plugins/wellness/",icon:"fas fa-user",fr_FR:"Confort",en_US:"Wellness",es_ES:"Confort",de_DE:"Komfort",pt_PT:""},
-      {link:"/#LANG#/plugins/monitoring/",icon:"fas fa-tachometer-alt",fr_FR:"Monitoring",en_US:"Monitoring",es_ES:"Monitoreo",de_DE:"Überwachung",pt_PT:""},
-      {link:"/#LANG#/plugins/health/",icon:"fas fa-heartbeat",fr_FR:"Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
-      {link:"/#LANG#/plugins/nature/",icon:"fab fa-pagelines",fr_FR:"Nature",en_US:"Nature",es_ES:"Nature",de_DE:"Natur",pt_PT:""},
-      {link:"/#LANG#/plugins/automatisation/",icon:"fas fa-magic",fr_FR:"Automatisme",en_US:"Automation",es_ES:"Automatisme",de_DE:"Automatisierung",pt_PT:""},
-      {link:"/#LANG#/plugins/energy/",icon:"fas fa-bolt",fr_FR:"Energie",en_US:"Energy",es_ES:"Energía",de_DE:"Energie",pt_PT:""},
-      {link:"/#LANG#/plugins/other/",icon:"fas fa-bars",fr_FR:"Autre",en_US:"Other",es_ES:"Otros",de_DE:"Andere",pt_PT:""},
-    ]
-  },{
-    fr_FR : "Plugins Contributeurs",
-    en_US : "Contributor Plugins",
-    es_ES : "Plugins Contribuidor",
-    de_DE : "Mitwirkende Plugins",
-    pt_PT : "Plugins Colaboradores",
-    submenu:[
-      {link:"/#LANG#/plugins_contributor/security/",icon:"fas fa-lock",fr_FR:"Sécurité",en_US:"Security",es_ES:"Sécurité",de_DE:"Sicherheit",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/automation%20protocol/",icon:"fas fa-rss",fr_FR:"Protocole domotique",en_US:"Home protocol",es_ES:"Protocolo de domótica",de_DE:"Hausautomationsprotokoll",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/home%20automation%20protocol/",icon:"fas fa-asterisk",fr_FR:"Passerelle domotique",en_US:"Home gateway",es_ES:"Pasarela domótica",de_DE:"Hausautomations-Gateway",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/programming/",icon:"fas fa-code",fr_FR:"Programmation",en_US:"Programming",es_ES:"Programmation",de_DE:"Programmierung",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/organization/",icon:"fas fa-calendar-alt",fr_FR:"Organisation",en_US:"Organize",es_ES:"Organisation",de_DE:"Organisation",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/weather/",icon:"fas fa-sun",fr_FR:"Météo",en_US:"Weather",es_ES:"Météo",de_DE:"Wettervorhersage",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/communication/",icon:"fas fa-comment",fr_FR:"Communication",en_US:"Communication",es_ES:"Comunicación",de_DE:"Kommunikation",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/devicecommunication/",icon:"fas fa-language",fr_FR:"Objets connectés",en_US:"Connected object",es_ES:"Objets connectés",de_DE:"Verbundene Objekte",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/multimedia/",icon:"fas fa-sliders-h",fr_FR:"Multimédia",en_US:"Multimedia",es_ES:"Multimédia",de_DE:"Multimedia",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/wellness/",icon:"fas fa-user",fr_FR:"Confort",en_US:"Wellness",es_ES:"Confort",de_DE:"Komfort",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/monitoring/",icon:"fas fa-tachometer-alt",fr_FR:"Monitoring",en_US:"Monitoring",es_ES:"Monitoreo",de_DE:"Überwachung",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/health/",icon:"fas fa-heartbeat",fr_FR:"Santé",en_US:"Health",es_ES:"Salud",de_DE:"Gesundheit",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/nature/",icon:"fab fa-pagelines",fr_FR:"Nature",en_US:"Nature",es_ES:"Nature",de_DE:"Natur",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/automatisation/",icon:"fas fa-magic",fr_FR:"Automatisme",en_US:"Automation",es_ES:"Automatisme",de_DE:"Automatisierung",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/energy/",icon:"fas fa-bolt",fr_FR:"Energie",en_US:"Energy",es_ES:"Energía",de_DE:"Energie",pt_PT:""},
-      {link:"/#LANG#/plugins_contributor/other/",icon:"fas fa-bars",fr_FR:"Autre",en_US:"Other",es_ES:"Otros",de_DE:"Andere",pt_PT:""},
-    ]
-  },{
-    divider : true
-  },{
-    fr_FR:'Guides',
-    en_US : 'Guides',
-    es_ES : "Guides",
-    de_DE : "Anleitungen",
-    pt_PT : "Guias",
-    submenu:[
-      {link:"/#LANG#/howto/",fr_FR:"Tutoriaux",en_US:"Tutorials",es_ES:"Tutoriales",de_DE:"Tutorials",pt_PT:""},
-      {link:"/#LANG#/howtoadvance/",fr_FR:"Tutoriaux avancés",en_US:"Advanced tutorials",es_ES:"Tutoriales avanzados",de_DE:"Erweiterte Tutorials",pt_PT:""}
-    ]
-  },{
-    fr_FR:'Développer sur Jeedom',
-    en_US : 'Developpe on Jeedom',
-    es_ES : "Desarrollar en Jeedom",
-    de_DE : "Entwickle auf Jeedom",
-    pt_PT : "Desenvolva no Jeedom",
-    submenu:[
-      {link:"/#LANG#/contribute/",fr_FR:"Contribuer",en_US:"Contribute",es_ES:"Contribuir",de_DE:"Bijdragen",pt_PT:"Contribuir"},
-      {link:"/#LANG#/dev/tutorial_plugin",fr_FR:"Présentation",en_US:"Presentation",es_ES:"Présentation",de_DE:"Einführung",pt_PT:""},
-      {link:"/#LANG#/core/4.0/api_http",fr_FR:"Api HTTP",en_US:"Api HTTP",es_ES:"Api HTTP",de_DE:"Api HTTP",pt_PT:"Api HTTP"},
-      {link:"/#LANG#/core/4.0/jsonrpc_api",fr_FR:"API JsonRPC",en_US:"API JsonRPC",es_ES:"API JsonRPC",de_DE:"API JsonRPC",pt_PT:"API JsonRPC"},
-      {link:"/#LANG#/dev/",fr_FR:"Développez pour Jeedom",en_US:"Develop for Jeedom",es_ES:"Desarrollar para Jeedom",de_DE:"Entwickle für Jeedom",pt_PT:""},
-      {link:"/dev/phpdoc/#VERSION#",fr_FR:"PhpDoc",en_US:"PhpDoc",es_ES:"PhpDoc",de_DE:"PhpDoc",pt_PT:"PhpDoc"},
-    ]
-  },{
-    divider : true
-  },{
-    fr_FR : "Mentions légales",
-    en_US : "Legal Notice",
-    es_ES : "Notas legales",
-    de_DE : "Introduction",
-    pt_PT : "Rechtliche Hinweise",
-    link : "/#LANG#/legal_notice"
   },{
     divider : true
   },
