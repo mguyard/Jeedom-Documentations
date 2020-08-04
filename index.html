@@ -15,10 +15,9 @@
     return "";
   }
   
-  var origPath = window.location.pathname;
   if(getCookie('lang')){
-    window.location.href = origPath +getCookie('lang')+"/";
+    window.location.href = "/Jeedom-Documentations/"+getCookie('lang')+"/";
   }else{
-    window.location.href = origPath + "fr_FR/";
+    window.location.href = "/Jeedom-Documentations/fr_FR/";
   }
 </script>
