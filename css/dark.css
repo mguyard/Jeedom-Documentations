@@ -87,7 +87,7 @@ html.dark #logo-container:before {
   height: 50px;
   background-size: cover !important;
   background-repeat: no-repeat;
-  background-image: url('/img/logo_dark.png')  !important;
+  background-image: url('/Jeedom-Documentations/img/logo_dark.png')  !important;
 }
 html.dark #logo-container img {
   display: none;
