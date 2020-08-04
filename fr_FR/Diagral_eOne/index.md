@@ -1,4 +1,4 @@
-![Logo](../images/Diagral_eOne_icon.png)
+![Logo](images/Diagral_eOne_icon.png)
 
 
 # Présentation 
@@ -33,7 +33,7 @@ Vous y saissez les informations suivantes :
 -   Suivi d'installation (cf chapitre dédié)
 -   Verbose : Permettant de définir un niveau de verbosité pour les requètes vers le Cloud Diagral (_Pas encore utilisable_)
 
-![Configuration Générale](../images/ConfigurationGenerale.png)
+![Configuration Générale](images/ConfigurationGenerale.png)
 
 
 ## Configuration d'un équipement
@@ -45,7 +45,7 @@ Une fois le/les alarmes créées, il faut entrer dans chacune d'elles afin de co
 -   l'objet parent
 -   activer l'équipement
 
-![Configuration Equipement](../images/ConfigurationDevice.png)
+![Configuration Equipement](images/ConfigurationDevice.png)
 
 
 > Une fonctionnalité de sécurisation du désarmement (SecureDisam) est disponible avec l'option __Sécurisation désarmement__.
@@ -78,7 +78,7 @@ Le statut de l'alarme repasse à 0 automatiquement lorsque le plugin detecte soi
 
 Vous pouvez définir dans l'équipement (onglet Badges), des alias sur un maximum de 8 Badges.
 
-![Configuration des alias de badges](../images/ConfigurationBadgesAlias.png)
+![Configuration des alias de badges](images/ConfigurationBadgesAlias.png)
 
 Lorsque vous recevez un email d'activation ou désactivation au travers d'un badge, il n'indique pas d'utilisateur. Afin de faciliter l'usage, cette fonctionnalité permet d'ajouter un alias à un badge qui sera positionné dans la commande __IMPORT - Dernier utilisateur__ au même titre que ce champs est rempli lorsque qu'un utilisateur active ou désactive l'alarme via l'application Diagral ou son code personnel.
 
@@ -88,7 +88,7 @@ Lorsque vous recevez un email d'activation ou désactivation au travers d'un bad
 
 Une tâche CRON est automatiquement créée sur base du délai entre les tentatives indiqué dans la configuration du plugin.
 
-![Configuration Générale](../images/ConfigurationGenerale.png)
+![Configuration Générale](images/ConfigurationGenerale.png)
 
 ## Manuel
 
@@ -116,17 +116,17 @@ La commande utilisée pour recevoir le message est __Importer Message__
 
 Dans l'équipement il existe un onglet "Notifications Diagral" qui permet de confiugurer les informations essentielles à la génération du scénario de reception des notifications Diagral.
 
-![Configuration pour Scénario de réception Diagral](../images/NotificationScenarioCreation.png)
+![Configuration pour Scénario de réception Diagral](images/NotificationScenarioCreation.png)
 
 > __Vous devez sauvegarder le choix du plugin et la commande de reception avant de lancer l'éxecution de génération/modification du scénario. Il est possible parfois que le bouton de génération ne s'affiche pas après une sauvegarde, il suffit dans ce cas de changer d'onglet et revenir sur l'onglet de notification.__
 
 Une fois le scénario créé, le nom du scénario existant et la capacité de le modifier/supprimer vous est proposé (__uniquement si il a était créé par le plugin et non manuellement__).
 
-![Modification/Suppression pour Scénario de réception Diagral](../images/NotificationScenarioModifSupp.png)
+![Modification/Suppression pour Scénario de réception Diagral](images/NotificationScenarioModifSupp.png)
 
 ### Génération manuelle du scénario
 
-![Exemple de scénario avec le plugin Mail Listener](../images/ScenarioImporterMessage.png)
+![Exemple de scénario avec le plugin Mail Listener](images/ScenarioImporterMessage.png)
 
 Dans la commande, vous devez avoir :
 - dans __Options__
@@ -213,14 +213,14 @@ Le plugin inclus un dashboard qui permet de :
 -   Désactivation partielle de l'alarme
 -   Lancement d'un scénario
 
-![Dashboard](../images/Dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 # Diagnostique
 
 Le plugin inclus beaucoup de verbosité en mode DEBUG, il suffit alors de la configurer au niveau du plugin.
 A partir de là, vous pouvez identifier les soucis que vous pouvez rencontrer.
 
-![Debug Logs](../images/DebugLogs.png)
+![Debug Logs](images/DebugLogs.png)
 
 # Suivi d'installation
 
