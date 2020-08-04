@@ -273,7 +273,7 @@ for(var i in docMenu){
     }
   }
 }
-html += '<li class="small"><small>Jeedom: Free, Opened, Cloudless, Multiprotocol solution since 2014</small></li>'
+html += '<li class="small"><small>JMguyard Plugins</small></li>'
 $('#ul_menu').empty().html(html);
 
 function genText(_menu,_lang){
