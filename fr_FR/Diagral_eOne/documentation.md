@@ -164,6 +164,8 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 -   __Désactivation Partielle__ : Permet de désactiver un groupe de l'alarme
     -   _La désactivation d'un groupe ne peut être effectuée que lorsque l'alarme est activée (à l'exclusion du mode présence)_
 
+-   __Activation Totale__ : Activation de toutes les zones de l'alarme
+
 -   __Activation Mode Presence__ : Activation avec le mode spécial Présence
 
 -   __Activation Partielle__ : Activation de quelques groupes uniquement.
@@ -186,7 +188,8 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ## Info
 
--   Statut : Statut de l'alarme
+-   Statut : Etat binaire de l'activation de l'alarme
+-   Mode : Statut de l'alarme
     -   Off : Alarme désactivée
     -   presence : Alarme en mode présence
     -   group : Alarme activée uniquement sur certains groupes

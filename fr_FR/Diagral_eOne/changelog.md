@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2020-08-04 - v1.2.7 (BETA)
+
+* Changement de l'espace de stockage des fichiers de cache vers le /data pour se conformer à Jeedom V4 et son nettoyage de fichier
 
 # 2020-08-04 - v1.2.6 (BETA)
 
