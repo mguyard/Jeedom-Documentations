@@ -12,6 +12,6 @@ Bienvenue sur le site de documentation des plugins Jeedom de Mguyard.
 
 ### Liste des plugins *EN COURS DE DEVELOPPEMENT*
 
-* [Mercedes Me](Mercedes_Me/)
+* [Mercedes Me](Mercedes_me/)
 
 *Cette documentation est également accessible depuis votre plugin Jeedom.*
