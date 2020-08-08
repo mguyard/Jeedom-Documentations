@@ -5,6 +5,8 @@ __Lorsque aucunes informations ne sont disponibles sur le changelog, cela impliq
 # 2020-08-04 - v1.2.7 (BETA)
 
 * Changement de l'espace de stockage des fichiers de cache vers le /data pour se conformer à Jeedom V4 et son nettoyage de fichier
+* Modification de la commande "Statut" qui devient la commande "Mode". Elle permet de connaitre le mode actif (pensez à changer vos scénarios qui utilise cette commande)
+* La commande "Statut" devient un binaire qui indique si l'alarme est activée (1) ou désactivée (0)
 
 # 2020-08-04 - v1.2.6 (BETA)
 
