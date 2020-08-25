@@ -175,12 +175,12 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 -   __Importer Message__ : Collecte d'un message (mail ou SMS)
 
 -   __Force Groups Refresh__ : Rafraichissement des fichiers de groupes
-    -   _Le plugin génère des fichiers JSON (#pluginDirectory#/core/class/config/groups_*.json) afin d'éviter d'interroger très regulièrement le cloud Diagral et ainsi éviter de se faire Blacklister temporairement le compte.
+    -   _Le plugin génère des fichiers JSON (#pluginDirectory#/data/groups_*.json) afin d'éviter d'interroger très regulièrement le cloud Diagral et ainsi éviter de se faire Blacklister temporairement le compte.
     -   Un fichier JSON par équipement. Le * correspond au systemID indiqué sur chaque équipement
     -   Une CRON Diagral_eOne/generateJsonAllDevices se lance tous les dimanches pour mettre à jour ces fichiers (l'heure est définie aléatoirement à l'installation pour éviter les effets de masse sur le Cloud Diagral).
 
 -   __Force Scenarios Refresh__ : Rafraichissement des fichiers de scénarios
-    -   _Le plugin génère des fichiers JSON (#pluginDirectory#/core/class/config/scenarios_*.json) afin d'éviter d'interroger très regulièrement le cloud Diagral et ainsi éviter de se faire Blacklister temporairement le compte.
+    -   _Le plugin génère des fichiers JSON (#pluginDirectory#/data/scenarios_*.json) afin d'éviter d'interroger très regulièrement le cloud Diagral et ainsi éviter de se faire Blacklister temporairement le compte.
     -   Un fichier JSON par équipement. Le * correspond au systemID indiqué sur chaque équipement
     -   Une CRON Diagral_eOne/generateJsonAllDevices se lance tous les dimanches pour mettre à jour ces fichiers (l'heure est définie aléatoirement à l'installation pour éviter les effets de masse sur le Cloud Diagral).
 
@@ -283,5 +283,6 @@ La numérotation des versions est effectuée ainsi pour le moment :
 
 > C'est aussi vous qui aller donner la direction que prendra ce plugin, donc je suis à votre écoute
 > 
-> Plus une fonctionnalité sera demandée (si elle est réalisable), plus elle sera prioritaire au développement (pondéré par sa difficulté d'integration)
+> Plus une fonctionnalité sera demandée (si elle est réalisable), plus elle sera prioritaire au développement (pondéré par sa difficulté d'integration).
+> 
 > Vous pouvez faire votre demande par en créant une demande "enhancement" [GitHub](https://github.com/mguyard/Jeedom-Diagral_eOne/issues/new) mais cela me fera plaisir si vous passez d'abord m'en parler sur le forum Jeedom.
