@@ -45,8 +45,8 @@ La liste des API a activer sont :
 Pour activer les API, il faut procéder ainsi :
 -   Cliquer sur le __bouton "TRY IT NOW"__ de l'API concernée
 -   Puis sur le __bouton "> GET ACCESS"__
--   Choisir l'option __TEST THIS PRODUCT__ puis cliquez sur __NEXT__ 
--   Choisir __360°__ et cliquez sur __NEXT__
+-   Choisir l'option __BRING YOUR OWN CAR__ puis cliquez sur __NEXT__ 
+-   Cliquez sur __NEXT__
 -   Selectionnez votre application créé précédement et cliquez sur __NEXT__
 -   Ne modifiez rien et cliquez sur __SUBMIT__
 
@@ -66,8 +66,8 @@ Dans le cas où l'image ne pourrait être récupéré lors de cette version d'es
 Pour activer cette API :
 -   Cliquer sur le __bouton "TRY IT NOW"__ de l'API concernée
 -   Puis sur le __bouton "> GET ACCESS"__
--   Choisir l'option __BRING YOUR OWN CAR__ puis cliquez sur __NEXT__ 
--   Cliquez sur __NEXT__
+-   Choisir l'option __TEST THIS PRODUCT__ puis cliquez sur __NEXT__ 
+-   Choisir __360°__ et cliquez sur __NEXT__
 -   Selectionnez votre application créé précédement et cliquez sur __NEXT__
 -   Ne modifiez rien et cliquez sur __SUBMIT__
 
