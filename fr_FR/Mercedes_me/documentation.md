@@ -1,5 +1,3 @@
-Documentation en cours d'écriture...
-
 ![Logo](images/Mercedes_me_icon.png)
 
 # Présentation 
