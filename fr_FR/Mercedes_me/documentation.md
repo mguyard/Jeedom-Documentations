@@ -131,7 +131,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ## Infos
 
-La plupart des commandes d'informations sont des commandes qui retourne un résultat binaire (0 : Non / 1 : Oui) sauf informtion contraire ci-dessous :
+La plupart des commandes d'informations sont des commandes qui retourne un résultat binaire (0 : Non-Fermé / 1 : Oui-Ouvert) sauf informtion contraire ci-dessous :
 
 -   __Verrouillage du vehicule__ : Indique si le véhicule est vérrouillé. Retourne une valeur numérique
     -   0: vehicle ouvert
@@ -176,7 +176,17 @@ La plupart des commandes d'informations sont des commandes qui retourne un résu
     -   4: Fenêtre en position d'aération intermédiaire
     -   5: Fenêtre en mouvement
 -   __Statut Toit Ouvrant__
+    -   0 : Le toit ouvrant inclinable et coulissant est fermé
+    -   1 : Le toit ouvrant inclinable et coulissant est complètement ouvert
+    -   2 : Le toit levant est ouvert
+    -   3 : Le toit ouvrant inclinable et coulissant est en mouvement
+    -   4 : Le toit ouvrant inclinable et coulissant en position anti-balancement
+    -   5 : Le toit coulissant en position intermédiaire
+    -   6 : Le toit relevable en position intermédiaire
 -   __Statut Capote__ (uniquement pour les cabriolets)
+    -   0 : Capote déverrouillée
+    -   1 : Capote ouverte et verrouillée
+    -   2 : Capote fermée et verrouillée
 -   __Verrouillage du coffre__
 -   __Etat d'ouverture du coffre__
 
