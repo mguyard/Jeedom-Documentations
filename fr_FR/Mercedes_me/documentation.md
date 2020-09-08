@@ -139,8 +139,8 @@ La plupart des commandes d'informations sont des commandes qui retourne un résu
     -   2: vehicle fermé de l'exterieur
     -   3: vehicle fermé partiellement
 -   __Verrouillage de la trappe Essence__ (uniquement pour les véhicules non-éléctrique)
--   __Essence - Nombre de Km restant__ (uniquement pour les véhicules non-éléctrique)
--   __Essence - Pourcentage restant__ (uniquement pour les véhicules non-éléctrique)
+-   __Essence - Nombre de Km restant__ (uniquement pour les véhicules non-éléctrique) : Retourne l'estimatif du nombre de kilomètre restant dans le reservoir
+-   __Essence - Pourcentage restant__ (uniquement pour les véhicules non-éléctrique) : Retourne le pourcentage de reservoir restant
 -   __Electrique - Nombre de Km restant__ (uniquement pour les véhicules éléctrique)
 -   __Electrique - Pourcentage Charge Restante__ (uniquement pour les véhicules éléctrique)
 -   __Statut Porte Avant Gauche__
@@ -148,9 +148,33 @@ La plupart des commandes d'informations sont des commandes qui retourne un résu
 -   __Statut Porte Arriere Gauche__
 -   __Statut Porte Arriere Droite__
 -   __Statut Fenetre Avant Gauche__
+    -   0: Fenêtre en position intermédiaire
+    -   1: Fenêtre complétement ouverte
+    -   2: Fenêtre complétement fermée
+    -   3: Fenêtre en position d'aération
+    -   4: Fenêtre en position d'aération intermédiaire
+    -   5: Fenêtre en mouvement
 -   __Statut Fenetre Avant Droite__
+    -   0: Fenêtre en position intermédiaire
+    -   1: Fenêtre complétement ouverte
+    -   2: Fenêtre complétement fermée
+    -   3: Fenêtre en position d'aération
+    -   4: Fenêtre en position d'aération intermédiaire
+    -   5: Fenêtre en mouvement
 -   __Statut Fenetre Arriere Gauche__
+    -   0: Fenêtre en position intermédiaire
+    -   1: Fenêtre complétement ouverte
+    -   2: Fenêtre complétement fermée
+    -   3: Fenêtre en position d'aération
+    -   4: Fenêtre en position d'aération intermédiaire
+    -   5: Fenêtre en mouvement
 -   __Statut Fenetre Arriere Droite__
+    -   0: Fenêtre en position intermédiaire
+    -   1: Fenêtre complétement ouverte
+    -   2: Fenêtre complétement fermée
+    -   3: Fenêtre en position d'aération
+    -   4: Fenêtre en position d'aération intermédiaire
+    -   5: Fenêtre en mouvement
 -   __Statut Toit Ouvrant__
 -   __Statut Capote__ (uniquement pour les cabriolets)
 -   __Verrouillage du coffre__
