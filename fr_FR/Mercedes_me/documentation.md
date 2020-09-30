@@ -111,6 +111,7 @@ Le plugin inclus un widget qui vous donne visuellement une visibilité sur les i
 ![Logo](images/widget.png)
 
 > Afin de profiter des couleurs, il vous faut avoir l'option __Icônes widgets colorées__ active dans la configuration de votre Jeedom
+> 
 > Réglages > Système > Configuration > Interface > Tuile
 
 Les fenêtres et Toit ouvrant / Capote pouvant avoir des statuts plus précis que ouvert ou fermé, vous avez le detail en placant la souris sur l'icône correspondant
