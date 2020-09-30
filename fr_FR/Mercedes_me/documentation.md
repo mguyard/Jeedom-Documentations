@@ -104,6 +104,19 @@ Dans Jeedom, aller dans __Plugins -> Objets connectés -> Mercedes Me__
 -   Choissiez un objet Parent et une catégorie
 -   Saisissez le VIN de votre véhicule (visible sur votre carte grise dans le champs E)
 
+## Affichage sur le Dashboard
+
+Le plugin inclus un widget qui vous donne visuellement une visibilité sur les informations récoltés
+
+![Logo](images/widget.png)
+
+> Afin de profiter des couleurs, il vous faut avoir l'option __Icônes widgets colorées__ active dans la configuration de votre Jeedom
+> Réglages > Système > Configuration > Interface > Tuile
+
+Les fenêtres et Toit ouvrant / Capote pouvant avoir des statuts plus précis que ouvert ou fermé, vous avez le detail en placant la souris sur l'icône correspondant
+
+![Logo](images/widget_tooltips.png)
+
 # Rafraichissement
 
 Une particularité du Cloud Mercedes est :
@@ -126,6 +139,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 ## Action
 
 -   __Rafraichir__ : Mise à jour des informations du véhicule
+-   __Telecharger Vehicule Image__ : Télécharge une image de votre véhicule pour l'utiliser sur le Widget (attention Mercedes autorise uniquement 5 requètes. Le plugin utilise récupère l'image et l'utilise si elle exixte pour limiter les requètes)
 
 ## Infos
 
