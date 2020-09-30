@@ -125,6 +125,9 @@ Une particularité du Cloud Mercedes est :
 -   qu'il ne récupère __QUE__ la donnée qui a changé et non pas toutes
 -   qu'il ne stock les données que 12 heures.
 
+Par conséquent, pour recevoir une valeur, il faut qu'il y ai eu un changement d'état dans les 12h précédente. Donc a l'installation du plugin, il se peut que vous ne récupériez pas l'ensemble des informations.
+Dans ce cas, si vous le souhaitez, je vous invite a ouvrir toutes les portes, fenêtres, capotes, toit ouvrant et rouler un peu pour récupérer les informations de charge (si voiture electrique) ou de carburant.
+
 ## Automatique
 
 Une tâche CRON est automatiquement créée sur base du délai de 5 minutes.
