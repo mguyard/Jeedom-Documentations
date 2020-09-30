@@ -104,7 +104,7 @@ Dans Jeedom, aller dans __Plugins -> Objets connectés -> Mercedes Me__
 -   Choissiez un objet Parent et une catégorie
 -   Saisissez le VIN de votre véhicule (visible sur votre carte grise dans le champs E)
 
-## Affichage sur le Dashboard
+# Affichage sur le Dashboard
 
 Le plugin inclus un widget qui vous donne visuellement une visibilité sur les informations récoltés
 
