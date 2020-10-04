@@ -204,6 +204,14 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
     -   _Exemple "code d'accès principal"_
 -   IMPORT - Dernier utilisateur : Dernière methode ayant intervenu sur l'alarme, reçue par message (mail ou sms)
 
+# Journal d'activité
+
+> <span style="color:red">__FONCTIONNALITE UNIQUEMENT EN BETA POUR LE MOMENT__</span>
+
+Sur la page de configuration de l'équipement, vous avez un bouton vous permettant d'ouvrir une modale avec l'ensemble des evenements des 30 précédents jours.
+
+![Journal d'activité](images/ModaleActivity.png)
+
 # Dashboard
 
 Le plugin inclus un dashboard qui permet de :
@@ -219,9 +227,6 @@ Le plugin inclus un dashboard qui permet de :
 ![Dashboard](images/Dashboard.png)
 
 # HomeBridge
-
-> <span style="color:red">__FONCTIONNALITE UNIQUEMENT EN BETA POUR LE MOMENT__</span>
-
 
 Le plugin est compatible avec HomeBridge (merci à Nebz sont auteur) et vous permet ainsi de piloter votre alarme avec Homekit.
 

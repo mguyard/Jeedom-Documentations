@@ -2,11 +2,15 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
-# 2020-08-04 - v1.2.7 (BETA)
+# 2020-10-04 - v1.3.0 (BETA)
+
+- Intégration d'un listing des evenements sur la page de l'équipement
+
+# 2020-08-04 - v1.2.7
 
 - Changement de l'espace de stockage des fichiers de cache vers le /data pour se conformer à Jeedom V4 et son nettoyage de fichier
 
-# 2020-08-04 - v1.2.6 (BETA)
+# 2020-08-04 - v1.2.6
 
 - Intégration de l'alarme dans HomeBridge (cf. Documentation)
 - Modification de la commande "Statut" qui devient la commande "Mode". Elle permet de connaitre le mode actif (pensez à changer vos scénarios qui utilise cette commande)
