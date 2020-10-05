@@ -228,7 +228,7 @@ Le plugin inclus un dashboard qui permet de :
 
 # HomeBridge
 
-Le plugin est compatible avec HomeBridge (merci à Nebz sont auteur) et vous permet ainsi de piloter votre alarme avec Homekit.
+Le plugin est compatible avec HomeBridge (merci à Nebz l'auteur du plugin Homebridge) et vous permet ainsi de piloter votre alarme avec Homekit.
 
 Toute la configuration se fait de façon automatique. Il vous suffit uniquement d'activer l'équipement dans HomeBridge et relancer le démon de HomeBridge.
 
