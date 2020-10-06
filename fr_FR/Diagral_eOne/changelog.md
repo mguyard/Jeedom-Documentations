@@ -2,7 +2,7 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
-# 2020-10-04 - v1.3.0 (BETA)
+# 2020-10-04 - v1.3.0
 
 - Intégration d'un listing des evenements sur la page de l'équipement
 

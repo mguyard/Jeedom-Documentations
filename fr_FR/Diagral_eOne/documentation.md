@@ -206,8 +206,6 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 # Journal d'activité
 
-> <span style="color:red">__FONCTIONNALITE UNIQUEMENT EN BETA POUR LE MOMENT__</span>
-
 Sur la page de configuration de l'équipement, vous avez un bouton vous permettant d'ouvrir une modale avec l'ensemble des evenements des 30 précédents jours.
 
 ![Journal d'activité](images/ModaleActivity.png)
