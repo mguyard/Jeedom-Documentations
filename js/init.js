@@ -33,7 +33,7 @@ var docMenu = [
       */
       {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/documentation",icon:"fas fa-book",fr_FR:"Documentation"},
       {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/changelog",icon:"fas fa-edit",fr_FR:"Changelog"},
-      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/faq",icon:"fas fa-question",fr_FR:"FaQ"}
+      {link : "/Jeedom-Documentations/#LANG#/Diagral_eOne/faq",icon:"fas fa-question",fr_FR:"FAQ"}
     ]
   },{
     fr_FR : "Mercedes Me",
@@ -46,7 +46,7 @@ var docMenu = [
     submenu:[
       {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/documentation",icon:"fas fa-book",fr_FR:"Documentation"},
       {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/changelog",icon:"fas fa-edit",fr_FR:"Changelog"},
-      {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/faq",icon:"fas fa-question",fr_FR:"FaQ"}
+      {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/faq",icon:"fas fa-question",fr_FR:"FAQ"}
     ]
   },{
     divider : true
