@@ -7,7 +7,7 @@ var docMenu = [
     de_DE : "Präsentation MGUYARD",
     pt_PT : "Apresentação MGUYARD",
     */
-    link : "/Jeedom-Documentations/#LANG#/Author/index"
+    link : "/Jeedom-Documentations/#LANG#/Author/presentation"
   },{
     fr_FR : "Github",
     /*
