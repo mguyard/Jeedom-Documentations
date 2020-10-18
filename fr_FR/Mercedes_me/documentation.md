@@ -106,7 +106,12 @@ Dans Jeedom, aller dans __Plugins -> Objets connectés -> Mercedes Me__
 
 # Affichage sur le Dashboard
 
-Le plugin inclus un widget qui vous donne visuellement une visibilité sur les informations récoltés
+Le plugin inclus un widget qui vous donne visuellement un retour sur les informations récoltés
+> Afin d'avoir l'image personnalisé de votre véhicule sur le widget, il faut lancer la commande __Telecharger Vehicule Image__ qui la récupèrera et la stockera dans le plugin.
+> 
+> __ATTENTION :__ Le récupération automatique n'est pour le moment pas activé car Mercedes limite à 5 requêtes par véhicule la récupération d'image. Afin d'eviter les échecs et atteindre la limite, je laisse l'utilisateur la récupérer manuellement quand il considère que le plugin est opérationnel. 
+
+<br/>
 
 ![Logo](images/widget.png)
 
@@ -143,7 +148,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 ## Action
 
 -   __Rafraichir__ : Mise à jour des informations du véhicule
--   __Telecharger Vehicule Image__ : Télécharge une image de votre véhicule pour l'utiliser sur le Widget (attention Mercedes autorise uniquement 5 requètes. Le plugin utilise récupère l'image et l'utilise si elle exixte pour limiter les requètes)
+-   __Telecharger Vehicule Image__ : Télécharge une image de votre véhicule pour l'utiliser sur le Widget (attention Mercedes autorise uniquement 5 requètes par véhicule. Le plugin recupère l'image et l'utilise si elle exixte pour limiter les requètes)
 
 ## Infos
 
