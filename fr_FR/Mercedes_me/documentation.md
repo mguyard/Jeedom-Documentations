@@ -90,7 +90,7 @@ Rendez-vous dans la page de configuration du plugin Mercedes Me et remplissez le
 
 Cliquez sur __Sauvegarder__ pour enregistrer les informations saisies puis sur le bouton __Activer/Refaire la connexion Mercedes__
 
-> Dès lors le plugin va établir la communication avec le Cloud Mercedes. Pour cela il utilise le protocole OAUTH2 qui necessite que vous saisissiez votre identifiant et mot de passe Mercedes ainsi que vous acceptiez l'utilisation des API en les cochant (fait une seule fois normalement).
+> Dès lors le plugin va établir la communication avec le Cloud Mercedes. Pour cela il utilise le protocole OAUTH2 qui necessite que vous saisissiez votre identifiant et mot de passe Mercedes ainsi que vous acceptiez l'utilisation des API en les cochant (fait une seule fois normalement à moins qu'une API ai était ajouté).
 > 
 > Vous êtes ensuite redirigé à nouveau vers la configuration du plugin.
 > 
