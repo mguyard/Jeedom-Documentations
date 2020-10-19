@@ -1,10 +1,16 @@
-# FAQ
+# Cloud Mercedes
 
 ## Probleme de récupération des données
 
 -   Vérifiez que vous avez bieen accès à internet
 -   Vérifiez que le Cloud Mercedes ne recontre pas d'incident : [https://developer.mercedes-benz.com/status](https://developer.mercedes-benz.com/status)
 -   Passage en debug des logs du plugin et attendre/lancer une nouvelle synchronisation
+
+## La console developpeur Mercedes ne me donne pas l'API Key
+
+L'API Key n'est affiché dans la console que lorsque l'API Vehicule Image est activé.
+
+# Logs
 
 ## Que veulent dire les erreurs 204
 
