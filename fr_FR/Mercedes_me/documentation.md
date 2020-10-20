@@ -37,8 +37,8 @@ Se rendre à l'adresse [dans la liste des API](https://developer.mercedes-benz.c
 La liste des API a activer sont :
 -   Vehicle Status
 -   Vehicle Lock Status
--   Fuel Status (Y compris pour les __véhicules électrique__)
--   Electric Vehicle Status (Y compris pour les __véhicules non-électriques__)
+-   Fuel Status (Y compris pour les véhicules électrique)
+-   Electric Vehicle Status (Y compris pour les véhicules non-électriques)
 
 Pour activer les API, il faut procéder ainsi :
 -   Cliquer sur le __bouton "TRY IT NOW"__ de l'API concernée
