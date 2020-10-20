@@ -1,14 +1,18 @@
 # Cloud Mercedes
 
+## La console developpeur Mercedes ne me donne pas l'API Key
+
+L'API Key n'est affiché dans la console que lorsque l'API Vehicule Image est activé.
+
+## Lors de l'activation de la connexion Cloud, je reçois le message : "The requested scope is invalid, unknown ..."
+
+Vérifiez que vous avez bien activé __toutes__ les API indiqué dans la documentation.
+
 ## Probleme de récupération des données
 
 -   Vérifiez que vous avez bieen accès à internet
 -   Vérifiez que le Cloud Mercedes ne recontre pas d'incident : [https://developer.mercedes-benz.com/status](https://developer.mercedes-benz.com/status)
 -   Passage en debug des logs du plugin et attendre/lancer une nouvelle synchronisation
-
-## La console developpeur Mercedes ne me donne pas l'API Key
-
-L'API Key n'est affiché dans la console que lorsque l'API Vehicule Image est activé.
 
 # Logs
 
