@@ -18,7 +18,7 @@ Vérifiez que vous avez bien activé __toutes__ les API indiquées dans la docum
 
 ## Que veulent dire les erreurs 204
 
-Mercedes ne renvoi que les données qui ont changé dans les 12 dernières heures. L'erreur 204 (visible uniquement en log debug) n'est pas vraiment une erreur mais plutôt l'information que Mercedes n'a aucune données a envoyer au plugin
+Le Cloud Mercedes ne renvoi que les données qui ont changé dans les 12 dernières heures. L'erreur 204 (visible uniquement en log debug) n'est pas vraiment une erreur mais plutôt l'information que Mercedes n'a aucune données à envoyer au plugin
 
 ## J'ai de temps en temps des erreurs 401 Invalid or missing authorization/API
 
