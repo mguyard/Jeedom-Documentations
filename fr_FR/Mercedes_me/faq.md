@@ -6,7 +6,7 @@ L'API Key n'est affiché dans la console que lorsque l'API Vehicule Image est ac
 
 ## Lors de l'activation de la connexion Cloud, je reçois le message : "The requested scope is invalid, unknown ..."
 
-Vérifiez que vous avez bien activé __toutes__ les API indiqué dans la documentation.
+Vérifiez que vous avez bien activé __toutes__ les API indiquées dans la documentation.
 
 ## Probleme de récupération des données
 
