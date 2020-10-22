@@ -7,11 +7,11 @@ Bienvenue sur le site de documentation des plugins Jeedom de Mguyard.
 ### Liste des plugins *STABLE*
 
 * [Diagral eOne](Diagral_eOne/documentation)
+* [Mercedes Me](Mercedes_me/documentation)
 
 ### Liste des plugins *BETA*
 
 ### Liste des plugins *EN COURS DE DEVELOPPEMENT*
 
-* [Mercedes Me](Mercedes_me/documentation)
 
 *Cette documentation est également accessible depuis votre plugin Jeedom.*
