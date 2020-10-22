@@ -107,7 +107,7 @@ Dans Jeedom, aller dans __Plugins -> Objets connectés -> Mercedes Me__
 -   Choisissez le mode d'energie de votre véhicule (Essence/Gasoil, Electrique ou Hybride)
 -   Activer si besoin les styles de véhicule
 
-![Logo](images/eqConfiguration.png)
+![Configuration Equipement](images/eqConfiguration.png)
 
 # Affichage sur le Dashboard
 
@@ -118,7 +118,7 @@ Le plugin inclus un widget qui vous donne visuellement un retour sur les informa
 
 <br/>
 
-![Logo](images/widget.png)
+![Widget](images/widget.png)
 
 > Afin de profiter des couleurs, il vous faut avoir l'option __Icônes widgets colorées__ active dans la configuration de votre Jeedom
 > 
@@ -126,7 +126,7 @@ Le plugin inclus un widget qui vous donne visuellement un retour sur les informa
 
 Les fenêtres et Toit ouvrant / Capote pouvant avoir des statuts plus précis que ouvert ou fermé, vous avez le detail en placant la souris sur l'icône correspondant
 
-![Logo](images/widget_tooltips.png)
+![Widget Tolltips](images/widget_tooltips.png)
 
 # Rafraichissement
 
