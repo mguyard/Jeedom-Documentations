@@ -107,7 +107,7 @@ Dans Jeedom, aller dans __Plugins -> Objets connectés -> Mercedes Me__
 -   Choisissez le mode d'energie de votre véhicule (Essence/Gasoil, Electrique ou Hybride)
 -   Activer si besoin les styles de véhicule
 
-![Configuration Equipement](images/eqConfiguration.png)
+![Configuration Equipement](images/EqConfiguration.png)
 
 # Affichage sur le Dashboard
 
