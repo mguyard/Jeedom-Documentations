@@ -6,7 +6,7 @@
   - Les véhicules déjà créé doivent normalement migrer automatiquement dans le nouveau mode de gestion des énergie. Dans le cas contraire, il vous faudra sauvegarder manuellement l'energie du véhicule.
 - Ajout des véhicules hybrides
 - Ajout du support des VINs W1K (nouveau VIN 2020)
-- Blocage de la création d'une véhicule avec un VIN déjà utilisé (pour eviter les doublons)
+- Blocage de la création d'un véhicule avec un VIN déjà utilisé (pour éviter les doublons)
 - Optimisation de l'affichage des images de vehicule
 
 # 2020-10-18 - v1.0
