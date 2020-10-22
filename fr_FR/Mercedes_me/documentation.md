@@ -104,6 +104,10 @@ Dans Jeedom, aller dans __Plugins -> Objets connectés -> Mercedes Me__
 -   Définissez un nom à votre Equipement
 -   Choissiez un objet Parent et une catégorie
 -   Saisissez le VIN de votre véhicule (visible sur votre carte grise dans le champs E)
+-   Choisissez le mode d'energie de votre véhicule (Essence/Gasoil, Electrique ou Hybride)
+-   Activer si besoin les styles de véhicule
+
+![Logo](images/eqConfiguration.png)
 
 # Affichage sur le Dashboard
 
