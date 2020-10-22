@@ -1,5 +1,9 @@
 # Important à lire !
 
+# 2020-10-22 - v1.0.2 (BETA UNIQUEMENT)
+
+- Correction visuel sur la liste des équipements
+
 # 2020-10-22 - v1.0.1 (BETA UNIQUEMENT)
 
 - Changement de la méthode de gestion de l'energie du véhicule (passage en liste déroulante à la place de case à cocher)
