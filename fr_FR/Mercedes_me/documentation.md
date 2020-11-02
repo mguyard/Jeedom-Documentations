@@ -15,7 +15,7 @@ C'est donc une interface __CLOUD__
 
 # Liste des véhicules supportés
 
-Veuillez consulter la FAQ
+[Veuillez consulter la FAQ](/faq#Mon%20véhicule%20est-il%20supporté%20%3F)
 
 # Installation et configuration du plugin
 
