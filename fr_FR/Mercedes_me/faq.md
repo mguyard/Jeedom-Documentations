@@ -1,3 +1,14 @@
+# Plugin<br/><br/>
+
+## Mon véhicule est-il supporté ?
+
+Le Cloud Mercedes autorise les modèles et pays de véhicules suivant selon l'API :
+-   [Vehicle Status](https://developer.mercedes-benz.com/products/vehicle_status/details)
+-   [Vehicle Lock Status](https://developer.mercedes-benz.com/products/vehicle_lock_status/details)
+-   [Fuel Status](https://developer.mercedes-benz.com/products/fuel_status/details)
+-   [Electric Vehicle Status](https://developer.mercedes-benz.com/products/electric_vehicle_status/details)
+-   [Vehicle Images](https://developer.mercedes-benz.com/products/vehicle_images/details)
+
 # Cloud Mercedes<br/><br/>
 
 ## La console developpeur Mercedes ne me donne pas l'API Key

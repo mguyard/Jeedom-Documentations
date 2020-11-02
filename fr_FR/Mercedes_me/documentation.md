@@ -13,6 +13,10 @@ Mercedes propose uniquement une méthode Cloud d'interraction avec votre voiture
 
 C'est donc une interface __CLOUD__
 
+# Liste des véhicules supportés
+
+Veuillez consulter la FAQ
+
 # Installation et configuration du plugin
 
 Installer le plugin sur votre Jeedom et activez le.
