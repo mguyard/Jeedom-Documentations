@@ -1,10 +1,10 @@
 # Important à lire !
 
-# 2020-10-22 - v1.0.2 (BETA UNIQUEMENT)
+# 2020-10-22 - v1.0.2
 
 - Correction visuel sur la liste des équipements
 
-# 2020-10-22 - v1.0.1 (BETA UNIQUEMENT)
+# 2020-10-22 - v1.0.1
 
 - Changement de la méthode de gestion de l'energie du véhicule (passage en liste déroulante à la place de case à cocher)
   - Les véhicules déjà créé doivent normalement migrer automatiquement dans le nouveau mode de gestion des énergie. Dans le cas contraire, il vous faudra sauvegarder manuellement l'energie du véhicule.
