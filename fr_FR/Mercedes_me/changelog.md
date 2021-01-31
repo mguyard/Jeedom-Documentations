@@ -1,5 +1,10 @@
 # Important à lire !
 
+# 2021-01-31 - v1.0.3 (BETA)
+
+- Correction de l'erreur qui apparaissait dans le http.error (PHP Warning:  Declaration of Mercedes_me::getImage($vin) should be compatible with eqLogic::getImage())
+- Modification des niveaux d'alerte pour moins polluer le Centre de Message
+
 # 2020-10-22 - v1.0.2
 
 - Correction visuel sur la liste des équipements
