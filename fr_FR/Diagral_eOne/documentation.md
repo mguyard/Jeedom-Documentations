@@ -18,7 +18,14 @@ Diagral propose uniquement une méthode Cloud d'interraction avec votre alarme, 
 
 C'est donc une interface __CLOUD__
 
+# Equipements supportés
+
+- Centrale d'alarme
+- Détecteur à images <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
+
 # Configuration
+
+## Configuration du plugin
 
 __Le plugin se veut simple (et non simpliste) en utilisation et en configuration__.
 Tout ce que le plugin peut récupérer via le Cloud Diagral est fait afin de vous éviter des configurations inutiles et source d'erreurs.
@@ -30,6 +37,8 @@ Vous y saissez les informations suivantes :
 -   Mot de passe : Le mot de passe associé à l'identifiant
 -   Nombre de tentatives : nombre de tentatives en cas d'échec de connexion au Cloud Diagral (default : 1)
 -   Délai entre les tentatives : délais entre les tentatives (en secondes)
+-   Mise à jour automatique (minutes) : Fréquence de mise à jour des informations eOne
+-   Nombre de vidéos à conserver : Quantité de vidéos conservé dans Jeedom (pour l'ensemble des équipements supportant le téléchargement des vidéos - ex: détecteur à images)
 -   Suivi d'installation (cf chapitre dédié)
 -   Verbose : Permettant de définir un niveau de verbosité pour les requètes vers le Cloud Diagral (_Pas encore utilisable_)
 
@@ -38,14 +47,18 @@ Vous y saissez les informations suivantes :
 
 ## Configuration d'un équipement
 
-La création de l'équipement se fait de façon automatique. Il vous suffit de cliquer sur Synchronisation dans le plugin, pour que chacune des alarmes configurées et finalisées dans votre compte Diagral, soit créée. Elles sont automatiquement nommées telles que dans l'application Mobile Diagral.
+La création de l'équipement se fait de façon automatique. Il vous suffit de cliquer sur Synchronisation dans le plugin, pour que chacun des produits supportés et  configurées et finalisées dans votre compte Diagral, soit créée. Elles sont automatiquement nommées telles que dans l'application Mobile Diagral.
+
+### Centrale d'alarme
 
 Une fois le/les alarmes créées, il faut entrer dans chacune d'elles afin de configurer :
--   le __Master Code__ (celui que vous utilisez pour vous connecter à votre alarme avec l'application Mobile Digral e-ONE).
+-   le __Master Code__ (celui que vous utilisez pour vous connecter à votre alarme avec l'application Mobile Diagral e-ONE).
 -   l'objet parent
+-   L'activation (optionnelle) de la fonction de sécurisation désarmement
+-   La désactivation (optionnelle) du widget Diagral activé par défaut
 -   activer l'équipement
 
-![Configuration Equipement](images/ConfigurationDevice.png)
+![Configuration Centrale](images/ConfigurationCentrale.png)
 
 
 > Une fonctionnalité de sécurisation du désarmement (SecureDisam) est disponible avec l'option __Sécurisation désarmement__.
@@ -55,9 +68,26 @@ Une fois le/les alarmes créées, il faut entrer dans chacune d'elles afin de co
 > 
 > Cette fonctionnalité ne prend de sens que pour empêcher la désactivation de l'alarme à un compte _Utilisateur_ ou _Utilisateur limité_ Jeedom. Par exemple, pour une tablette qui déporte l'affichage de votre Jeedom. En tant qu'administrateur, même si la fonctionnalitée SecureDisarm est active, elle est outre-passée.
 
-Lors de la sauvegarde, de nouvelles commandes vont se créer car elle nécessitent le MasterCode (ex : _Activation Partielle ou Lancement Scenario).
+Lors de la sauvegarde, de nouvelles commandes vont se créer car elle nécessitent le MasterCode (ex : _Activation Partielle ou Lancement Scenario_).
 
 Ces commandes sont en fait les commandes qui permettent d'avoir une liste déroulante dans les scénarios. Ainsi le plugin va personnaliser les listes déroulantes avec les informations présentes sur votre compte.
+
+### Détecteur à Image 
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
+
+Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif.
+
+Seul une options est configurable 'Video Auto Download' qui permet au plugin de télécharger de façon automatique les vidéos disponibles (des vidéos de 5 secondes) selon la politique de retention (cf. chapitre Configuration du plugin).
+
+> Le téléchargement des vidéos se fait lors du rafraichissement automatique (cf. chapitre Rafraichissement > Automatique).
+> Il est recommandé de ne pas avoir une fréquence trop rapide pour eviter de se faire blacklister par Diagral
+
+![Configuration Detecteur à Images](images/ConfigurationImageDetector.png)
+
+Les vidéos sont visibles via la page de l'équipement en cliquant sur le bouton __Consulter__ dans __Liste des vidéos disponibles__
+
+![Configuration Detecteur à Images](images/ModaleVideosImageDetector.png)
 
 # Déclenchement d'alarme
 
@@ -147,15 +177,17 @@ Afin d'éviter de trop requêter les serveurs Diagral, le plugin met en cache le
 
 Le cache est regénéré - par une tâche CRON - automatiquement tous les dimanches à une heure définie aléatoirement lors de l'installation.
 
-Vous pouvez forcer la regénération manuellement avec les commandes 
+Vous pouvez forcer la regénération manuellement avec les commandes suivante disponible sur la centrale
 -   __Force Groups Refresh__ 
 -   __Force Scenarios Refresh__
 
 # Commandes
 
+## Centrale 
+
 Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
-## Action
+### Action
 
 -   __Rafraichir__ : Mise à jour du statut de l'Alarme
   
@@ -186,7 +218,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 -   __Lancement Scenario__ : Exécute un scénario
 
-## Info
+### Info
 
 -   Statut : Etat binaire de l'activation de l'alarme
 -   Mode : Statut de l'alarme
@@ -204,15 +236,29 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
     -   _Exemple "code d'accès principal"_
 -   IMPORT - Dernier utilisateur : Dernière methode ayant intervenu sur l'alarme, reçue par message (mail ou sms)
 
+## Détecteur à Image 
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
+
+Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
+
+### Action
+
+-   __Déclencher Enregistrement__ : Déclenche manuellement un enregistrement sur le détecteur à image
+
+### Info
+
+-   Dernière video : Retourne le chemin complet de la dernière vidéo téléchargé
+
 # Journal d'activité
 
 Sur la page de configuration de l'équipement, vous avez un bouton vous permettant d'ouvrir une modale avec l'ensemble des evenements des 30 précédents jours.
 
 ![Journal d'activité](images/ModaleActivity.png)
 
-# Dashboard
+# Widget
 
-Le plugin inclus un dashboard qui permet de :
+Le plugin inclus un Widget qui permet de :
 -   Connaitre le statut de l'alarme (y compris si une alarme est en cours)
 -   Connaitre le nombre de mise à jour de l'alarme disponible
 -   Activation totale de l'alarme
@@ -223,6 +269,8 @@ Le plugin inclus un dashboard qui permet de :
 -   Lancement d'un scénario
 
 ![Dashboard](images/Dashboard.png)
+
+> Ce widget peut être désactivé dans la configuration de la centrale (seul équipement ayant pour le moment un widget personnalisé)
 
 # HomeBridge
 

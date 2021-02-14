@@ -2,6 +2,19 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-02-03 - v2.0.0 (BETA)
+
+<span style="color:red">__/!\ Version préparant l'intégration de produits eOne autre que l'alarme (Camera / Portail)__</span>
+
+Cette version intègre cependant quelques fonctionnalitées ci-dessous :
+- Gestion des détecteurs à images
+- Consultation des vidéos générés par le détecteur à Images
+- Lancement par scénario d'une création de vidéo sur un détecteur à images
+- Téléchargement automatique des vidéos du détecteur à image
+- Gestion d'une purge automatique des vidéos (nombre maximale de vidéos configurable dans le plugin)
+- Fourniture d'une commande incluant la position de la dernière vidéo (pour l'envoyer dans une alerte par exemple)
+- Ajout d'une option dans l'équipement centrale pour désactiver le widget du plugin
+
 # 2020-10-04 - v1.3.0
 
 - Intégration d'un listing des evenements sur la page de l'équipement
