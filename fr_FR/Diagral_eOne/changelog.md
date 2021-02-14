@@ -6,7 +6,7 @@ __Lorsque aucunes informations ne sont disponibles sur le changelog, cela impliq
 
 <span style="color:red">__/!\ Version préparant l'intégration de produits eOne autre que l'alarme (Camera / Portail)__</span>
 
-Cette version intègre cependant quelques fonctionnalitées ci-dessous :
+Cette version intègre cependant quelques fonctionnalités ci-dessous :
 - Gestion des détecteurs à images
 - Consultation des vidéos générés par le détecteur à Images
 - Lancement par scénario d'une création de vidéo sur un détecteur à images
