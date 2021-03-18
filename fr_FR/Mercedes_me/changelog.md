@@ -1,5 +1,9 @@
 # Important à lire !
 
+# 2021-03-18 - v1.0.4 (BETA)
+
+- Ajout du support des VIN W1N
+
 # 2021-01-31 - v1.0.3 (BETA)
 
 - Correction de l'erreur qui apparaissait dans le http.error (PHP Warning:  Declaration of Mercedes_me::getImage($vin) should be compatible with eqLogic::getImage())
