@@ -1,5 +1,16 @@
 # Important à lire !
 
+# 2021-04-12 - v1.2.1
+
+- Ajout de la gestion des véhicule coupés (permet de retirer les informations portes et fenêtres arrières du widget)
+  - ___Pour tout les utilisateurs : Suite a la mise à jour, il faut verifier le style appliqué à votre véhicule___
+- Réduction de la taille du widget pour avoir un widget plus compact
+- Ajout d'une option pour désactiver l'utilisation du widget du plugin
+
+# 2021-04-12 - v1.0.4
+
+- Passage en stable de la version 1.0.4
+
 # 2021-03-18 - v1.0.4 (BETA)
 
 - Ajout du support des VIN W1N

@@ -109,7 +109,7 @@ Dans Jeedom, aller dans __Plugins -> Objets connectés -> Mercedes Me__
 -   Choissiez un objet Parent et une catégorie
 -   Saisissez le VIN de votre véhicule (visible sur votre carte grise dans le champs E)
 -   Choisissez le mode d'energie de votre véhicule (Essence/Gasoil, Electrique ou Hybride)
--   Activer si besoin les styles de véhicule
+-   Choisissez votre style de véhicule (Berline, Coupé, Cabriolet)
 
 ![Configuration Equipement](images/EqConfiguration.png)
 
