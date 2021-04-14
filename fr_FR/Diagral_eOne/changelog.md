@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-04-14 - v2.0.1 (BETA)
+
+- Correction d'un bug sur la récupération du nombre de mises à jour Diagral disponibles
+
 # 2021-02-03 - v2.0.0 (BETA)
 
 <span style="color:red">__/!\ Version préparant l'intégration de produits eOne autre que l'alarme (Camera / Portail)__</span>
