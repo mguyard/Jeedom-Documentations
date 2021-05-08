@@ -1,5 +1,9 @@
 # Important à lire !
 
+# 2021-05-08 - v1.2.1
+
+- Passage en stable de la version 1.2.1
+
 # 2021-04-12 - v1.2.1 (BETA)
 
 - Ajout de la gestion des véhicule coupés (permet de retirer les informations portes et fenêtres arrières du widget)
