@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-05-08 - v2.0.1
+
+- Passage en stable de la version 2.0.1 (incluant les fonctionnalités BETA de la version 2.0.0 et 2.0.1)
+
 # 2021-04-14 - v2.0.1 (BETA)
 
 - Correction d'un bug sur la récupération du nombre de mises à jour Diagral disponibles
