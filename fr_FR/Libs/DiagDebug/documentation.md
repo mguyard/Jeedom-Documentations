@@ -192,8 +192,6 @@ Puis ajoutez un bout de code JS pour lancer une action lors du clic sur le bouto
 
 Ce code appelle en AJAX le fichier xx.ajax.php dans le /core/ajax de votre plugin
 
-![Bouton de génération](images/Generate_Button.png)
-
 ### La configuration du fichier AJAX
 
 Ce code permet de spécifier quelle méthode est lancée (ici dans l'exemple, la méthode generateDiagDebug dans la classe du plugin Diagral_eOne)
