@@ -50,6 +50,19 @@ var docMenu = [
     ]
   },{
     divider : true
+  },{
+    fr_FR : "Libs",
+    /*
+    en_US : "Service",
+    es_ES : "Servicios",
+    de_DE : "Service",
+    pt_PT : "Serviços",
+    */
+    submenu:[
+      {link : "/Jeedom-Documentations/#LANG#/Libs/documentation",icon:"fas fa-spider",fr_FR:"DiagDebug - Generate Debug Packages"}
+    ]
+  },{
+    divider : true
   },
 ]
 
