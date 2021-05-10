@@ -1,7 +1,10 @@
 # Présentation 
 
-Cette librairie PHP permet aux développeurs Jeedom d'intégrer la création de packages de diagnostique au sein de leur plugin Jeedom.
+Cette classe PHP permet aux développeurs Jeedom d'intégrer la création de packages de diagnostique au sein de leur plugin Jeedom.
 Ce package de diagnostique peut inclure des logs, le resultat de commande ou encore des fichiers.
+
+Elle est disponible sur Github publiquement : https://github.com/mguyard/Jeedom-DiagDebug
+Un fichier php de demo est inclus avec la Classe.
 
 # Que permet de faire la classe
 
@@ -161,7 +164,8 @@ Voici un petit tutoriel pas-à-pas permettant de vous aider à intégrer cette c
 
 ## Ajoutez la classe dans votre plugin
 
-Placer la lib dans votre répertoire 3rdparty
+Placer la classe dans votre répertoire 3rdparty
+> git clone https://github.com/mguyard/Jeedom-DiagDebug DiagDebug
 
 ## Déclarez la dans la classe core de votre plugin
 
@@ -257,7 +261,7 @@ Il faut désormais créer la méthode dans le classe Core de votre plugin.
 C'est dans cette méthode que vous pouvez mettre toutes les actions possibles de la classe telle que détaillé plus haut.
 
 
-# Comment l'utilisateur l'utilise
+# Comment l'utilisateur génère le DiagDebug Package
 
 Il se rend sur la page de configuration du plugin et clique sur le bouton que vous avez mis en place
 
@@ -268,3 +272,7 @@ Au clic, en quelques secondes, une bannière apparait en vert en cas de succès,
 ![Téléchargement DiagDebug](images/Download_DiagDebug.png)
 
 Si la bannière est rouge, cela indique un souci. Le message d'erreur dans la bannière donne plus de détail sur comment la résoudre.
+
+# Evolution
+
+Si vous souhaitez ajouter des éléments dans la roadmap, je vous invite à faire un PR ou une Issue sur le GitHub de la lib (https://github.com/mguyard/Jeedom-DiagDebug)
