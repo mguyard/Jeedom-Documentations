@@ -59,7 +59,7 @@ var docMenu = [
     pt_PT : "Serviços",
     */
     submenu:[
-      {link : "/Jeedom-Documentations/#LANG#/Libs/documentation",icon:"fas fa-spider",fr_FR:"DiagDebug - Generate Debug Packages"}
+      {link : "/Jeedom-Documentations/#LANG#/Libs/DiagDebug/documentation",icon:"fas fa-spider",fr_FR:"DiagDebug - Generate Debug Packages"}
     ]
   },{
     divider : true
