@@ -91,9 +91,9 @@ Il est possible d'ajouter la configuration du plugin dans le DiagDebug package.
 
 ``$diag->addPluginConf();``
 
-## Ajouter la liste (informations incluses) des équipements du plugin
+## Ajouter la liste des équipements du plugin
 
-Il est possible d'ajouter la liste des équipelents du plugin dans le DiagDebug package. 
+Il est possible d'ajouter la liste des équipements (avec des informations détaillées) du plugin dans le DiagDebug package. 
 
 ``$diag->addAllPluginEqlogic();``
 
