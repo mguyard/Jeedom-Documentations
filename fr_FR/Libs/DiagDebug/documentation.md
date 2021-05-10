@@ -14,19 +14,55 @@ La classe utilise la POO (Programmation Orienté Objet). Il faut l'initialiser c
 
 ``$diag = new DiagDebug('Diagral_eOne', '/var/www/html/');``
 
-Paramètres (* = Obligatoire):
-* PluginId *
-* Emplacement de stockage de l'archive DiagDebug (par défaut, place l'archive dans le répertoire __data__ du plugin, dans un repertoire __DiagDebug__ créé automatiquement)
+_Paramètres :_
+* @param integer $pluginId - Jeedom plugin Id <span style="color:red">*</span>
+* @param string $zipStorage - Optional Path to store DiagDebug Archive
+* @return void
 
 Les anciens DiagDebug présent dans le repertoire sont supprimés
 
 ## Ajouter les logs du plugin
 
-## Ajouter un log spécifique du plugin
+Ajoute automatiquement l'ensemble des logs du plugins dans le DiagDebug package
+
+``diag->addPluginLogs();``
 
 ## Ajouter un log Jeedom
 
+Pour ajouter un log Jeedom :
+
+``$diag->addJeedomLog('update');``
+
+_Paramètres :_
+* @param string $log - Log Name (without path) as show in Jeedom Logs interface <span style="color:red">*</span>
+* @return void
+
+Il est aussi possible d'en ajouter plusieurs en une fois au travers d'un autre méthode :
+
+``$diag->addJeedomLogs(array('openvpn', 'starting'));``
+
+_Paramètres :_
+* @param array $logs - Log Name (without path) as show in Jeedom Logs interface <span style="color:red">*</span>
+* @return void
+
+> _Cette méthode peut être appellé plusieurs fois._
+
 ## Ajouter le résultat d'une commande SHELL
+
+Il est possible d'ajouter le résultat d'une commande SHELL dans le DiagDebug package. Chaque commande lancée ainsi génèrera un fichier de résultat portant le nom de la commande.
+
+``$diag->addCmd('ifconfig -a');``
+
+> _Cette méthode peut être appellé plusieurs fois._
+
+Il est aussi possible d'appeler plusieurs commandes en même temps :
+
+``$diag->addCmds(array('ls -l /tmp', 'ip addr'), 'GroupedCmds');``
+
+Cette méthode va créer un seul fichier contenant l'ensemble des résultats des commandes SHELL.
+Le second paramètre correspond au nom a donner
+
+> _Cette méthode peut être appellé plusieurs fois._
 
 ## Ajouter la configuration du plugin
 
