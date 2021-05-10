@@ -143,7 +143,17 @@ Voici un petit tutoriel pas-à-pas permettant de vous aider à intégrer cette c
 
 ## Ajoutez la classe dans votre plugin
 
-## Déclarez la dans votre plugin
+Placer la lib dans votre répertoire 3rdparty
+
+## Déclarez la dans la classe core de votre plugin
+
+Après la déclaration du core Jeedom
+    require_once __DIR__  . '/../../../../core/php/core.inc.php';
+
+Ajoutez ce code avant la déclaration de votre classe
+
+    define('__PLGBASE__', dirname(dirname(__DIR__)));
+    require_once (__PLGBASE__.'/3rparty/DiagDebug/DiagDebug.class.php');
 
 ### Dans la page configuration.php de votre plugin
 
