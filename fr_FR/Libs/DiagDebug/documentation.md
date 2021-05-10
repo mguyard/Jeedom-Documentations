@@ -15,9 +15,9 @@ La classe utilise la POO (Programmation Orienté Objet). Il faut l'initialiser c
 ``$diag = new DiagDebug('Diagral_eOne', '/var/www/html/');``
 
 _Paramètres :_
-* @param integer $pluginId - Jeedom plugin Id <span style="color:red">*</span>
-* @param string $zipStorage - Optional Path to store DiagDebug Archive
-* @return void
+-   @param integer $pluginId - Jeedom plugin Id <span style="color:red">*</span>
+-   @param string $zipStorage - Optional Path to store DiagDebug Archive
+-   @return void
 
 Les anciens DiagDebug présent dans le repertoire sont supprimés
 
@@ -27,27 +27,33 @@ Ajoute automatiquement l'ensemble des logs du plugins dans le DiagDebug package
 
 ``diag->addPluginLogs();``
 
-## Ajouter un log Jeedom
+## Ajouter des logs Jeedom
+
+### Unitairement
 
 Pour ajouter un log Jeedom :
 
 ``$diag->addJeedomLog('update');``
 
 _Paramètres :_
-* @param string $log - Log Name (without path) as show in Jeedom Logs interface <span style="color:red">*</span>
-* @return void
+-   @param string $log - Log Name (without path) as show in Jeedom Logs interface <span style="color:red">*</span>
+-   @return void
+
+### Plusieurs
 
 Il est aussi possible d'en ajouter plusieurs en une fois au travers d'un autre méthode :
 
 ``$diag->addJeedomLogs(array('openvpn', 'starting'));``
 
 _Paramètres :_
-* @param array $logs - Log Name (without path) as show in Jeedom Logs interface <span style="color:red">*</span>
-* @return void
+-   @param array $logs - Log Name (without path) as show in Jeedom Logs interface <span style="color:red">*</span>
+-   @return void
 
 > _Cette méthode peut être appellée plusieurs fois._
 
-## Ajouter le résultat d'une commande SHELL
+## Ajouter le résultat de commande SHELL
+
+### Unitairement
 
 Il est possible d'ajouter le résultat d'une commande SHELL dans le DiagDebug package. 
 
@@ -56,12 +62,14 @@ __Chaque commande lancée ainsi génèrera un fichier de résultat portant le no
 ``$diag->addCmd('ifconfig -a');``
 
 _Paramètres :_
-* @param string $cmd - System command to run <span style="color:red">*</span>
-* @param string $filename - Optional filename of result. If not specified, command will be use as result filename <span style="color:red">*</span>
-* @param boolean $sudo - Optional to specify if command need to be run as sudo user
-* @return void
+-   @param string $cmd - System command to run <span style="color:red">*</span>
+-   @param string $filename - Optional filename of result. If not specified, command will be use as result filename <span style="color:red">*</span>
+-   @param boolean $sudo - Optional to specify if command need to be run as sudo user
+-   @return void
 
 > _Cette méthode peut être appellée plusieurs fois._
+
+### Plusieurs
 
 Il est aussi possible d'appeler plusieurs commandes en même temps :
 
@@ -70,10 +78,10 @@ Il est aussi possible d'appeler plusieurs commandes en même temps :
 __Cette méthode va créer un seul fichier contenant l'ensemble des résultats des commandes SHELL.__
 
 _Paramètres :_
-* @param array $cmds - List of system commands to run <span style="color:red">*</span>
-* @param string $filename - Filename where store commands results <span style="color:red">*</span>
-* @param boolean $sudo - Optional to specify if command need to be run as sudo user
-* @return void
+-   @param array $cmds - List of system commands to run <span style="color:red">*</span>
+-   @param string $filename - Filename where store commands results <span style="color:red">*</span>
+-   @param boolean $sudo - Optional to specify if command need to be run as sudo user
+-   @return void
 
 > _Cette méthode peut être appellée plusieurs fois._
 
@@ -89,7 +97,9 @@ Il est possible d'ajouter la liste des équipelents du plugin dans le DiagDebug 
 
 ``$diag->addAllPluginEqlogic();``
 
-## Ajouter un fichier
+## Ajouter des fichiers
+
+# Unitairement
 
 Il est possible d'ajouter un fichier dans le DiagDebug package. 
 
@@ -100,18 +110,20 @@ _Exemple 2:_
 ``$diag->addFile('/var/www/html/plugins/Diagral_eOne/d*/p*');``
 
 _Paramètres :_
-* @param string $file - File with absolute path. Can be a file, folder, or glob (wildcard) <span style="color:red">*</span>
-* @return void
+-   @param string $file - File with absolute path. Can be a file, folder, or glob (wildcard) <span style="color:red">*</span>
+-   @return void
 
 > _Cette méthode peut être appellée plusieurs fois._
+
+### Plusieurs
 
 Il est aussi possible d'ajouter plusieurs fichiers au travers d'un array et une autre méthode :
 
 ``$diag->addFiles(array('/var/www/html/robots.txt','/var/www/html/mobile.manifest.php'));``
 
 _Paramètres :_
-* @param array $files - Files with absolute path. Can be a file, folder, or glob (wildcard) <span style="color:red">*</span>
-* @return void
+-   @param array $files - Files with absolute path. Can be a file, folder, or glob (wildcard) <span style="color:red">*</span>
+-   @return void
 
 > _Cette méthode peut être appellée plusieurs fois._
 
@@ -137,10 +149,82 @@ Voici un petit tutoriel pas-à-pas permettant de vous aider à intégrer cette c
 
 Ajoutez un bouton pour générer le DiagDebug Package
 
-``<div class="form-group">
-    <div class="col-lg-4"></div>
-    <div class="col-lg-4">
-        <button type="button" id="generateDiagDebug" class="btn btn-danger btn-lg">Générer un DiagDebug</button>
+    <div class="form-group">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <button type="button" id="generateDiagDebug" class="btn btn-danger btn-lg">Générer un DiagDebug</button>
+        </div>
     </div>
-</div>``
+
+Puis ajoutez un bout de code JS pour lancer une action lors du clic sur le bouton
+
+    // Génère le package DiagDebug
+    $('#generateDiagDebug').click( function() {
+        $.ajax({// fonction permettant de faire de l'ajax
+            type: "POST", // methode de transmission des données au fichier php
+            url: "plugins/Diagral_eOne/core/ajax/Diagral_eOne.ajax.php", // url du fichier php
+            data: {
+                action: "generateDiagDebug",
+            },
+            dataType: 'json',
+            error: function (request, status, error) {
+                handleAjaxError(request, status, error);
+            },
+            success: function (data) { // si l'appel a bien fonctionné
+                if (data.state != 'ok') {
+                    $('#div_alert').showAlert({message: data.result, level: 'danger'});
+                    return;
+                }
+                $('#div_alert').showAlert({message: '{{<i class="fas fa-file-download"></i> Génération du DiagDebug effectuée avec succès. Cliquez <a href="' + data.result.relativePath + '" target="_blank" download>ici</a> pour télécharger l\'archive}}', level: 'success'});
+            }
+        });
+    });
+
+Ce code appelle en AJAX le fichier xx.ajax.php dans le /core/ajax de votre plugin
+
+### La configuration du fichier AJAX
+
+Ce code permet de spécifier quelle méthode est lancée (ici dans l'exemple, la méthode generateDiagDebug dans la classe du plugin Diagral_eOne)
+
+    try {
+    [...]
+
+        // Génératon d'une archive de DiagDebug
+        if (init('action') == 'generateDiagDebug') {
+            try {
+                $diagDebug = Diagral_eOne::generateDiagDebug();
+                ajax::success($diagDebug);
+            } catch (Exception $e) {
+                ajax::error(displayExeption($e), $e->getCode());
+            }
+        }
+
+    [...]
+    } catch (Exception $e) {
+        ajax::error(displayException($e), $e->getCode());
+    }
+
+Il faut désormais créer la méthode dans le classe Core de votre plugin.
+
+### Création de la méthode dans la classe Core du votre plugin
+
+    public function generateDiagDebug() {
+        try {
+            $diag = new DiagDebug('Diagral_eOne');
+            $diag->addPluginLogs();
+            $diag->addJeedomLogs(array('plugin', 'jeedom', 'http.error'));
+            $diag->addCmd('nslookup appv3.tt-monitor.com');
+            $diag->addCmd('ip addr', NULL, TRUE);
+            $diag->addCmd('ip route', NULL, TRUE);
+            $diag->addCmd('ls -lR #PLUGBASE#', NULL, TRUE);
+            $diag->addPluginConf();
+            $diag->addAllPluginEqlogic();
+            $diag->addFile('#PLUGBASE#');
+            return $diag->download();
+        } catch (Exception $e) {
+            echo 'Exception reçue : '.  $e->getMessage() . '<br>';
+        }
+    }
+
+C'est dans cette méthode que vous pouvez mettre toutes les actions possibles de la classe telle que détaillé plus haut.
 
