@@ -192,6 +192,8 @@ Puis ajoutez un bout de code JS pour lancer une action lors du clic sur le bouto
 
 Ce code appelle en AJAX le fichier xx.ajax.php dans le /core/ajax de votre plugin
 
+![Bouton de génération](images/Generate_Button.png)
+
 ### La configuration du fichier AJAX
 
 Ce code permet de spécifier quelle méthode est lancée (ici dans l'exemple, la méthode generateDiagDebug dans la classe du plugin Diagral_eOne)
@@ -238,3 +240,15 @@ Il faut désormais créer la méthode dans le classe Core de votre plugin.
 
 C'est dans cette méthode que vous pouvez mettre toutes les actions possibles de la classe telle que détaillé plus haut.
 
+
+# Comment l'utilisateur l'utilise
+
+Il se rend sur la page de configuration du plugin et clique sur le bouton que vous avez mis en place
+
+![Bouton de génération](images/Generate_Button.png)
+
+Au clic, en quelques secondes, une bannière apparait en vert en cas de succès, contenant le lien de téléchargement du DiagDebug Package
+
+![Téléchargement DiagDebug](images/Download_DiagDebug.png)
+
+Si la bannière est rouge, cela indique un souci. Le message d'erreur dans la bannière donne plus de détail sur comment la résoudre.
