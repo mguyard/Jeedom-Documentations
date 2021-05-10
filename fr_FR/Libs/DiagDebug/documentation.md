@@ -3,7 +3,8 @@
 Cette classe PHP permet aux développeurs Jeedom d'intégrer la création de packages de diagnostique au sein de leur plugin Jeedom.
 Ce package de diagnostique peut inclure des logs, le resultat de commande ou encore des fichiers.
 
-Elle est disponible sur Github publiquement : https://github.com/mguyard/Jeedom-DiagDebug
+Elle est disponible sur Github publiquement : [https://github.com/mguyard/Jeedom-DiagDebug](https://github.com/mguyard/Jeedom-DiagDebug)
+
 Un fichier php de demo est inclus avec la Classe.
 
 # Que permet de faire la classe
@@ -275,4 +276,4 @@ Si la bannière est rouge, cela indique un souci. Le message d'erreur dans la ba
 
 # Evolution
 
-Si vous souhaitez ajouter des éléments dans la roadmap, je vous invite à faire un PR ou une Issue sur le GitHub de la lib (https://github.com/mguyard/Jeedom-DiagDebug)
+Si vous souhaitez ajouter des éléments dans la roadmap, je vous invite à faire un PR ou une Issue sur le GitHub de la classe : [https://github.com/mguyard/Jeedom-DiagDebug](https://github.com/mguyard/Jeedom-DiagDebug)
