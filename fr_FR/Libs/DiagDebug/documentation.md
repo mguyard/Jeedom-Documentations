@@ -53,6 +53,8 @@ _Paramètres :_
 
 ## Ajouter le résultat de commande SHELL
 
+Ces méthodes permettent l'utilisation des MagicWords (cf. chapître dédié)
+
 ### Unitairement
 
 Il est possible d'ajouter le résultat d'une commande SHELL dans le DiagDebug package. 
@@ -101,13 +103,18 @@ Il est possible d'ajouter la liste des équipements (avec des informations déta
 
 # Unitairement
 
-Il est possible d'ajouter un fichier dans le DiagDebug package. 
+Il est possible d'ajouter un dossier/fichier dans le DiagDebug package. 
+Dans le cas d'un dossier, le dossier et ses sous-dossiers seront ajouté au DiagDebug Package.
+
+Cette méthode permet l'utilisation des MagicWords (cf. chapître dédié)
 
 _Exemple 1:_
 ``$diag->addFile('/etc/hosts');``
 
+Il est possible de mettre des __wildcard__ afin de géré des cas filtrés
+
 _Exemple 2:_
-``$diag->addFile('/var/www/html/plugins/Diagral_eOne/d*/p*');``
+``$diag->addFile('/var/www/html/plugins/Diagral_eOne/d*/*.txt');``
 
 _Paramètres :_
 -   @param string $file - File with absolute path. Can be a file, folder, or glob (wildcard) <span style="color:red">*</span>
@@ -117,9 +124,12 @@ _Paramètres :_
 
 ### Plusieurs
 
-Il est aussi possible d'ajouter plusieurs fichiers au travers d'un array et une autre méthode :
+Il est possible d'ajouter un dossier/fichier dans le DiagDebug package. 
+Dans le cas d'un dossier, le dossier et ses sous-dossiers seront ajoutés au DiagDebug Package.
 
-``$diag->addFiles(array('/var/www/html/robots.txt','/var/www/html/mobile.manifest.php'));``
+``$diag->addFiles(array('/var/www/html/','/var/www/html/mobile.manifest.php'));``
+
+Il est possible de mettre des __wildcard__ afin de géré des cas filtrés
 
 _Paramètres :_
 -   @param array $files - Files with absolute path. Can be a file, folder, or glob (wildcard) <span style="color:red">*</span>
@@ -135,6 +145,14 @@ La methode suivante permet de récupérer les informations concernant le DiagDeb
 
 _Paramètres :_
 * @return array - with filename, filesize, absolutePath and relativePath (after the Jeedom base URL)
+
+# Magic Words
+
+Certaines méthodes supportent l'utilisation des __Magic Words__.
+Les mots ci-dessous sont automatiquement converti selon la configuration du serveur Jeedom
+
+-   #JEEBASE# : Remplacée par la racine web de Jeedom
+-   #PLUGBASE# : Remplacée par la racine du plugin xx/plugins/pluginId
 
 
 # Comment l'intégrer ?
