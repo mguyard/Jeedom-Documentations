@@ -264,15 +264,7 @@ C'est dans cette méthode que vous pouvez mettre toutes les actions possibles de
 
 # Comment l'utilisateur génère le DiagDebug Package
 
-Il se rend sur la page de configuration du plugin et clique sur le bouton que vous avez mis en place
-
-![Bouton de génération](images/Generate_Button.png)
-
-Au clic, en quelques secondes, une bannière apparait en vert en cas de succès, contenant le lien de téléchargement du DiagDebug Package
-
-![Téléchargement DiagDebug](images/Download_DiagDebug.png)
-
-Si la bannière est rouge, cela indique un souci. Le message d'erreur dans la bannière donne plus de détail sur comment la résoudre.
+Un exemple d'utilisation est disponible dans la [documentation Diagral](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Génération%20d’un%20package%20DiagDebug)
 
 # Evolution
 
