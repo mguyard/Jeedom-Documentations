@@ -321,6 +321,22 @@ Vous avez aussi la possibilité de supprimer les informations stockés (action a
 
 Le login market permet de pouvoir vous contacter par [Community](https://community.jeedom.com) si besoin.
 
+# Génération d'un package DiagDebug
+
+> Afin de faciliter la collecte des informations nécessaires à l'analyse d'un problème, un bouton a était mis en place dans la configuration
+> du plugin pour générer automatiquement une archive avec toutes les informations nécessaires.
+> Cette archive est consultable après génération si vous souhaitez vérifier son contenu
+
+Pour le générer il faut se rendre sur la page de configuration du plugin et cliquer sur le bouton __Générer un package de DiagDebug__
+
+![Générer un package de DiagDebug](images/Generate_Button.png)
+
+Au clic, en quelques secondes, une bannière apparait en vert en cas de succès, contenant le lien de téléchargement du DiagDebug Package
+
+![Téléchargement DiagDebug](images/Download_DiagDebug.png)
+
+Si la bannière est rouge, cela indique un souci un souci de génération. Le message d'erreur dans la bannière donne plus de détail sur comment la résoudre.
+
 # Numerotation des versions
 
 La numérotation des versions est effectuée ainsi pour le moment :
