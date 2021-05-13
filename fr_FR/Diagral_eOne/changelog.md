@@ -5,6 +5,8 @@ __Lorsque aucunes informations ne sont disponibles sur le changelog, cela impliq
 # 2021-05-13 - v2.0.2 (BETA)
 
 - Ajout d'un module de génération des DiagDebug (cf. [documentation](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Génération%20d’un%20package%20DiagDebug))
+- Passage des erreurs de [suivi d'installation](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Suivi%20d’installation) de warning à debug pour moi charger les logs au vu de l'importance des erreurs
+- Ajout de quelques tooltip dans la page de configuration du plugin
 
 # 2021-05-08 - v2.0.1
 
