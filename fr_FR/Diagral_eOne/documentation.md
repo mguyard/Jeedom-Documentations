@@ -329,11 +329,11 @@ Le login market permet de pouvoir vous contacter par [Community](https://communi
 
 Pour le générer il faut se rendre sur la page de configuration du plugin et cliquer sur le bouton __Générer un package de DiagDebug__
 
-![Générer un package de DiagDebug](images/Generate_Button.png)
+![Générer un package de DiagDebug](images/DiagDebug/Generate_Button.png)
 
 Au clic, en quelques secondes, une bannière apparait en vert en cas de succès, contenant le lien de téléchargement du DiagDebug Package
 
-![Téléchargement DiagDebug](images/Download_DiagDebug.png)
+![Téléchargement DiagDebug](images/DiagDebug/Download_DiagDebug.png)
 
 Si la bannière est rouge, cela indique un souci un souci de génération. Le message d'erreur dans la bannière donne plus de détail sur comment la résoudre.
 
