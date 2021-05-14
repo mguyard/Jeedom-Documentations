@@ -21,7 +21,8 @@ C'est donc une interface __CLOUD__
 # Equipements supportés
 
 - Centrale d'alarme
-- Détecteur à images <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
+- Détecteur à images 
+- Portail Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
 # Configuration
 
@@ -74,9 +75,7 @@ Ces commandes sont en fait les commandes qui permettent d'avoir une liste dérou
 
 ### Détecteur à Image 
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
-
-Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif.
+Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
 Seul une options est configurable 'Video Auto Download' qui permet au plugin de télécharger de façon automatique les vidéos disponibles (des vidéos de 5 secondes) selon la politique de retention (cf. chapitre Configuration du plugin).
 
@@ -88,6 +87,14 @@ Seul une options est configurable 'Video Auto Download' qui permet au plugin de 
 Les vidéos sont visibles via la page de l'équipement en cliquant sur le bouton __Consulter__ dans __Liste des vidéos disponibles__
 
 ![Configuration Detecteur à Images](images/ModaleVideosImageDetector.png)
+
+### Portail Adyx
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
+> 
+Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
+
+![Configuration Portail Adyx](images/AdyxPortailEqLogic.png)
 
 # Déclenchement d'alarme
 
@@ -238,8 +245,6 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ## Détecteur à Image 
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
-
 Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ### Action
@@ -248,7 +253,18 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ### Info
 
--   Dernière video : Retourne le chemin complet de la dernière vidéo téléchargé
+-   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé
+
+## Portail Adyx
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
+
+Le portail connecté via Diagral ne remonte pas le statut. Aucune commande info est donc créée.
+
+### Action
+
+-   __Ouverture totale__ : Déclenche l'ouverture totale du portail
+-   __Ouverture Pieton__ : Déclenche l'ouverture partiel (piéton) du portail
 
 # Journal d'activité
 

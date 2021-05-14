@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-05-14 - v2.1.0 (BETA)
+
+- Ajout du support des Portails Adyx
+
 # 2021-05-13 - v2.0.2 (BETA)
 
 - Ajout d'un module de génération des DiagDebug (cf. [documentation](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Génération%20d’un%20package%20DiagDebug))
