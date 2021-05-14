@@ -4,7 +4,7 @@ __Lorsque aucunes informations ne sont disponibles sur le changelog, cela impliq
 
 # 2021-05-14 - v2.1.0 (BETA)
 
-- Ajout du support des Portails Adyx
+- Ajout du support des [Portails Adyx](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
 
 # 2021-05-13 - v2.0.2 (BETA)
 
