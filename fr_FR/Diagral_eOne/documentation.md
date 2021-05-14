@@ -50,7 +50,7 @@ Vous y saissez les informations suivantes :
 
 La création de l'équipement se fait de façon automatique. Il vous suffit de cliquer sur Synchronisation dans le plugin, pour que chacun des produits supportés et  configurées et finalisées dans votre compte Diagral, soit créée. Elles sont automatiquement nommées telles que dans l'application Mobile Diagral.
 
-### Centrale d'alarme
+### Configuration - Centrale d'alarme
 
 Une fois le/les alarmes créées, il faut entrer dans chacune d'elles afin de configurer :
 -   le __Master Code__ (celui que vous utilisez pour vous connecter à votre alarme avec l'application Mobile Diagral e-ONE).
@@ -73,7 +73,7 @@ Lors de la sauvegarde, de nouvelles commandes vont se créer car elle nécessite
 
 Ces commandes sont en fait les commandes qui permettent d'avoir une liste déroulante dans les scénarios. Ainsi le plugin va personnaliser les listes déroulantes avec les informations présentes sur votre compte.
 
-### Détecteur à Image 
+### Configuration - Détecteur à Image 
 
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
@@ -88,7 +88,7 @@ Les vidéos sont visibles via la page de l'équipement en cliquant sur le bouton
 
 ![Configuration Detecteur à Images](images/ModaleVideosImageDetector.png)
 
-### Portail Adyx
+### Configuration - Portail Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 > 
@@ -190,7 +190,7 @@ Vous pouvez forcer la regénération manuellement avec les commandes suivante di
 
 # Commandes
 
-## Centrale 
+## Commandes - Centrale 
 
 Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
@@ -243,7 +243,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
     -   _Exemple "code d'accès principal"_
 -   IMPORT - Dernier utilisateur : Dernière methode ayant intervenu sur l'alarme, reçue par message (mail ou sms)
 
-## Détecteur à Image 
+## Commandes - Détecteur à Image 
 
 Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
@@ -255,7 +255,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 -   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé
 
-## Portail Adyx
+## Commandes - Portail Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
 
