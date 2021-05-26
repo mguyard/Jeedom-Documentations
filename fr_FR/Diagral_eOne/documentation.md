@@ -21,7 +21,8 @@ C'est donc une interface __CLOUD__
 # Equipements supportés
 
 - Centrale d'alarme
-- Détecteur à images 
+- Détecteur à images
+- Camera <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
 - Portail Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
 # Configuration
@@ -88,10 +89,20 @@ Les vidéos sont visibles via la page de l'équipement en cliquant sur le bouton
 
 ![Configuration Detecteur à Images](images/ModaleVideosImageDetector.png)
 
+### Configuration - Camera
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
+
+Une camera Diagral se comporte visuellement et d'un point de vue configuration comme un Détecteur à Image.
+Cependant, il est uniquement possible de consulter les videos prises.
+Diagral utilise le service EzViz pour piloter les cameras mais rien n'est documenter et cela ne transite pas en HTTP(s) donc je ne peux pas faire de reverse engineering dessus.
+
+Cependant si certain ont des idées, je suis preneur.
+
 ### Configuration - Portail Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
-> 
+
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
 ![Configuration Portail Adyx](images/AdyxPortailEqLogic.png)
@@ -251,6 +262,13 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 -   __Déclencher Enregistrement__ : Déclenche manuellement un enregistrement sur le détecteur à image
 
+### Info
+
+-   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé
+
+## Commandes - Caméra
+
+Il existe actuellement une seule commandes qui est décrites ci-dessous :
 ### Info
 
 -   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé

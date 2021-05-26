@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+
+# 2021-05-14 - v2.2.0 (BETA)
+
+- Ajout du support des [Cameras Diagral](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
 # 2021-05-14 - v2.1.0 (BETA)
 
 - Ajout du support des [Portails Adyx](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
