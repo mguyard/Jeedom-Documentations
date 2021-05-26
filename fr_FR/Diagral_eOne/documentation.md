@@ -268,6 +268,8 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ## Commandes - Caméra
 
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
+
 Il existe actuellement une seule commandes [(raisons détaillés ici)](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Configuration%20-%20Camera) qui est décrites ci-dessous :
 ### Info
 
@@ -275,7 +277,7 @@ Il existe actuellement une seule commandes [(raisons détaillés ici)](https://m
 
 ## Commandes - Portail Adyx
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
 Le portail connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
 
