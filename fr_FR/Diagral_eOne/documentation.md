@@ -268,7 +268,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ## Commandes - Caméra
 
-Il existe actuellement une seule commandes qui est décrites ci-dessous :
+Il existe actuellement une seule commandes [(raisons détaillés ici)](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Configuration%20-%20Camera) qui est décrites ci-dessous :
 ### Info
 
 -   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé
@@ -277,7 +277,7 @@ Il existe actuellement une seule commandes qui est décrites ci-dessous :
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
 
-Le portail connecté via Diagral ne remonte pas le statut. Aucune commande info est donc créée.
+Le portail connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
 
 ### Action
 
