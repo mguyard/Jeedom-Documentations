@@ -189,7 +189,7 @@ Dans un scénario, vous pouvez utiliser la commande __Rafraichir__ afin de refor
 
 ## A réception d'un Email ou SMS
 
-> <span style="color:red">_Diagral a indiqué qu'ils n'enverrait plus de notification Mail lors d'une activation/désactivation de l'alarme. Cette méthode deviendra donc obsolète pour forcer un rafraichissement dès lors qu'il appliquerons cette décision._</span>
+> <span style="color:red">_Diagral a indiqué qu'ils n'enverraient plus de notification Mail lors d'une activation/désactivation de l'alarme. Cette méthode deviendra donc obsolète pour forcer un rafraichissement dès lors qu'il appliquerons cette décision._</span>
 
 Le plugin permet de recevoir des informations non disponibles par l'API (utilisateur intervenu, déclenchement d'alarme, etc...) au travers d'Email ou SMS.
 Le plugin ne gère pas la collecte Email ou SMS. Il faut donc utiliser un autre plugin pour transmettre le message au plugin.
