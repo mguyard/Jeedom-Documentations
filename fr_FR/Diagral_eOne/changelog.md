@@ -2,6 +2,13 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2O21-08-26 - v2.3.0 (BETA)
+
+- Ajout du support des [Commandes / Transmetteurs / Sensors / Sirenes](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
+- Ajout du support des [Modules Garage Adyx](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
+- Ajout du support des [Modules KNX Light](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
+- Ajout du support des [Modules Volet Adyx](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
+- Ajout du support des [Modules Volet KNX](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
 
 # 2021-05-26 - v2.2.0 (BETA)
 

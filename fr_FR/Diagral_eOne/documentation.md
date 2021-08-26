@@ -14,16 +14,21 @@ Ce plugin Jeedom vous permet d'interragir avec votre alarme Diagral e-ONE au mê
 
 # Principe 
 
-Diagral propose uniquement une méthode Cloud d'interraction avec votre alarme, par conséquent ce plugin utilise une connexion internet pour interragir avec votre alarme.
+Diagral propose uniquement une méthode Cloud d'interraction avec votre alarme (au travers de la Box E-One DIAG56AAX), par conséquent ce plugin utilise une connexion internet pour interragir avec votre alarme.
 
 C'est donc une interface __CLOUD__
 
 # Equipements supportés
 
-- Centrale d'alarme
-- Détecteur à images
+- Centrale d'alarme (DIAG91AGFK)
+- Détecteur à images (DIAG29AVX)
+- Commandes / Transmetteurs / Sensors / Sirenes <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 - Camera <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
-- Portail Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
+- Module Portail Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
+- Module Garage Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+- Module KNX Light (DIAG65AVX) <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+- Module Volet Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+- Module Volet KNX (DIAG66AVX) <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
 # Configuration
 
@@ -89,6 +94,14 @@ Les vidéos sont visibles via la page de l'équipement en cliquant sur le bouton
 
 ![Configuration Detecteur à Images](images/ModaleVideosImageDetector.png)
 
+### Configuration - Commandes / Transmetteurs / Sensors / Sirenes
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
+
+![Configuration Commandes / Transmetteurs / Sensors / Sirenes](images/moduleEqLogic.png)
+
 ### Configuration - Camera
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
@@ -99,13 +112,45 @@ Diagral utilise le service EzViz pour piloter les cameras mais rien n'est docume
 
 Cependant si certain ont des idées, je suis preneur.
 
-### Configuration - Portail Adyx
+### Configuration - Module Portail Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
 ![Configuration Portail Adyx](images/AdyxPortailEqLogic.png)
+
+### Configuration - Module Garage Adyx
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
+
+![Configuration Garage Adyx](images/AdyxGarageEqLogic.png)
+
+### Configuration - Module KNX Light
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
+
+![Configuration Light KNX](images/KNXLightEqLogic.png)
+
+### Configuration - Module Volet Adyx
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
+
+![Configuration Volet Adyx](images/AdyxVoletEqLogic.png)
+
+### Configuration - Module Volet KNX
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
+
+![Configuration Volet KNX](images/KNXVoletEqLogic.png)
 
 # Déclenchement d'alarme
 
@@ -143,6 +188,8 @@ Une tâche CRON est automatiquement créée sur base du délai entre les tentati
 Dans un scénario, vous pouvez utiliser la commande __Rafraichir__ afin de reforcer un refresh de l'alarme.
 
 ## A réception d'un Email ou SMS
+
+> <span style="color:red">_Diagral a indiqué qu'ils n'enverrait plus de notification Mail lors d'une activation/désactivation de l'alarme. Cette méthode deviendra donc obsolète pour forcer un rafraichissement dès lors qu'il appliquerons cette décision._</span>
 
 Le plugin permet de recevoir des informations non disponibles par l'API (utilisateur intervenu, déclenchement d'alarme, etc...) au travers d'Email ou SMS.
 Le plugin ne gère pas la collecte Email ou SMS. Il faut donc utiliser un autre plugin pour transmettre le message au plugin.
@@ -266,6 +313,28 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 -   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé
 
+
+## Commandes - Commandes / Transmetteurs / Sensors / Sirenes
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
+
+### Action
+
+-   __Rafraichir__ : Mise à jour du statut
+
+### Info
+
+-   __Alerte Batterie__ : Binaire qui indique si un defaut de batterie est détecté (0 = NON / 1 = OUI)
+-   __AutoProtection__ : Binaire qui indique si un defaut d'AutoProtection est détecté (0 = NON / 1 = OUI)
+-   __Radio Alerte__ : Binaire qui indique si une alerte RADIO est en cours (0 = NON / 1 = OUI)
+-   __Alerte ADSL__ : Binaire qui indique si une alerte ADSL est en cours (0 = NON / 1 = OUI)
+-   __Alerte GSM__ : Binaire qui indique si une alerte GSM est en cours (0 = NON / 1 = OUI)
+-   __Alerte Sensor__ : Binaire qui indique si une alerte sur le SENSOR est en cours (0 = NON / 1 = OUI)
+
+Selon le type d'équipement, certaines peuvent être inutiles mais sont retournées par Diagral
+
 ## Commandes - Caméra
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
@@ -275,7 +344,7 @@ Il existe actuellement une seule commandes [(raisons détaillés ici)](https://m
 
 -   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé
 
-## Commandes - Portail Adyx
+## Commandes - Module Portail Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
@@ -285,6 +354,60 @@ Le portail connecté via Diagral ne remonte pas le statut. Aucune commande info 
 
 -   __Ouverture totale__ : Déclenche l'ouverture totale du portail
 -   __Ouverture Pieton__ : Déclenche l'ouverture partiel (piéton) du portail
+
+## Commandes - Module Garage Adyx
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Le module Garage Adyx connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
+### Action
+
+-   __Mouvement__ : Déclenche un mouvement sur la porte de garage (ouvre si garage fermé / ferme si garage ouvert)
+
+## Commandes - Module KNX Light
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
+
+### Action
+
+-   __Rafraichir__ : Mise à jour du statut
+-   __Allumer__ : Le nom est assez parlant
+-   __Eteindre__ : Le nom est assez parlant
+
+### Info
+
+-   __Statut__ : Binaire qui indique l'état (0 = OFF / 1 = ON)
+
+## Commandes - Module Volet Adyx
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
+
+Le module Volet ADYX connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
+
+### Action
+
+-   __Ouverture__ : Le nom est assez parlant
+-   __Fermeture__ : Le nom est assez parlant
+-   __Stop__ : Le nom est assez parlant
+
+## Commandes - Module KNX Volet
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+
+Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
+### Action
+
+-   __Rafraichir__ : Mise à jour du statut
+-   __Ouverture__ : Le nom est assez parlant
+-   __Fermeture__ : Le nom est assez parlant
+-   __Stop__ : Le nom est assez parlant
+-   __Position__ : Specifie un pourcentage de fermeture a appliquer sur le volet
+
+### Info
+
+-   __Etat Position__ : Binaire qui indique le pourcentage de fermeture du volet
 
 # Journal d'activité
 
@@ -323,6 +446,7 @@ Voici la correspondance des modes HomeKit et des commandes du plugin :
 * Nuit : Activation Mode Presence
 * Désactivée : Désactivation Total
 
+Les types génériques sont aussi positionnés pour les équipements Portail, Garage, Volets, Lumières
 
 # Diagnostique
 
@@ -382,7 +506,7 @@ La numérotation des versions est effectuée ainsi pour le moment :
 
 # Roadmap
 
-- Ajout de nouveaux messages SMS/EMAIL
+- Implémentation d'un webhook au sein du plugin pour permettre un refresh
 
 > C'est aussi vous qui aller donner la direction que prendra ce plugin, donc je suis à votre écoute
 > 
