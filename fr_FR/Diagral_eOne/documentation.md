@@ -187,6 +187,15 @@ Une tâche CRON est automatiquement créée sur base du délai entre les tentati
 
 Dans un scénario, vous pouvez utiliser la commande __Rafraichir__ afin de reforcer un refresh de l'alarme.
 
+## Webhook
+
+Un webhook est disponible au sein du plugin pour forcer un rafraichissement a partir de solution tierces comme Macrodroid ou tout autre produit en mesure de faire un requete WEB sur la reception d'une notification de l'application Diagral eOne.
+Le webhook doit être appellé dans le format http(s)://<jeedom-vhost>/plugins/Diagral_eOne/core/php/webhook.php?apikey=<apikey>&action=refresh&eq=<eqId>
+Les paramètres sont :
+- apikey : Clé API du plugin Diagral (visible dans la configuration du plugin) - OBLIGATOIRE
+- action : Doit contenir 'refresh'. Peut être que d'autres seront disponible plus tard - OPTIONNEL : si non précisé cela appliquera un refresh
+- eq : Doit contenir l'ID de l'équipement sur lequel appliqué l'action - OPTIONNEL : si non précisé, cela mettra à jour tout les équipements (comme la CRON)
+
 ## A réception d'un Email ou SMS
 
 > <span style="color:red">_Diagral a indiqué qu'ils n'enverraient plus de notification Mail lors d'une activation/désactivation de l'alarme. Cette méthode deviendra donc obsolète pour forcer un rafraichissement dès lors qu'il appliquerons cette décision._</span>
