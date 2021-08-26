@@ -24,10 +24,10 @@ C'est donc une interface __CLOUD__
 - Détecteur à images (DIAG29AVX)
 - Commandes / Transmetteurs / Sensors / Sirenes <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 - Camera <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
-- Module Portail Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
-- Module Garage Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+- Motorisation Portail Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
+- Motorisation Garage Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 - Module KNX Light (DIAG65AVX) <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-- Module Volet Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+- Motorisation Volet Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 - Module Volet KNX (DIAG66AVX) <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
 # Configuration
@@ -112,7 +112,7 @@ Diagral utilise le service EzViz pour piloter les cameras mais rien n'est docume
 
 Cependant si certain ont des idées, je suis preneur.
 
-### Configuration - Module Portail Adyx
+### Configuration - Motorisation Portail Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
@@ -136,7 +136,7 @@ Aucune configuration particulière à effectuer ici. L'équipement est créé de
 
 ![Configuration Light KNX](images/KNXLightEqLogic.png)
 
-### Configuration - Module Volet Adyx
+### Configuration - Motorisation Volet Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
@@ -344,7 +344,7 @@ Il existe actuellement une seule commandes [(raisons détaillés ici)](https://m
 
 -   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé
 
-## Commandes - Module Portail Adyx
+## Commandes - Motorisation Portail Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
@@ -355,11 +355,11 @@ Le portail connecté via Diagral ne remonte pas le statut. Aucune commande info 
 -   __Ouverture totale__ : Déclenche l'ouverture totale du portail
 -   __Ouverture Pieton__ : Déclenche l'ouverture partiel (piéton) du portail
 
-## Commandes - Module Garage Adyx
+## Commandes - Motorisation Garage Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
-Le module Garage Adyx connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
+La motorisation Garage Adyx connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
 ### Action
 
 -   __Mouvement__ : Déclenche un mouvement sur la porte de garage (ouvre si garage fermé / ferme si garage ouvert)
@@ -380,11 +380,11 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 -   __Statut__ : Binaire qui indique l'état (0 = OFF / 1 = ON)
 
-## Commandes - Module Volet Adyx
+## Commandes - Motorisation Volet Adyx
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
-Le module Volet ADYX connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
+Le Motorisation Volet Adyx connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
 
 ### Action
 
