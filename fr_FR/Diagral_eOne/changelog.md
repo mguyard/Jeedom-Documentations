@@ -9,7 +9,7 @@ __Lorsque aucunes informations ne sont disponibles sur le changelog, cela impliq
 - Ajout du support des [Modules KNX Light](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
 - Ajout du support des [Motorisation Volet Adyx](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
 - Ajout du support des [Modules Volet KNX](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)
-- Ajout d'un webhook pour lancer des mises à jour sur reception de notification d'application mobile (cf. documentation)
+- Ajout d'un webhook pour lancer des [mises à jour sur reception de notification d'application mobile](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Webhook)
 
 # 2021-05-26 - v2.2.0 (BETA)
 

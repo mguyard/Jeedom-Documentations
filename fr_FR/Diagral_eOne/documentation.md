@@ -190,11 +190,14 @@ Dans un scénario, vous pouvez utiliser la commande __Rafraichir__ afin de refor
 ## Webhook
 
 Un webhook est disponible au sein du plugin pour forcer un rafraichissement a partir de solution tierces comme Macrodroid ou tout autre produit en mesure de faire un requete WEB sur la reception d'une notification de l'application Diagral eOne.
-Le webhook doit être appellé dans le format http(s)://<jeedom-vhost>/plugins/Diagral_eOne/core/php/webhook.php?apikey=<apikey>&action=refresh&eq=<eqId>
+Le webhook doit être appellé dans le format 
+
+> http(s)://<jeedom-vhost>/plugins/Diagral_eOne/core/php/webhook.php?apikey=<apikey>&action=refresh&eq=<eqId>
+
 Les paramètres sont :
-- apikey : Clé API du plugin Diagral (visible dans la configuration du plugin) - OBLIGATOIRE
-- action : Doit contenir 'refresh'. Peut être que d'autres seront disponible plus tard - OPTIONNEL : si non précisé cela appliquera un refresh
-- eq : Doit contenir l'ID de l'équipement sur lequel appliqué l'action - OPTIONNEL : si non précisé, cela mettra à jour tout les équipements (comme la CRON)
+- __apikey__ : Clé API du plugin Diagral (visible dans la configuration du plugin) - OBLIGATOIRE
+- __action__ : Doit contenir 'refresh'. Peut être que d'autres seront disponible plus tard - OPTIONNEL : si non précisé cela appliquera un refresh
+- __eq__ : Doit contenir l'ID de l'équipement sur lequel appliqué l'action - OPTIONNEL : si non précisé, cela mettra à jour tout les équipements (comme la CRON)
 
 ## A réception d'un Email ou SMS
 
