@@ -394,7 +394,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ## Commandes - Motorisation Volet Adyx
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
 Le Motorisation Volet Adyx connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
 
