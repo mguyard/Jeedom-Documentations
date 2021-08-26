@@ -195,9 +195,9 @@ Le webhook doit être appellé dans le format
 > http(s)://#jeedom-vhost#/plugins/Diagral_eOne/core/php/webhook.php?apikey=#apikey#&action=refresh&eq=#eqId#
 
 Les paramètres sont :
-- __apikey__ : Clé API du plugin Diagral (visible dans la configuration du plugin) - OBLIGATOIRE
-- __action__ : Doit contenir 'refresh'. Peut être que d'autres seront disponible plus tard - OPTIONNEL : si non précisé cela appliquera un refresh
-- __eq__ : Doit contenir l'ID de l'équipement sur lequel appliqué l'action - OPTIONNEL : si non précisé, cela mettra à jour tout les équipements (comme la CRON)
+- __apikey__ : Clé API du plugin Diagral (visible dans la configuration du plugin) - <span style="color:red">OBLIGATOIRE</span>
+- __action__ : Doit contenir 'refresh'. Peut être que d'autres seront disponible plus tard - <span style="color:red">OPTIONNEL</span> : si non précisé cela appliquera un refresh
+- __eq__ : Doit contenir l'ID de l'équipement sur lequel appliqué l'action - <span style="color:red">OPTIONNEL</span> : si non précisé, cela mettra à jour tout les équipements (comme la CRON)
 
 ## A réception d'un Email ou SMS
 
