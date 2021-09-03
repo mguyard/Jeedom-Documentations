@@ -24,14 +24,14 @@ L'utilisation d'un [relais Bluetooth/Wifi](https://shop.iopool.com/fr/collection
 
 ![Fonctionnement du relais Bluetooth/Wifi](images/RelayWifiWorkingSchema.jpg)
 
-En effet, si vous ne possedez pas de relais, les données que le plugin pourra afficher, seront uniquement les données que votre application aura collecter en Bluetooth.
+En effet, si vous ne possédez pas de relais, les données que le plugin pourra afficher, seront uniquement les données que votre application aura collecté en Bluetooth.
 Il est donc recommandé d'utiliser la sonde pour avoir des données plus régulières sans devoir ouvrir votre application. 
 
 # Economisez de l'argent avec le parrainage iopool
 
-Si vous n'êtes pas encore client iopool et que vous souhaitez acquérir la sonde EcO, je vous propose (mon lien de parrainage)[https://refrr.app/JAubi4Lx7y/58728] qui vous fera __économiser 25 Euros__ pour l'achat d'un [EcO Start](https://shop.iopool.com/fr/collections/start-packs/products/eco-start) (pack incluant la sonde, et des 3Kg produits pour démarrer votre Piscine ou Spa). Ainsi le pack EcO Start vous reviendra à 174€ au lieu de 199€
+Si vous n'êtes pas encore client iopool et que vous souhaitez acquérir la sonde EcO, je vous propose (mon lien de parrainage)[https://refrr.app/JAubi4Lx7y/58728] qui vous fera __économiser 25 Euros__ pour l'achat d'un [EcO Start](https://shop.iopool.com/fr/collections/start-packs/products/eco-start) (pack incluant la sonde, et 3Kg de produits pour démarrer votre Piscine ou Spa). Ainsi le pack EcO Start vous reviendra à 174€ au lieu de 199€
 
-> De mon coté je recevrais aussi un bon d'achat de 25 Euros. Un moyen qui ne vous coûte rien (qui vous fait même gagner 25 Euros) et qui permettra de soutenir le développement du plugin.
+> De mon côté je recevrai aussi un bon d'achat de 25 Euros. Un moyen qui ne vous coûte rien (qui vous fait même gagner 25 Euros) et qui permettra de soutenir le développement du plugin.
 
 <br/>Pour profiter des 25 euros de réduction, rien de plus simple :
 - Cliquez sur [le lien de parrainage](https://refrr.app/JAubi4Lx7y/58728)
@@ -56,7 +56,7 @@ Faite simplement une demande au support iopool au travers de votre application m
 
 # Affichage sur le dashboard
 
-Le plugin inclus un widget qui vous donne visuellement un retour sur les informations récoltés
+Le plugin inclus un widget qui vous donne visuellement un retour sur les informations récoltées
 
 ![Widget](images/widget.png)
 
@@ -84,7 +84,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 ## Info
 
 * __Mode de la sonde__ : Permet de connaitre le mode de la sonde (STANDARD / OPENING / WINTER / INITIALISATION)
-* __Etat général__ : Permet de d'extrapoler a partir des informations collecté le fameux drapeau présent sur l'application iopool
+* __Etat général__ : Permet d'extrapoler à partir des informations collectées le fameux drapeau présent sur l'application iopool
 * __Action requise__ : Permet de savoir si une action est requise (1) ou non (0). L'API ne fournit pas la liste des actions
 * __Temps de filtration recommandé__ : Depuis la version 2.9.0, iopool affiche un temps de filtration recommandé basé sur le débit de la pompe, le volume d'eau et la température de votre piscine. Ideal pour l'utiliser dans un scenario qui déclenche votre pompe, vous saurez maintenant quand l'arréter avec une valeure dynamique.
 * __Dernière mesure - Temperature__ : Température d'eau relevé par la sonde EcO
