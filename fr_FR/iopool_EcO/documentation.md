@@ -12,7 +12,7 @@ Outre la sonde, iopool c'est aussi une [application mobile](https://iopool.com/f
 
 La sonde iopool est uniquement compatible Bluetooth et l'ensemble des informations et actions sont disponible directement dans l'application mobile iopool lorsque vous êtes à portée du bluetooth. Ces données sont ensuite transmise par l'application au cloud iopool.
 
-Cependant, iopool propose un [relais Bluetooth/Wifi](https://shop.iopool.com/fr/collections/accessories/products/relais-wi-fi) qui permet de collecter les données de la sonde EcO et les transmettre en wifi vers le cloud iopool. Ainsi depuis n'importe où, vous pouvez accéder aux informations de votre piscine avec votre application mobile iopool et qu'avec votre Jeedom.
+Cependant, iopool propose un [relais Bluetooth/Wifi](https://shop.iopool.com/fr/collections/accessories/products/relais-wi-fi) que vous laissez à portée Bluetooth de la piscine et qui permet de collecter les données de la sonde EcO et les transmettre en wifi vers le cloud iopool. Ainsi depuis n'importe où, vous pouvez accéder aux informations de votre piscine avec votre application mobile iopool et qu'avec votre Jeedom.
 
 Ce plugin est donc une interface avec le __CLOUD iopool__
 
@@ -21,6 +21,7 @@ Ce plugin est donc une interface avec le __CLOUD iopool__
 L'utilisation d'un [relais Bluetooth/Wifi](https://shop.iopool.com/fr/collections/accessories/products/relais-wi-fi) est une recommandation au fonctionnement du plugin.
 
 ![Photo relais Wifi](images/PhotoRelaisWifi.jpg)
+
 ![Fonctionnement du relais Bluetooth/Wifi](images/RelayWifiWorkingSchema.jpg)
 
 En effet, si vous ne possedez pas de relais, les données que le plugin pourra afficher, seront uniquement les données que votre application aura collecter en Bluetooth.
@@ -33,12 +34,12 @@ Si vous n'êtes pas encore client iopool et que vous souhaitez acquérir la sond
 > De mon coté je recevrais aussi un bon d'achat de 25 Euros. Un moyen qui ne vous coûte rien (qui vous fait même gagner 25 Euros) et qui permettra de soutenir le développement du plugin.
 
 <br/>Pour profiter des 25 euros de réduction, rien de plus simple :
-- Cliquez sur (le lien de parrainage)[https://refrr.app/JAubi4Lx7y/58728]
+- Cliquez sur [le lien de parrainage](https://refrr.app/JAubi4Lx7y/58728)
 - Une fenêtre "pop-up" s'ouvre après quelques secondes (soyez patient pour mériter les 25€), vous invitant à créer un compte
 - Une fois votre compte créé, vous devriez voir une fenêtre pop-up avec votre code de réduction
 - Une fois votre code de réduction reçu et copié, vous pouvez ajouter votre pack EcO Start dans le panier, valider votre achat, sans oublier d'indiquer votre code de réduction avant de procéder au paiement.
 
-> Si vous avez déjà un compte iopool mais n'avez jamais commandé, contacter le support pour demander la supression de votre compte afin que vous puissiez en recréer un et profiter du bon de reduction (Note: vous pouvez aussi créer un compte avec une nouvelle adresse email).
+> Si vous avez déjà un compte iopool mais n'avez jamais commandé, contacter le support pour demander la supression de votre compte afin que vous puissiez créer un nouveau compte et profiter du bon de reduction (Note: vous pouvez aussi créer un compte avec une nouvelle adresse email).
 
 ![Code Parrainage](images/iopool_parrainage.png)
 
