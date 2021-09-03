@@ -49,6 +49,19 @@ var docMenu = [
       {link : "/Jeedom-Documentations/#LANG#/Mercedes_me/faq",icon:"fas fa-question",fr_FR:"FAQ"}
     ]
   },{
+    fr_FR : "iopool - EcO",
+    /*
+    en_US : "Service",
+    es_ES : "Servicios",
+    de_DE : "Service",
+    pt_PT : "Serviços",
+    */
+    submenu:[
+      {link : "/Jeedom-Documentations/#LANG#/iopool_EcO/documentation",icon:"fas fa-book",fr_FR:"Documentation"},
+      {link : "/Jeedom-Documentations/#LANG#/iopool_EcO/changelog",icon:"fas fa-edit",fr_FR:"Changelog"},
+      {link : "/Jeedom-Documentations/#LANG#/iopool_EcO/faq",icon:"fas fa-question",fr_FR:"FAQ"}
+    ]
+  },{
     divider : true
   },{
     fr_FR : "Libs",
