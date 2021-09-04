@@ -84,7 +84,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 ## Info
 
 * __Mode de la sonde__ : Permet de connaitre le mode de la sonde (STANDARD / OPENING / WINTER / INITIALISATION)
-* __Etat général__ : Permet d'extrapoler à partir des informations collectées le fameux drapeau présent sur l'application iopool
+* __Etat général__ : Permet d'extrapoler à partir des informations collectées le fameux drapeau présent sur l'application iopool (GREEN / ORANGE / RED)
 * __Action requise__ : Permet de savoir si une action est requise (1) ou non (0). L'API ne fournit pas la liste des actions
 * __Temps de filtration recommandé__ : Depuis la version 2.9.0, iopool affiche un temps de filtration recommandé basé sur le débit de la pompe, le volume d'eau et la température de votre piscine. Ideal pour l'utiliser dans un scenario qui déclenche votre pompe, vous saurez maintenant quand l'arréter avec une valeure dynamique.
 * __Dernière mesure - Temperature__ : Température d'eau relevé par la sonde EcO
