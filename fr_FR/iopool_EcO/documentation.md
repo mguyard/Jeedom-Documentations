@@ -92,6 +92,20 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 * __Dernière mesure - orp__ : Mesure de la capacité de désinfection
 * __Dernière mesure - mode de reception__ : Mode de reception de la valeur (standard = application / gateway = Relais Bluetooth/Wifi)
 
+## Historisation
+
+Les commandes suivantes sont historisés par défaut :
+* __Dernière mesure - Temperature__
+* __Dernière mesure - pH__
+* __Dernière mesure - orp__
+
+Afin que les valeurs ne soient pas moyennées dans l'historique, le plugin force que l'historisation Jeedom de ces commandes ne soient pas lissées.
+Ainsi les valeurs affichées dans l'historique correspondent bien aux valeurs collectées.
+Dans le cas contraire, par défaut Jeedom fait une moyenne toute les 5 minutes des valeurs et donc sera moins précis.
+
+L'inconvenient est que donc plus de valeurs peuvent être stockées et donc consommer plus de place en base de données (qui a un impact a terme sur l'espace disque dur).
+
+Si vous souhaitez changer ce comportement, il suffit de suivre ce [tutoriel](https://jeedomiser.fr/article/historiser-vos-commandes/#Mode_de_lissage). L'article est global est très interessant à lire pour votre culture de l'historisation au sein de Jeedom.
 
 # Numerotation des versions
 
