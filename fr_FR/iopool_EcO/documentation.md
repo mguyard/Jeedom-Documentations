@@ -92,7 +92,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 * __Dernière mesure - orp__ : Mesure de la capacité de désinfection
 * __Dernière mesure - mode de reception__ : Mode de reception de la valeur (standard = application / gateway = Relais Bluetooth/Wifi)
 
-## Historisation
+# Historisation
 
 Les commandes suivantes sont historisés par défaut :
 * __Dernière mesure - Temperature__
