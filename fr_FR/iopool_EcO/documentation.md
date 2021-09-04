@@ -105,7 +105,7 @@ Dans le cas contraire, par défaut Jeedom fait une moyenne toute les 5 minutes d
 
 L'inconvenient est que donc plus de valeurs peuvent être stockées et donc consommer plus de place en base de données (qui a un impact a terme sur l'espace disque dur).
 
-Si vous souhaitez changer ce comportement, il suffit de suivre ce [tutoriel](https://jeedomiser.fr/article/historiser-vos-commandes/#Mode_de_lissage). L'article est globalement très interessant à lire pour votre culture de l'historisation au sein de Jeedom.
+Si vous souhaitez changer ce comportement, il suffit de suivre ce [tutoriel](https://jeedomiser.fr/article/historiser-vos-commandes/#Mode_de_lissage) pour remettre un lissage par défaut (moyenne). L'article est globalement très interessant à lire pour votre culture de l'historisation au sein de Jeedom.
 
 # Numerotation des versions
 
