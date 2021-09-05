@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-05 - v1.0.5 (BETA)
+
+- Correction du widget pour gérer les multiples widget iopool sur le dashboard et eviter les collisions
 # 2021-09-04 - v1.0.4 (BETA)
 
 - Changement de la crontab : Avant cette version, le rafraichissement automatique se faisait toutes les 15 minutes (0,15,30,45) comme la durée entre 2 analyses de la sonde. Cependant ainsi il fallait attendre le prochain rafraichissement (t+1) pour avoir la valeur (t) et donc on avait un décalage de 15 minutes (même si l'historisation était a la bonne heure). Désormais le rafraichissement se fait toutes les 15 minutes mais déclalé de 2 minutes (2,17,32,47) pour avoir les données plus rapidement.
