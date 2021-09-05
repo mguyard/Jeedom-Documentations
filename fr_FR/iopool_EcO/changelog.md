@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-05 - v1.0.6 (BETA)
+
+- Correction d'un souci (bug ??) avec le cache widget de Jeedom qui altérait le code Javascript du Widget. Désormais le cache du widget (et uniquement celui-ci) est purgé avant génération/refresh. C'est un workaround sans impact pour vous mais je vais essayé de comprendre pourquoi le cache widget de Jeedom fait cela.
 # 2021-09-05 - v1.0.5 (BETA)
 
 - Correction du widget pour gérer les multiples widget iopool sur le dashboard et eviter les collisions
