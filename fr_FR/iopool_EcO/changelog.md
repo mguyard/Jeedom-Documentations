@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-05 - v1.0.8 (BETA)
+
+- Intégration des SPA pour ajuster les seuils de température
 # 2021-09-05 - v1.0.7 (BETA)
 
 - Correction du bug d'affichage du temps de filtration lors d'une heure entiere

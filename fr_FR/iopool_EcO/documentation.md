@@ -54,6 +54,12 @@ Une fois actif, vous devez saisir dans la configuration du plugin, votre clé AP
 
 Faites simplement une demande au support iopool au travers de votre application mobile : Plus > Support > Envoyez-nous un message
 
+# Découverte des sondes
+
+Pour découvrir l'ensemble des sondes de votre compte, aller dans le plugin et cliquez sur "Synchronisation".
+L'ensemble des sondes vont être créées.
+
+> Par défaut, les sondes sont créées pour une utilisation __Piscine__. Si vous l'utilisez au sein d'un SPA, éditez l'équipement pour le configurer en tant que type SPA. Ainsi les seuils de températures seront ajustées sur le widget du dashboard.
 # Affichage sur le dashboard
 
 Le plugin inclut un widget qui vous donne visuellement un retour sur les informations récoltées
