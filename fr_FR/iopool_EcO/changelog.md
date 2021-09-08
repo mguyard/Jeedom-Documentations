@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-05 - v1.0.9 (BETA)
+
+- Passage de la fréquence de [rafraichissement automatique](https://mguyard.github.io/Jeedom-Documentations/fr_FR/iopool_EcO/documentation#Automatique) de 15mn à 5mn (cf. doc)
+- Mise à jour des traductions fr_FR et eu_US
 # 2021-09-05 - v1.0.8 (BETA)
 
 - Intégration des SPA pour ajuster les seuils de température

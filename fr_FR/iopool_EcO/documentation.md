@@ -71,7 +71,10 @@ Le plugin inclut un widget qui vous donne visuellement un retour sur les informa
 
 ## Automatique
 
-Une tâche CRON est automatiquement créée et s'exécute toute les 15 minutes.
+Une tâche CRON est automatiquement créée et s'exécute toute les 5 minutes.
+
+> Afin de ne pas surcharger le cloud iopool de requetes simultanées, un temps d'attente aléatoire entre 0 et 60 secondes s'ajoute lors du lancement du rafraichissement automatique des données
+> Ce temps d'attente n'est ajouté qu'une seule fois même si l'on a plusieures sondes.
 
 ## Manuelle
 
