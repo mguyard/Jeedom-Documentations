@@ -2,14 +2,17 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
-# 2021-09-05 - v1.0.9 (BETA)
+# 2021-09-08 - v1.0.10 (BETA)
+
+- Ajout d'un affichage du mode WINTER sur le dashboard quand la sonde est en mode hivernage
+# 2021-09-08 - v1.0.9 (BETA)
 
 - Passage de la fréquence de [rafraichissement automatique](https://mguyard.github.io/Jeedom-Documentations/fr_FR/iopool_EcO/documentation#Automatique) de 15mn à 5mn (cf. doc)
 - Mise à jour des traductions fr_FR et eu_US
-# 2021-09-05 - v1.0.8 (BETA)
+# 2021-09-07 - v1.0.8 (BETA)
 
 - Intégration des SPA pour ajuster les seuils de température
-# 2021-09-05 - v1.0.7 (BETA)
+# 2021-09-06 - v1.0.7 (BETA)
 
 - Correction du bug d'affichage du temps de filtration lors d'une heure entiere
 # 2021-09-05 - v1.0.6 (BETA)
