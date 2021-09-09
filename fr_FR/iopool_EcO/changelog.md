@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-09 - v1.0.11 (BETA)
+
+- Mise à jour des traductions fr_FR et eu_US
 # 2021-09-08 - v1.0.10 (BETA)
 
 - Ajout d'un affichage du mode WINTER sur le dashboard quand la sonde est en mode hivernage
