@@ -2,6 +2,12 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-09 - v1.0.12 (BETA)
+
+- Correction d'un bug d'import des données lorsque l'on a plusieurs EcO
+- Ajout d'un message d'alerte en cas de changement de clé API dans la configuration du plugin si des équipements existent dans le plugin
+- Amélioration du widget pour mieux gérer les valeurs vides
+- Ajout sur le widget de l'information de la source des données
 # 2021-09-09 - v1.0.11 (BETA)
 
 - Mise à jour des traductions fr_FR et eu_US
