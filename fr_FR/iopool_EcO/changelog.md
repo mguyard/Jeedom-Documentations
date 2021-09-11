@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-11 - v1.0.13 (BETA)
+
+- Correction d'un bug d'affichage pour les données OUTDATED
 # 2021-09-09 - v1.0.12 (BETA)
 
 - Correction d'un bug d'import des données lorsque l'on a plusieurs EcO
