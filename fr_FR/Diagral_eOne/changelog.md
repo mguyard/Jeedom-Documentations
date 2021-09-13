@@ -2,6 +2,12 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-13 - v2.3.1
+
+- Passage en stable de la version 2.3.1
+# 2021-08-26 - v2.3.1 (BETA)
+
+- Ajout d'un log dans le code
 # 2O21-08-26 - v2.3.0 (BETA)
 
 - Ajout du support des [Commandes / Transmetteurs / Sensors / Sirenes](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Equipements%20supportés)

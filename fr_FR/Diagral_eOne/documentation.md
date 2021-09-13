@@ -22,13 +22,13 @@ C'est donc une interface __CLOUD__
 
 - Centrale d'alarme (DIAG91AGFK)
 - Détecteur à images (DIAG29AVX)
-- Commandes / Transmetteurs / Sensors / Sirenes <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-- Camera <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
-- Motorisation Portail Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
-- Motorisation Garage Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-- Module KNX Light (DIAG65AVX) <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-- Motorisation Volet Adyx <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-- Module Volet KNX (DIAG66AVX) <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
+- Commandes / Transmetteurs / Sensors / Sirenes
+- Camera
+- Motorisation Portail Adyx
+- Motorisation Garage Adyx
+- Module KNX Light (DIAG65AVX)
+- Motorisation Volet Adyx
+- Module Volet KNX (DIAG66AVX)
 
 # Configuration
 
@@ -96,15 +96,11 @@ Les vidéos sont visibles via la page de l'équipement en cliquant sur le bouton
 
 ### Configuration - Commandes / Transmetteurs / Sensors / Sirenes
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
 ![Configuration Commandes / Transmetteurs / Sensors / Sirenes](images/moduleEqLogic.png)
 
 ### Configuration - Camera
-
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
 
 Une camera Diagral se comporte visuellement et d'un point de vue configuration comme un Détecteur à Image.
 Cependant, il est uniquement possible de consulter les videos prises.
@@ -114,15 +110,11 @@ Cependant si certain ont des idées, je suis preneur.
 
 ### Configuration - Motorisation Portail Adyx
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
-
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
 ![Configuration Portail Adyx](images/AdyxPortailEqLogic.png)
 
 ### Configuration - Module Garage Adyx
-
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
@@ -130,23 +122,17 @@ Aucune configuration particulière à effectuer ici. L'équipement est créé de
 
 ### Configuration - Module KNX Light
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
 ![Configuration Light KNX](images/KNXLightEqLogic.png)
 
 ### Configuration - Motorisation Volet Adyx
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
 ![Configuration Volet Adyx](images/AdyxVoletEqLogic.png)
 
 ### Configuration - Module Volet KNX
-
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
 Aucune configuration particulière à effectuer ici. L'équipement est créé de façon automatique et est actif après une synchronisation.
 
@@ -328,8 +314,6 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ## Commandes - Commandes / Transmetteurs / Sensors / Sirenes
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-
 Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ### Action
@@ -349,16 +333,12 @@ Selon le type d'équipement, certaines peuvent être inutiles mais sont retourn�
 
 ## Commandes - Caméra
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.2.0__</span>
-
 Il existe actuellement une seule commandes [(raisons détaillés ici)](https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Configuration%20-%20Camera) qui est décrites ci-dessous :
 ### Info
 
 -   __Dernière video__ : Retourne le chemin complet de la dernière vidéo téléchargé
 
 ## Commandes - Motorisation Portail Adyx
-
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.1.0__</span>
 
 Le portail connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
 
@@ -369,16 +349,12 @@ Le portail connecté via Diagral ne remonte pas le statut. Aucune commande info 
 
 ## Commandes - Motorisation Garage Adyx
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-
 La motorisation Garage Adyx connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
 ### Action
 
 -   __Mouvement__ : Déclenche un mouvement sur la porte de garage (ouvre si garage fermé / ferme si garage ouvert)
 
 ## Commandes - Module KNX Light
-
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
 Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
@@ -394,8 +370,6 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 ## Commandes - Motorisation Volet Adyx
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
-
 Le Motorisation Volet Adyx connecté via Diagral ne remonte pas le statut. Aucune commande info n'est donc créée.
 
 ### Action
@@ -405,8 +379,6 @@ Le Motorisation Volet Adyx connecté via Diagral ne remonte pas le statut. Aucun
 -   __Stop__ : Le nom est assez parlant
 
 ## Commandes - Module KNX Volet
-
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.3.0__</span>
 
 Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 ### Action
