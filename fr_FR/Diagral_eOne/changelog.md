@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-17 - v2.3.2 (BETA)
+
+- Correction d'un bug sur l'activation partielle
 # 2021-09-13 - v2.3.1
 
 - Passage en stable de la version 2.3.1
