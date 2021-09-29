@@ -111,7 +111,7 @@ Pour le configurer, un nouvel onglet est disponible sur l'équipement.
 
 > L'envoi de notification s'appui sur un plugin tiers configurable (DiscordLink, Telegram, etc...)
 > 
-> Seul les commandes de type "action" et sous-type "message" peuvent être utilisé pour envoyer les notifications. Ce type de commande correspond généralement aux commandes de notification traditionnelles
+> Seules les commandes de type "action" et sous-type "message" peuvent être utilisé pour envoyer les notifications. Ce type de commande correspond généralement aux commandes de notification traditionnelles
 
 Vous pouvez définir de recevoir des alertes pour tout ou parti de ces indateurs:
 * __Données obsolètes__ : Correspond à la non réception de valeure de la sonde eCo depuis plus de 24h
