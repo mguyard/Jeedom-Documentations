@@ -2,6 +2,12 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-29 - v1.1.0 (BETA)
+
+- Ajout de la capacité d'envoyer des notifications
+# 2021-09-21 - v1.0.13 (STABLE)
+
+- Passage en stable de la version 1.0.13
 # 2021-09-11 - v1.0.13 (BETA)
 
 - Correction d'un bug d'affichage pour les données OUTDATED

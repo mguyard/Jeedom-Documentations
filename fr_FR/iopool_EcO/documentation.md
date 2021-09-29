@@ -102,6 +102,29 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 * __Dernière mesure - orp__ : Mesure de la capacité de désinfection
 * __Dernière mesure - mode de reception__ : Mode de réception de la valeur (standard = application / gateway = Relais Bluetooth/Wifi)
 
+# Notifications
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v1.1.0__</span>
+
+Le plugin permet de générer des notifications lorsque certains indicateurs passe en warning ou critical.
+Pour le configurer, un nouvel onglet est disponible sur l'équipement.
+
+> L'envoi de notification s'appui sur un plugin tiers configurable (DiscordLink, Telegram, etc...)
+> 
+> Seul les commandes de type "action" et sous-type "message" peuvent être utilisé pour envoyer les notifications. Ce type de commande correspond généralement aux commandes de notification traditionnelles
+
+Vous pouvez définir de recevoir des alertes pour tout ou parti de ces indateurs:
+* __Données obsolètes__ : Correspond à la non réception de valeure de la sonde eCo depuis plus de 24h
+* __Etat global__ : Correspond à un passage en alerte du drapeau global
+* __ORP__ : Correspond au passage en alerte du ORP
+* __pH__ : Correspond au passage en alerte du pH
+* __Température__ : Correspond au passage en alerte de la température
+
+Il est possible de positionner des filtres:
+* __Alertes critiques uniquement__ : Permet de ne pas prendre en compte les alertes Attention (warning)
+* __Retour à la normale__ : Permet de recevoir une notification lors du retour à la normal des indicateurs selectionnés
+
+![Widget](images/notifications.png)
 # Historisation
 
 Les commandes suivantes sont historisées par défaut :
