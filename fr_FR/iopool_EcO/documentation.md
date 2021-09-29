@@ -106,7 +106,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 > <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v1.1.0__</span>
 
-Le plugin permet de générer des notifications lorsque certains indicateurs passe en warning ou critical.
+Le plugin permet de générer des notifications lorsque certains indicateurs passent en warning ou critical.
 Pour le configurer, un nouvel onglet est disponible sur l'équipement.
 
 > L'envoi de notification s'appui sur un plugin tiers configurable (DiscordLink, Telegram, etc...)
