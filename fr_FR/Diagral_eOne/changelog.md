@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2021-09-17 - v2.3.4
+
+- Correction d'un bug sur la cron qui ne rafraichissait pas les centrales dont le systemid était égale à 0
 # 2021-09-17 - v2.3.3
 
 - Correction d'un bug sur l'activation partielle
