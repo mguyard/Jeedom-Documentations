@@ -1,5 +1,8 @@
 # Important à lire !
 
+# 2021-10-30 - v1.2.2 (BETA)
+
+- Ajout du support des VIN WDC
 # 2021-05-08 - v1.2.1
 
 - Passage en stable de la version 1.2.1
