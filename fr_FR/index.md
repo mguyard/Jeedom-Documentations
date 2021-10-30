@@ -8,10 +8,11 @@ Bienvenue sur le site de documentation des plugins Jeedom de Mguyard.
 
 * [Diagral eOne](Diagral_eOne/documentation)
 * [Mercedes Me](Mercedes_me/documentation)
+* [iopool EcO](iopool_EcO/documentation)
 
 ### Liste des plugins *BETA* uniquement
 
-* [iopool EcO](iopool_EcO/documentation)
+
 
 ### Liste des plugins *EN COURS DE DEVELOPPEMENT*
 
