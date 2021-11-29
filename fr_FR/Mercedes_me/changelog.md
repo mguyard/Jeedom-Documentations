@@ -1,5 +1,12 @@
 # Important à lire !
 
+
+# 2021-10-30 - v1.2.4 (BETA)
+
+- Correction suite à un changement dans la [console Mercedes](https://developer.mercedes-benz.com/console). Désormais si la Redirect URLs est en HTTPS avec le port 443 ou bien en HTTP avec le port 80, la console Mercedes retire le port ce qui fait que Mercedes renvoi une erreur.
+
+> <span style="color:red">_L'application de cette mise à jour aura pour effet de retirer la coherence pour les utilisateurs existant. Ils devront donc aller modifier la Redirect URL dans la console Mercedes à partir de l'URL fournit dans la configuration du plugin_</span>
+
 # 2021-10-30 - v1.2.3 (BETA)
 
 - Nettoyage des logs non voulu (ajouté par CURL) en mode DEBUG

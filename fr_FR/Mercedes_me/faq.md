@@ -17,6 +17,14 @@ L'API Key n'est affichée dans la console que lorsque l'API Vehicule Image est a
 
 -------------
 
+## Erreur 400 lors d'une activation/reconsruction de la connexion Mercedes
+
+Si vous rencontrez cette erreur :
+![Erreur400](images/CreateConnection400.jpeg)
+Verifiez que l'URL "Redirect URL" indiqué dans la configuration du plugin, correspond bien à l'URL saisi dans le champ Redirect URL de votre projet API.
+
+Depuis la version 1.2.4 (cf. changelog), suite au changement de Mercedes dans la gestion de ses URLs de redirection, il se peut qu'il faille l'actualiser (une seule et unique fois)
+
 ## Probleme de récupération des données
 
 -   Vérifiez que vous avez bien accès à internet
