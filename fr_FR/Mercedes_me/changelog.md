@@ -1,5 +1,8 @@
 # Important à lire !
 
+# 2021-10-30 - v1.2.3 (BETA)
+
+- Nettoyage des logs non voulu (ajouté par CURL) en mode DEBUG
 # 2021-10-30 - v1.2.2 (BETA)
 
 - Ajout du support des VIN WDC
