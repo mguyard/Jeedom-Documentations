@@ -1,5 +1,8 @@
 # Important à lire !
 
+# 2021-11-07 - v1.2.5 (BETA)
+
+- Intégration des widgets par defaut Jeedom pour l'utilisation mobile
 
 # 2021-10-30 - v1.2.4 (BETA)
 
