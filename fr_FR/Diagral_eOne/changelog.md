@@ -2,7 +2,7 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
-# 2021-12-15 - v2.3.5
+# 2021-12-15 - v2.3.5 (BETA)
 
 - Support de la version Jeedom 4.2
 # 2021-09-17 - v2.3.4
