@@ -2,7 +2,7 @@
 
 # 2022-01-31 - v1.2.7
 
-- Passage en stable de la version 1.2.6
+- Passage en stable de la version 1.2.7
 > <span style="color:red">_Suite à une mise à jour Mercedes, l'application de cette mise à jour aura pour effet de retirer la coherence pour les utilisateurs existant. Ils devront donc aller modifier la Redirect URL dans la console Mercedes à partir de l'URL fournit dans la configuration du plugin_</span>
 
 # 2022-01-31 - v1.2.7 (BETA)
