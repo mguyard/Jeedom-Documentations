@@ -1,6 +1,5 @@
 # Important à lire !
 
-
 # 2022-01-31 - v1.2.6 (BETA)
 
 - Intégration du nouveau mode tableau de Jeedom Core 4.2

@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-01-31 - v2.3.6 (BETA)
+
+- Intégration du nouveau mode tableau de Jeedom Core 4.2
 # 2021-12-15 - v2.3.5 (BETA)
 
 - Support de la version Jeedom 4.2
