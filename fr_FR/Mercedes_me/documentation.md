@@ -43,6 +43,7 @@ La liste des API a activer sont :
 -   Vehicle Lock Status
 -   Fuel Status (Y compris pour les véhicules électrique)
 -   Electric Vehicle Status (Y compris pour les véhicules non-électriques)
+-   Pay As You Drive Insurance
 
 Pour activer les API, il faut procéder ainsi :
 -   Cliquer sur le __bouton "TRY IT NOW"__ de l'API concernée
@@ -163,6 +164,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 La plupart des commandes d'informations sont des commandes qui retourne un résultat binaire (0 : Non-Fermé / 1 : Oui-Ouvert) sauf informtion contraire ci-dessous :
 
+-   __Odometre__ : Indique le nombre de Kilomètre à l'Odometre. Retourne une valeur numérique
 -   __Verrouillage du vehicule__ : Indique si le véhicule est vérrouillé. Retourne une valeur numérique
     -   0: vehicle ouvert
     -   1: vehicle fermé de l'interieur
