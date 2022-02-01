@@ -1,6 +1,6 @@
 # Important à lire !
 
-# 2022-02-01 - v1.2.8 (BETA)
+# 2022-02-01 - v1.2.8
 
 - Intégration de l'Odomètre via l'API 'Pay As You Drive Insurance'.
 > <span style="color:red">_Pour les installations effectives, il faut ajouter l'API 'Pay As You Drive Insurance' sur la console Mercedes (peut prendre quelques minutes avant l'activation complète) mais il faut aussi 'Refaire la connexion Mercedes' depuis la configuration du plugin afin d'ajouter les droits au plugin sur la nouvelle API 'Pay As You Drive Insurance'_</span>
