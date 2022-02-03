@@ -1,5 +1,9 @@
 # Important à lire !
 
+# 2022-02-03 - v1.2.9
+
+- Adaptation du callback OAUTH2 pour résoudre les changements de sécurité du CORE JEEDOM 4.2
+
 # 2022-02-01 - v1.2.8
 
 - Intégration de l'Odomètre via l'API 'Pay As You Drive Insurance'.
