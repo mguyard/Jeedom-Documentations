@@ -4,9 +4,9 @@ __Lorsque aucunes informations ne sont disponibles sur le changelog, cela impliq
 
 # 2022-03-10 - v2.0.1 (BETA)
 
-- Intégration d'un systéme de gestion de la filtration (cf Documentation)
-- Intégration de notification sur le temps de filtration effectué dans la journée
-- Intégration d'une gestion de boost (compatible homekit)
+- Intégration d'un systéme de gestion de la filtration (cf [Documentation](documentation#Filtration))
+- Intégration de notification sur le temps de filtration effectué dans la journée (cf [Documentation](documentation#Boost%20de%20filtration))
+- Intégration d'une gestion de boost (compatible homekit) (cf [Documentation](documentation#Notifications))
 
 # 2022-03-10 - v1.1.2 (STABLE)
 
