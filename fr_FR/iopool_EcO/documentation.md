@@ -12,20 +12,20 @@ Outre la sonde, iopool c'est aussi une [application mobile](https://iopool.com/f
 
 La sonde iopool est uniquement compatible Bluetooth et l'ensemble des informations et actions sont disponibles directement dans l'application mobile iopool lorsque vous êtes à portée du bluetooth. Ces données sont ensuite transmises par l'application au cloud iopool.
 
-Cependant, iopool propose un [relais Bluetooth/Wifi](https://shop.iopool.com/fr/collections/accessories/products/relais-wi-fi) que vous laissez à portée Bluetooth de la piscine et qui permet de collecter les données de la sonde EcO et les transmettre en wifi vers le cloud iopool. Ainsi depuis n'importe où, vous pouvez accéder aux informations de votre piscine avec votre application mobile iopool et avec votre Jeedom.
+Cependant, iopool propose un [relais Bluetooth/Wifi](https://shop.iopool.com/fr/collections/accessories/products/bluetooth-wifi-gateway) que vous laissez à portée Bluetooth de la piscine et qui permet de collecter les données de la sonde EcO et les transmettre en wifi vers le cloud iopool. Ainsi depuis n'importe où, vous pouvez accéder aux informations de votre piscine avec votre application mobile iopool et avec votre Jeedom.
 
 Ce plugin est donc une interface avec le __CLOUD iopool__
 
 # Pré-requis/Recommandation
 
-L'utilisation d'un [relais Bluetooth/Wifi](https://shop.iopool.com/fr/collections/accessories/products/relais-wi-fi) est une recommandation au fonctionnement du plugin.
+L'utilisation d'un [relais Bluetooth/Wifi](https://shop.iopool.com/fr/collections/accessories/products/bluetooth-wifi-gateway) est une recommandation au fonctionnement du plugin.
 
 ![Photo relais Wifi](images/PhotoRelaisWifi.jpg)
 
 ![Fonctionnement du relais Bluetooth/Wifi](images/RelayWifiWorkingSchema.jpg)
 
-En effet, si vous ne possédez pas de relais, les données que le plugin pourra afficher, seront uniquement les données que votre application aura collectées en Bluetooth.
-Il est donc recommandé d'utiliser la sonde pour avoir des données plus régulières sans devoir ouvrir votre application. 
+__En effet, si vous ne possédez pas de relais, les données que le plugin pourra afficher, seront uniquement les données que votre application aura collectées en Bluetooth.
+Il est donc recommandé d'utiliser le relais pour avoir des données plus régulières sans devoir ouvrir votre application et vous approcher de votre piscine/SPA.__
 
 # Economisez de l'argent avec le parrainage iopool
 
@@ -65,20 +65,71 @@ L'ensemble des sondes vont être créées.
 Le plugin inclut un widget qui vous donne visuellement un retour sur les informations récoltées
 
 ![Widget](images/widget.png)
+![WidgetHivernage](images/widget-hivernage.png)
 
 # Rafraichissement
 
 ## Automatique
 
-Une tâche CRON est automatiquement créée et s'exécute toute les 5 minutes.
+Une tâche CRON s'exécute toute les 5 minutes.
 
-> Afin de ne pas surcharger le cloud iopool de requetes simultanées, un temps d'attente aléatoire entre 0 et 60 secondes s'ajoute lors du lancement du rafraichissement automatique des données
+> Afin de ne pas surcharger le cloud iopool de requetes simultanées, un temps d'attente aléatoire entre 0 et 10 secondes s'ajoute lors du lancement du rafraichissement automatique des données
 > Ce temps d'attente n'est ajouté qu'une seule fois même si l'on a plusieures sondes.
 
 ## Manuelle
 
-Dans un scénario, vous pouvez utiliser la commande Rafraichir afin de reforcer un refresh des informations.
+Dans un scénario, vous pouvez utiliser la commande __Rafraichir__ afin de reforcer un refresh des informations.
 Un bouton de refresh est aussi disponible en haut à droite du widget.
+
+# Filtration
+
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
+
+## Filtration automatique
+
+La sonde EcO iopool permet à partir des informations saisie sur votre piscine (dimension, hauteur d'eau, puissance de pompe, etc...) le temp de filtration recommandé. Ce temps est disponible dans la commande information __Temps de filtration recommandé__
+
+![Filtration](images/filtration.png)
+
+Il est possible au sein d'une sonde du plugin, d'activer la filtration automatique de votre piscine ou SPA. Pour cela, il vous faut une prise connectée, pilotable par Jeedom. Jeedom doit être en mesure de :
+- Allumer la prise
+- Eteindre la prise
+- Retourner son statut (1 : Allumé / 0 : Eteint)
+
+Une fois la filtration activée dans le plugin, vous pouvez configurer les commandes correspondantes à votre prise connectée.
+
+La durée de filtration utilisé comme base est celle fournie par iopool et votre sonde. Toutefois, il est possible de paramétrer son comportement et surcharger le temps recommandé pour iopool.
+
+Plusieurs options sont disponibles pour paramétrer l'usage du temps de filtration recommandé par iopool :
+- Définission jusqu'à 2 plages de filtration
+- Répartition du temps entre les plages de filtration
+- Heure de début des plages de filtrations (l'heure de fin étant définie automatiquement)
+
+Il est possible de surcharger le temps de filtration recommandé par iopool, en l'augmentant ou en le réduisant, en configurant les champs __Durée minimum de filtration__ et __Durée maximum de filtration__
+
+> La partie filtration du plugin fonctionne à partir d'un agenda de filtration qu'il génére automatiquement pour chaque sonde.
+>
+> Le cache est généré quotidiennement dans les 15 minutes précédent l'heure de début de la première plage de filtration, afin d'avoir le temps de filtration recommandé le plus pertinent. 
+
+## Boost de filtration
+
+Lors de certaines situations (comme l'application de produits), il peut être nécessaire de faire fonctionner la pompe pour une durée spécifique (Boost).
+
+Le plugin intégre donc des commandes permettant de lancer/arrêter des Boosts de filtration pour :
+- 1H
+- 4H
+- 8H
+- 24h
+
+> Ces commandes de boost possèdent automatiquement des types générique permettant par exemple, d'être disponible au sein de Homekit (couplé à l'utilisation du plugin Homebridge)
+
+Un boost de filtration vient en complément à la filtration. Ce qui veut dire qu'il ne réduira pas le temps de filtration recommandé par iopool et utilisé par la filtration du plugin.
+
+Cependant, si une période de boost chevauche une période de filtration, la filtration effectuée sera un cumul des périodes
+
+> _Exemple 1 : Une période de filtration est configurée  de 11h à 16h (5h de filtration recommandé par iopool - configuré en une seule plage). Si un boost de 4H est lancé à 10h30, la filtration effectuée sera de 10h30 à 16h sans interruption._
+> 
+> _Exemple 2 : Une période de filtration est configurée de 11h à 13h et de 16h à 18h (4h de filtration recommandé par iopool - configuré en deux plages 50/50). Si un boost de 8H est lancé à 10h30, la filtration effectuée sera de 10h30 à 18h30 sans interruption._
 
 # Commandes
 
@@ -90,6 +141,8 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 * __Rafraichir__ : Mise à jour des informations de la sonde EcO
 
+> Il existe aussi des commandes d'action de Boost de filtration (cf. chapitre dédié)
+
 ## Info
 
 * __Mode de la sonde__ : Permet de connaitre le mode de la sonde (STANDARD / OPENING / WINTER / INITIALISATION)
@@ -100,6 +153,8 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 * __Dernière mesure - pH__ : Mesure pH de la sonde EcO
 * __Dernière mesure - orp__ : Mesure de la capacité de désinfection
 * __Dernière mesure - mode de reception__ : Mode de réception de la valeur (standard = application / gateway = Relais Bluetooth/Wifi)
+
+> Il existe aussi des commandes d'information de Boost de filtration (cf. chapitre dédié)
 
 # Notifications
 
@@ -118,6 +173,7 @@ Vous pouvez définir de recevoir des alertes pour tout ou parti de ces indateurs
 * __ORP__ : Correspond au passage en alerte du ORP
 * __pH__ : Correspond au passage en alerte du pH
 * __Température__ : Correspond au passage en alerte de la température
+* __Durée de filtration__ : Permet d'émettre une notification avec le temps de filtration effectué (cf. chapitre Filtration)
 
 Il est possible de positionner des filtres:
 * __Alertes critiques uniquement__ : Permet de ne pas prendre en compte les alertes Attention (warning)
@@ -127,6 +183,7 @@ Il est possible de positionner des filtres:
 # Historisation
 
 Les commandes suivantes sont historisées par défaut :
+* __Temps de filtration recommandé__
 * __Dernière mesure - Temperature__
 * __Dernière mesure - pH__
 * __Dernière mesure - orp__
