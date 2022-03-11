@@ -87,29 +87,29 @@ Un bouton de refresh est aussi disponible en haut à droite du widget.
 
 ## Filtration automatique
 
-La sonde EcO iopool permet à partir des informations saisie sur votre piscine (dimension, hauteur d'eau, puissance de pompe, etc...) le temp de filtration recommandé. Ce temps est disponible dans la commande information __Temps de filtration recommandé__
+La sonde iopool EcO permet à partir des informations saisie sur votre piscine (dimension, hauteur d'eau, puissance de pompe, etc...) dans l'application iopool, le temp de filtration recommandé. Ce temps est disponible dans la commande information __Temps de filtration recommandé__
 
 ![Filtration](images/filtration.png)
 
-Il est possible au sein d'une sonde du plugin, d'activer la filtration automatique de votre piscine ou SPA. Pour cela, il vous faut une prise connectée, pilotable par Jeedom. Jeedom doit être en mesure de :
-- Allumer la prise
-- Eteindre la prise
-- Retourner son statut (1 : Allumé / 0 : Eteint)
+Il est possible au sein d'une sonde EcO du plugin, d'activer la filtration automatique de votre piscine ou SPA. Pour cela, il vous faut une prise connectée, pilotable par Jeedom. Jeedom doit être en mesure de :
+- Allumer la prise (Commande Action)
+- Eteindre la prise (Commande Action)
+- Retourner son statut (Commande Info = 0 : Eteint / 1 : Allumé)
 
 Une fois la filtration activée dans le plugin, vous pouvez configurer les commandes correspondantes à votre prise connectée.
 
-La durée de filtration utilisé comme base est celle fournie par iopool et votre sonde. Toutefois, il est possible de paramétrer son comportement et surcharger le temps recommandé pour iopool.
+La durée de filtration utilisée comme base est celle fournie par iopool et votre sonde. Toutefois, il est possible de paramétrer son comportement et surcharger le temps recommandé pour iopool.
 
 Plusieurs options sont disponibles pour paramétrer l'usage du temps de filtration recommandé par iopool :
-- Définission jusqu'à 2 plages de filtration
-- Répartition du temps entre les plages de filtration
+- Définir jusqu'à 2 plages de filtration
+- Répartir du temps entre les plages de filtration
 - Heure de début des plages de filtrations (l'heure de fin étant définie automatiquement)
 
 Il est possible de surcharger le temps de filtration recommandé par iopool, en l'augmentant ou en le réduisant, en configurant les champs __Durée minimum de filtration__ et __Durée maximum de filtration__
 
-> La partie filtration du plugin fonctionne à partir d'un agenda de filtration qu'il génére automatiquement pour chaque sonde.
+> La partie filtration du plugin fonctionne à partir d'un agenda de filtration qu'il génére automatiquement et quotidiennement pour chaque sonde.
 >
-> Le cache est généré quotidiennement dans les 15 minutes précédent l'heure de début de la première plage de filtration, afin d'avoir le temps de filtration recommandé le plus pertinent. 
+> Le cache est généré dans les 15 minutes précédent l'heure de début de la première plage de filtration, afin d'avoir le temps de filtration recommandé le plus pertinent. 
 
 ## Boost de filtration
 
@@ -125,7 +125,7 @@ Le plugin intégre donc des commandes permettant de lancer/arrêter des Boosts d
 
 Un boost de filtration vient en complément à la filtration. Ce qui veut dire qu'il ne réduira pas le temps de filtration recommandé par iopool et utilisé par la filtration du plugin.
 
-Cependant, si une période de boost chevauche une période de filtration, la filtration effectuée sera un cumul des périodes
+Cependant, si une période de boost chevauche une période de filtration, la filtration effectuée sera un cumul des périodes.
 
 > _Exemple 1 : Une période de filtration est configurée  de 11h à 16h (5h de filtration recommandé par iopool - configuré en une seule plage). Si un boost de 4H est lancé à 10h30, la filtration effectuée sera de 10h30 à 16h sans interruption._
 > 
@@ -141,7 +141,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 
 * __Rafraichir__ : Mise à jour des informations de la sonde EcO
 
-> Il existe aussi des commandes d'action de Boost de filtration (cf. chapitre dédié)
+> Il existe aussi des commandes d'action de [Boost de filtration](#Boost%20de%20filtration)
 
 ## Info
 
@@ -154,7 +154,7 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 * __Dernière mesure - orp__ : Mesure de la capacité de désinfection
 * __Dernière mesure - mode de reception__ : Mode de réception de la valeur (standard = application / gateway = Relais Bluetooth/Wifi)
 
-> Il existe aussi des commandes d'information de Boost de filtration (cf. chapitre dédié)
+> Il existe aussi des commandes d'information de [Boost de filtration](#Boost%20de%20filtration)
 
 # Notifications
 
@@ -173,7 +173,7 @@ Vous pouvez définir de recevoir des alertes pour tout ou parti de ces indateurs
 * __ORP__ : Correspond au passage en alerte du ORP
 * __pH__ : Correspond au passage en alerte du pH
 * __Température__ : Correspond au passage en alerte de la température
-* __Durée de filtration__ : Permet d'émettre une notification avec le temps de filtration effectué (cf. chapitre Filtration)
+* __Durée de filtration__ : Permet d'émettre une notification avec le temps de [filtration](#Filtration) effectué
 
 Il est possible de positionner des filtres:
 * __Alertes critiques uniquement__ : Permet de ne pas prendre en compte les alertes Attention (warning)
