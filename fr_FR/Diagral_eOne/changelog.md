@@ -2,6 +2,9 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-03-29 - v2.3.8 (BETA)
+- Ajout du badge 9 et 10
+
 # 2022-03-11 - v2.3.7 (BETA)
 
 - Ajout de l'affichage du sous-type pour les Commandes / Transmetteurs / Sensors / Sirenes
