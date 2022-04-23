@@ -2,6 +2,14 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-04-23 - v2.0.4 (BETA)
+
+- Correction d'un souci d'affichage du widget sur Firefox
+
+# 2022-04-23 - v2.0.3 (BETA)
+
+- Correction d'un souci d'affichage du widget avec un utilisateur non administrateur
+
 # 2022-03-10 - v2.0.1 (BETA)
 
 - Intégration d'un systéme de gestion de la filtration (cf [Documentation](documentation#Filtration))
