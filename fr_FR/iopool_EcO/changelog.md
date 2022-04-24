@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-04-24 - v2.0.6 (BETA)
+
+- Correction d'un bug qui afficher l'historique du temps de filtration recommandé (si actif) lors du clic On/Off de filtration intégré en 2.0.5
+
 # 2022-04-24 - v2.0.5 (BETA)
 
 - Ajout sur le widget de l'état de filtration et bouton On/Off si la [filtration automatique](documentation#Filtration) est active
