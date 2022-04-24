@@ -131,7 +131,7 @@ Cependant, si une période de boost chevauche une période de filtration, la fil
 > 
 > _Exemple 2 : Une période de filtration est configurée de 11h à 13h et de 16h à 18h (4h de filtration recommandé par iopool - configuré en deux plages 50/50). Si un boost de 8H est lancé à 10h30, la filtration effectuée sera de 10h30 à 18h30 sans interruption._
 
-Les commandes de boost ne sont pas disponible sur le widget. Ils sont pensé pour être déclenché depuis un mobile (via Homekit, Google, Alexa, etc...) après un traitement. Toutefois, vous pouvez les lancer aussi depuis la commande de l'équipement, ou encore par un scenario si besoin.
+Les commandes de boost ne sont pas disponibles sur le widget. Elles sont pensées pour être déclenchées depuis un mobile (via Homekit, Google, Alexa, etc...) après un traitement de votre piscine/spa. Toutefois, vous pouvez aussi les lancer depuis la commande de l'équipement, ou encore par un scenario si besoin.
 
 # Commandes
 
