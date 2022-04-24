@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-04-24 - v2.0.5 (BETA)
+
+- Ajout sur le widget de l'état de filtration et bouton On/Off si la [filtration automatique](documentation#Filtration) est active
+
 # 2022-04-23 - v2.0.4 (BETA)
 
 - Correction d'un souci d'affichage du widget sur Firefox

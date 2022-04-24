@@ -121,7 +121,7 @@ Le plugin intégre donc des commandes permettant de lancer/arrêter des Boosts d
 - 8H
 - 24h
 
-> Ces commandes de boost possèdent automatiquement des types générique permettant par exemple, d'être disponible au sein de Homekit (couplé à l'utilisation du plugin Homebridge)
+> Ces commandes de boost possèdent automatiquement des types générique permettant par exemple, d'être disponible au sein de HomeBridge (et donc par extention, Homekit - Google, Alexa et d'autres solution utilisant les types génériques devraient eux aussi être fonctionnels)
 
 Un boost de filtration vient en complément à la filtration. Ce qui veut dire qu'il ne réduira pas le temps de filtration recommandé par iopool et utilisé par la filtration du plugin.
 
@@ -130,6 +130,8 @@ Cependant, si une période de boost chevauche une période de filtration, la fil
 > _Exemple 1 : Une période de filtration est configurée  de 11h à 16h (5h de filtration recommandé par iopool - configuré en une seule plage). Si un boost de 4H est lancé à 10h30, la filtration effectuée sera de 10h30 à 16h sans interruption._
 > 
 > _Exemple 2 : Une période de filtration est configurée de 11h à 13h et de 16h à 18h (4h de filtration recommandé par iopool - configuré en deux plages 50/50). Si un boost de 8H est lancé à 10h30, la filtration effectuée sera de 10h30 à 18h30 sans interruption._
+
+Les commandes de boost ne sont pas disponible sur le widget. Ils sont pensé pour être déclenché depuis un mobile (via Homekit, Google, Alexa, etc...) après un traitement. Toutefois, vous pouvez les lancer aussi depuis la commande de l'équipement, ou encore par un scenario si besoin.
 
 # Commandes
 
