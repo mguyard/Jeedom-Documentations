@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-04-25 - v2.0.7 (BETA)
+
+- Ajout du lancement des Boost sur le widget. Seul le lancement peut être effectué car l'arrêt du boost est automatique. Au besoin vous pouvez arrêter la pompe manuellement depuis le widget, ce qui rendra le boost inopérant.
+
 # 2022-04-24 - v2.0.6 (BETA)
 
 - Correction d'un bug qui affichait la modale d'historique du temps de filtration recommandé (si actif) lors du clic On/Off de filtration intégré en 2.0.5
