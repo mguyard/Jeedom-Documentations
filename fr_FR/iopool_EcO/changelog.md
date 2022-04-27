@@ -2,6 +2,14 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-04-27 - v2.0.8 (BETA)
+
+- Déplacement de la configuration de la durée minimum et maximum de filtration dans une partie "Options avancées" de la durée de filtration
+- Ajout d'une option avancée de temporisation entre l'execution de la commande et la vérification de bonne execution (par defaut aucune temporisation)
+- Ajout d'une option avancée de ré-essai lors de l'échec d'une éxécution de commande (max 10)
+- AJout d'une option avancée de délai entre les ré-essai suite à un échec (max 30 secondes)
+- Corrections graphiques du widget sous Firefox
+
 # 2022-04-25 - v2.0.7 (BETA)
 
 - Ajout du lancement des Boost sur le widget. Seul le lancement peut être effectué car l'arrêt du boost est automatique. Au besoin vous pouvez arrêter la pompe manuellement depuis le widget, ce qui rendra le boost inopérant.

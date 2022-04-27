@@ -107,9 +107,11 @@ Plusieurs options sont disponibles pour paramétrer l'usage du temps de filtrati
 
 Il est possible de surcharger le temps de filtration recommandé par iopool, en l'augmentant ou en le réduisant, en configurant les champs __Durée minimum de filtration__ et __Durée maximum de filtration__
 
+En cliquant sur les "+ Options avancées" vous pourrez personnaliser quelques paramètres complémentaires.
+
 > La partie filtration du plugin fonctionne à partir d'un agenda de filtration qu'il génére automatiquement et quotidiennement pour chaque sonde.
 >
-> Le cache est généré dans les 15 minutes précédent l'heure de début de la première plage de filtration, afin d'avoir le temps de filtration recommandé le plus pertinent. 
+> Le cache est généré dans les 15 minutes précédant l'heure de début de la première plage de filtration, afin d'avoir le temps de filtration recommandé le plus pertinent. 
 
 ## Boost de filtration
 
