@@ -11,7 +11,7 @@ Il vous suffit en général de mettre 1 à 2 secondes pour résoudre le problèm
 
 # Widget
 
-# La température du widget ne s'affiche pas dans la bonne couleur
+## La température du widget ne s'affiche pas dans la bonne couleur
 
 Les seuils de couleur sont différents que l'on utilise sa sonde pour une piscine ou un SPA.
 Vérifiez que vous avez bien configuré dans le plugin, le type de la sonde en piscine (par défaut) ou SPA selon votre usage.
