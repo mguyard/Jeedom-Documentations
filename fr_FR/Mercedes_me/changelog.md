@@ -1,5 +1,9 @@
 # Important à lire !
 
+# 2022-04-28 - v1.2.10
+
+- Correction d'un bug de récuperation de fuelstatus pour les véhicules hybrides
+
 # 2022-02-03 - v1.2.9
 
 - Adaptation du callback OAUTH2 pour résoudre les changements de sécurité du CORE JEEDOM 4.2
