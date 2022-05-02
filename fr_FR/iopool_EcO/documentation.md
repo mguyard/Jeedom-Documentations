@@ -202,9 +202,9 @@ Si vous souhaitez changer ce comportement, il suffit de suivre ce [tutoriel](htt
 
 # J'ai un problème avec le plugin, que faire ?
 
-1 - Je relis la documentation très attentivement pour voir si je n'aurais pas oublié quelque chose qui est écrit
-2 - Vérifiez sur [Community](https://community.jeedom.com/tag/plugin-iopool_eco) que le problème que vous rencontrez n'a pas déjà était rencontré par quelqu'un autre et que la solution est déjà présentée.
-3 - Si cela semble être la première fois que ce problème se présente, ouvrez un nouveau sujet sur [Community](https://community.jeedom.com) en utilisant bien le tag __plugin-iopool_eco__.
+1. Je relis la documentation très attentivement pour voir si je n'aurais pas oublié quelque chose qui est écrit
+2. Vérifiez sur [Community](https://community.jeedom.com/tag/plugin-iopool_eco) que le problème que vous rencontrez n'a pas déjà était rencontré par quelqu'un autre et que la solution est déjà présentée.
+3. Si cela semble être la première fois que ce problème se présente, ouvrez un nouveau sujet sur [Community](https://community.jeedom.com) en utilisant bien le tag __plugin-iopool_eco__.
 
 ## Que mettre dans une déclaration de problème sur Community
 
