@@ -229,7 +229,7 @@ Afin de pouvoir vous aider plus rapidement à résoudre votre souci, voici les i
 > du plugin pour générer automatiquement une archive avec toutes les informations nécessaires.
 > Cette archive est consultable après génération si vous souhaitez vérifier son contenu
 
-<span style="color:green">Pour qu'une archive DiagDebug soit utile à l'analyse, il faut avoir de la générer, activer les logs en __DEBUG__ sur le plugin, et simuler le problème.</span>
+<span style="color:blue;text-transform: capitalize;">Pour qu'une archive DiagDebug soit utile à l'analyse, il faut avant de la générer, activer les logs en __DEBUG__ sur le plugin, et simuler le problème.</span>
 
 Pour le générer il faut se rendre sur la page de configuration du plugin et cliquer sur le bouton __Générer un package de DiagDebug__
 
