@@ -232,7 +232,7 @@ Pour le générer il faut se rendre sur la page de configuration du plugin et cl
 ![Générer un package de DiagDebug](images/DiagDebug/Generate_Button.png)
 
 Au clic, en quelques secondes, une bannière apparait en vert (en bas à droite de l'écran) en cas de succès, contenant le lien de téléchargement du DiagDebug Package
-> Attention, cette bannière ne reste visible que quelques secondes. Si vous n'avez pas cliqué sur le lien avant sa disparission, il faudra générer un nouveau package.
+> Attention, cette bannière ne reste visible que quelques secondes. Si vous n'avez pas cliqué sur le lien avant sa disparition, il faudra générer un nouveau package.
 
 ![Téléchargement DiagDebug](images/DiagDebug/Download_DiagDebug.png)
 
