@@ -210,13 +210,15 @@ Si vous souhaitez changer ce comportement, il suffit de suivre ce [tutoriel](htt
 
 Afin de pouvoir vous aider plus rapidement à résoudre votre souci, voici les informations nécessaires à mettre dans votre sujet (copiez/collez le contenu ci-dessous et remplissez le dans votre sujet):
 
+> Toutes les questions ci-dessous sont importantes pour avoir une aide valable. __AIDEZ-NOUS A VOUS AIDER !__
+
 - Version du plugin (visible dans la page de configuration du plugin) ?
 - Plateforme Jeedom utilisée (DIY, RPI, Atlas, Smart, etc...)?
 - Problème apparu depuis quand (mise à jour, nouvelle installation) ?
 - Description du problème :
 - Captures d'écran ou petite video pour mieux visualiser le problème
 - Résultat attendu (ce qu'on estime avoir si le souci n'est pas présent) :
-- Problème systématique :
+- Problème systématique ?
 - Si problème systématique, mode opératoire pour le reproduire :
 - Paliatif trouvé ?
 - L'archive DiagDebug (voir chapitre suivant pour la procédure)
@@ -226,6 +228,8 @@ Afin de pouvoir vous aider plus rapidement à résoudre votre souci, voici les i
 > Afin de faciliter la collecte des informations nécessaires à l'analyse d'un problème, un bouton a était mis en place dans la configuration
 > du plugin pour générer automatiquement une archive avec toutes les informations nécessaires.
 > Cette archive est consultable après génération si vous souhaitez vérifier son contenu
+
+<span style="color:green">Pour qu'une archive DiagDebug soit utile à l'analyse, il faut avoir de la générer, activer les logs en __DEBUG__ sur le plugin, et simuler le problème.</span>
 
 Pour le générer il faut se rendre sur la page de configuration du plugin et cliquer sur le bouton __Générer un package de DiagDebug__
 
