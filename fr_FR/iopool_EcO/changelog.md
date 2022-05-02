@@ -2,6 +2,12 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-05-02 - v2.0.10 (BETA)
+
+- Ajout d'un paramètre pour gérer l'hivernage actif lorsque la sonde est en hivernage (ainsi que l'ajustement du widget pour gérer cette nouvelle fonctionnalitée)
+- Intégration du DiagDebug Package dans la configuration du plugin pour faciliter les analyses lors des demandes d'aide
+
+
 # 2022-04-27 - v2.0.9 (BETA)
 
 - Definition d'une valeur par defaut de 2 secondes pour la temporisation de verification de fonctionnement des commandes. Cela permet de gérer une grande majorité des cas de latence de réception du nouveau statut. Cette valeur de 2 secondes ne s'applique que si le champs est vide. Toutefois vous pouvez indiquer toutes autres valeurs comprises entre 0 et 60 secondes
