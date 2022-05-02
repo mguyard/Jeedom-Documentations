@@ -14,16 +14,19 @@ L'objectif étant qu'un utilisateur de plugin, puisse facilement fournir une lis
 
 ## Déclarer la construction d'un DiagDebug Package
 
-La classe utilise la POO (Programmation Orienté Objet). Il faut l'initialiser comme l'exemple ci-dessous.
+La classe utilise la POO (Programmation Orienté Objet).
+La classe utilise un namespace pour permettre d'isoler son utilisation dans un plugin avec les autres utilisations qui peuvent être dans des versions différentes. Par defaut, le namespace est __MyPluginNameToChange__
 
-``$diag = new DiagDebug('Diagral_eOne', '/var/www/html/');``
+Il faut l'initialiser comme l'exemple ci-dessous :
+
+``$diag = new MyPluginNameToChange\DiagDebug('Diagral_eOne', '/var/www/html/');``
 
 _Paramètres :_
 -   @param integer $pluginId - Jeedom plugin Id <span style="color:red">*</span>
 -   @param string $zipStorage - Optional Path to store DiagDebug Archive
 -   @return void
 
-Les anciens DiagDebug présent dans le repertoire sont supprimés
+Les anciens DiagDebug présent dans le repertoire sont supprimés à chaque initialisation.
 
 ## Ajouter les logs du plugin
 
@@ -241,9 +244,11 @@ Il faut désormais créer la méthode dans le classe Core de votre plugin.
 
 ### Création de la méthode dans la classe Core du votre plugin
 
+Passer à ajuster le namespace par celui que vous aurez défini dans la classe DiagDebug
+
     public function generateDiagDebug() {
         try {
-            $diag = new DiagDebug('Diagral_eOne');
+            $diag = new MyPluginNameToChange\DiagDebug('Diagral_eOne');
             $diag->addPluginLogs();
             $diag->addJeedomLogs(array('plugin', 'jeedom', 'http.error'));
             $diag->addCmd('nslookup appv3.tt-monitor.com');

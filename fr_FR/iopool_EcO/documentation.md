@@ -200,6 +200,44 @@ L'inconvénient est que donc plus de valeurs peuvent être stockées et donc con
 
 Si vous souhaitez changer ce comportement, il suffit de suivre ce [tutoriel](https://jeedomiser.fr/article/historiser-vos-commandes/#Mode_de_lissage) pour remettre un lissage par défaut (moyenne). L'article est globalement très interessant à lire pour votre culture de l'historisation au sein de Jeedom.
 
+# J'ai un problème avec le plugin, que faire ?
+
+1 - Je relis la documentation très attentivement pour voir si je n'aurais pas oublié quelque chose qui est écrit
+2 - Vérifiez sur [Community](https://community.jeedom.com/tag/plugin-iopool_eco) que le problème que vous rencontrez n'a pas déjà était rencontré par quelqu'un autre et que la solution est déjà présentée.
+3 - Si cela semble être la première fois que ce problème se présente, ouvrez un nouveau sujet sur [Community](https://community.jeedom.com) en utilisant bien le tag __plugin-iopool_eco__.
+
+## Que mettre dans une déclaration de problème sur Community
+
+Afin de pouvoir vous aider plus rapidement à résoudre votre souci, voici les informations nécessaires à mettre dans votre sujet (copiez/collez le contenu ci-dessous et remplissez le dans votre sujet):
+
+- Version du plugin (visible dans la page de configuration du plugin) ?
+- Plateforme Jeedom utilisée (DIY, RPI, Atlas, Smart, etc...)?
+- Problème apparu depuis quand (mise à jour, nouvelle installation) ?
+- Description du problème :
+- Captures d'écran ou petite video pour mieux visualiser le problème
+- Résultat attendu (ce qu'on estime avoir si le souci n'est pas présent) :
+- Problème systématique :
+- Si problème systématique, mode opératoire pour le reproduire :
+- Paliatif trouvé ?
+- L'archive DiagDebug (voir chapitre suivant pour la procédure)
+
+## Comment générer une archive DiagDebug
+
+> Afin de faciliter la collecte des informations nécessaires à l'analyse d'un problème, un bouton a était mis en place dans la configuration
+> du plugin pour générer automatiquement une archive avec toutes les informations nécessaires.
+> Cette archive est consultable après génération si vous souhaitez vérifier son contenu
+
+Pour le générer il faut se rendre sur la page de configuration du plugin et cliquer sur le bouton __Générer un package de DiagDebug__
+
+![Générer un package de DiagDebug](images/DiagDebug/Generate_Button.png)
+
+Au clic, en quelques secondes, une bannière apparait en vert (en bas à droite de l'écran) en cas de succès, contenant le lien de téléchargement du DiagDebug Package
+> Attention, cette bannière ne reste visible que quelques secondes. Si vous n'avez pas cliqué sur le lien avant sa disparission, il faudra générer un nouveau package.
+
+![Téléchargement DiagDebug](images/DiagDebug/Download_DiagDebug.png)
+
+Si la bannière est rouge, cela indique un souci un souci de génération. Le message d'erreur dans la bannière donne plus de détail sur comment la résoudre.
+
 # Numerotation des versions
 
 La numérotation des versions est effectuée ainsi pour le moment :
