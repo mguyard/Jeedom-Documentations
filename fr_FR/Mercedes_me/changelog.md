@@ -1,6 +1,6 @@
 # Important à lire !
 
-# 2022-04-28 - v1.2.10
+# 2022-04-28 - v1.2.10 (BETA)
 
 - Correction d'un bug de récuperation de fuelstatus pour les véhicules hybrides
 
