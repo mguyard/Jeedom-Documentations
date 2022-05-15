@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-05-15 - v2.0.12 (STABLE)
+
+- Correction dans les valeurs GREEN de la température des SPA (auparavant entre 38.5 et 40 - désormais entre 34 et 38.5) conformément à l'application iopool
+
 # 2022-05-15 - v2.0.11 (STABLE)
 
 - Passage en stable
