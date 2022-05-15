@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-05-15 - v2.0.11 (BETA)
+
+- Correction d'un bug d'arrondi sur les temps de filtration recommandé par iopool qui sont des valeurs a vigules
+
 # 2022-05-02 - v2.0.10 (BETA)
 
 - Ajout d'un paramètre pour gérer l'hivernage actif lorsque la sonde est en hivernage (ainsi que l'ajustement du widget pour gérer cette nouvelle fonctionnalitée)
