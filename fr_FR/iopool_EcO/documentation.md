@@ -83,7 +83,7 @@ Un bouton de refresh est aussi disponible en haut à droite du widget.
 
 # Filtration
 
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v2.0.0__</span>
+> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT A PARTIR DE v2.0.0__</span>
 
 ## Filtration automatique
 
@@ -161,8 +161,6 @@ Il existe actuellement plusieurs commandes qui sont décrites ci-dessous :
 > Il existe aussi des commandes d'information de [Boost de filtration](#Boost%20de%20filtration)
 
 # Notifications
-
-> <span style="color:red">__FONCTIONNALITE DISPONIBLE UNIQUEMENT EN BETA A PARTIR DE v1.1.0__</span>
 
 Le plugin permet de générer des notifications lorsque certains indicateurs passent en warning ou critical.
 Pour le configurer, un nouvel onglet est disponible sur l'équipement.
