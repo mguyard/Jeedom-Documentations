@@ -5,7 +5,7 @@ __Lorsque aucunes informations ne sont disponibles sur le changelog, cela impliq
 # 2022-05-15 - v2.0.11 (STABLE)
 
 - Passage en stable
-- Correction d'un bug d'arrondi sur les temps de filtration recommandé par iopool qui sont des valeurs a vigules
+- Correction d'un bug d'arrondi sur le temp de filtration recommandé par iopool qui a une valeur à virgule (ex. 4.5)
 
 # 2022-05-02 - v2.0.10 (BETA)
 
