@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-05-24 - v2.0.13 (BETA)
+
+- Correction d'un bug dans les notifications. En cas de désactivation des notifications, elles continuaient à être envoyées
+- Ajout d'un filtre de notification pour exclure les notifications ORP lorsque la filtration est en cours (utile lorsque le brassage de l'eau par la filtration fait chuter l'ORP alors qu'il remonte une fois la filtration arrétée)
 # 2022-05-15 - v2.0.12 (STABLE)
 
 - Correction dans les valeurs GREEN de la température des SPA (auparavant entre 38.5 et 40 - désormais entre 34 et 38.5) conformément à l'application iopool

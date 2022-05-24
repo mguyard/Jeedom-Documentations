@@ -179,6 +179,7 @@ Vous pouvez définir de recevoir des alertes pour tout ou parti de ces indateurs
 
 Il est possible de positionner des filtres:
 * __Alertes critiques uniquement__ : Permet de ne pas prendre en compte les alertes Attention (warning)
+* __Alertes ORP hors filtration uniquement__ : Permet de ne plus notifier les alertes ORP lorsque la filtration est en cours (utile lorsque le brassage de l'eau par la filtration fait chuter l'ORP alors qu'il remonte une fois la filtration arrétée). Cela ne désactive pas l'alerte globale par contre, qui prend en compte le changement du ORP.
 * __Retour à la normale__ : Permet de recevoir une notification lors du retour à la normal des indicateurs selectionnés
 
 ![Widget](images/notifications.png)
