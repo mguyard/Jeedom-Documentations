@@ -155,7 +155,7 @@ Le statut de l'alarme repasse à 0 automatiquement lorsque le plugin detecte soi
 
 # Alias de Badge
 
-Vous pouvez définir dans l'équipement (onglet Badges), des alias sur un maximum de 8 Badges.
+Vous pouvez définir dans l'équipement (onglet Badges), des alias sur un maximum de 10 Badges.
 
 ![Configuration des alias de badges](images/ConfigurationBadgesAlias.png)
 
@@ -168,6 +168,8 @@ Lorsque vous recevez un email d'activation ou désactivation au travers d'un bad
 Une tâche CRON est automatiquement créée sur base du délai entre les tentatives indiqué dans la configuration du plugin.
 
 ![Configuration Générale](images/ConfigurationGenerale.png)
+
+> A partir de la version 2.4.0, la fréquence de rafraichissement ne peut être inférieure à 10 minutes (cf. changelog) et un délai aléatoire entre 0s et 10s est appliqué au début du rafraichissment pour "lisser" les appels vers les serveurs de Diagral
 
 ## Manuel
 
@@ -489,8 +491,6 @@ La numérotation des versions est effectuée ainsi pour le moment :
 - Troisième chiffre : La version correctrice du plugin (résolution de bug)
 
 # Roadmap
-
-- Implémentation d'un webhook au sein du plugin pour permettre un refresh
 
 > C'est aussi vous qui aller donner la direction que prendra ce plugin, donc je suis à votre écoute
 > 

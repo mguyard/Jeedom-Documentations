@@ -2,6 +2,22 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-06-10 - v2.4.0 (STABLE)
+
+Suite aux saturations de serveurs Diagral et des échanges avec eux, cette version apporte les changements suivants :
+- le refresh automatique ne peut être inférieur à 10 minutes. Si votre refresh était inférieur, lors de la mise à jour il est forcé à 10 minutes.
+- ajout d'un délai aléatoire entre 0s et 10s lors des refresh automatiques (afin d'éviter que tout les refresh se déclenche en même tems vers les serveurs de Diagral)
+
+> Je compte sur vous tous pour appliquer cette mise à jour afin que les serveurs Diagral ne s'écroulent plus et que nous puissions tous avoir un plugin opérationnel dans l'attente d'un travail commun avec Diagral pour trouver une solution.
+> 
+> Pour ceux qui souhaite avoir une réactivité accrue, d'autres solutions existe pour ne mettre à jour que lorsque un changement est détecté en utilisant par exemple le Webhook : https://mguyard.github.io/Jeedom-Documentations/fr_FR/Diagral_eOne/documentation#Webhook
+> 
+> _Les cas d'usages peuvent être :_
+> * Macrodroid sur Android qui à chaque notification de l'application Diagral, fait un appel au Webhook
+> * Un jeedom qui reçoit les SMS de Diagral et lance un refresh par scénario
+> * etc....
+> Partagez vos idées ou réflexion sur Community
+
 # 2022-03-29 - v2.3.8 (BETA)
 - Ajout du badge 9 et 10
 
