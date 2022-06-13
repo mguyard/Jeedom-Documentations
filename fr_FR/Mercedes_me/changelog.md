@@ -1,19 +1,23 @@
 # Important à lire !
 
+# 2022-06-13 - v1.2.11 (STABLE)
+
+- Passage en stable de la version 1.2.10
+- Ajout du VIN W1V
 # 2022-04-28 - v1.2.10 (BETA)
 
 - Correction d'un bug de récuperation de fuelstatus pour les véhicules hybrides
 
-# 2022-02-03 - v1.2.9
+# 2022-02-03 - v1.2.9 (STABLE)
 
 - Adaptation du callback OAUTH2 pour résoudre les changements de sécurité du CORE JEEDOM 4.2
 
-# 2022-02-01 - v1.2.8
+# 2022-02-01 - v1.2.8 (STABLE)
 
 - Intégration de l'Odomètre via l'API 'Pay As You Drive Insurance'.
 > <span style="color:red">_Pour les installations effectives, il faut ajouter l'API 'Pay As You Drive Insurance' sur la console Mercedes (peut prendre quelques minutes avant l'activation complète) mais il faut aussi 'Refaire la connexion Mercedes' depuis la configuration du plugin afin d'ajouter les droits au plugin sur la nouvelle API 'Pay As You Drive Insurance'_</span>
 
-# 2022-01-31 - v1.2.7
+# 2022-01-31 - v1.2.7 (STABLE)
 
 - Passage en stable de la version 1.2.7
 > <span style="color:red">_Suite à une mise à jour Mercedes, l'application de cette mise à jour aura pour effet de retirer la coherence pour les utilisateurs existant. Ils devront donc aller modifier la Redirect URL dans la console Mercedes à partir de l'URL fournit dans la configuration du plugin_</span>
@@ -40,7 +44,7 @@
 # 2021-10-30 - v1.2.2 (BETA)
 
 - Ajout du support des VIN WDC
-# 2021-05-08 - v1.2.1
+# 2021-05-08 - v1.2.1 (STABLE)
 
 - Passage en stable de la version 1.2.1
 
@@ -51,7 +55,7 @@
 - Réduction de la taille du widget pour avoir un widget plus compact
 - Ajout d'une option pour désactiver l'utilisation du widget du plugin
 
-# 2021-04-12 - v1.0.4
+# 2021-04-12 - v1.0.4 (STABLE)
 
 - Passage en stable de la version 1.0.4
 
@@ -64,11 +68,11 @@
 - Correction de l'erreur qui apparaissait dans le http.error (PHP Warning:  Declaration of Mercedes_me::getImage($vin) should be compatible with eqLogic::getImage())
 - Modification des niveaux d'alerte pour moins polluer le Centre de Message
 
-# 2020-10-22 - v1.0.2
+# 2020-10-22 - v1.0.2 (STABLE)
 
 - Correction visuel sur la liste des équipements
 
-# 2020-10-22 - v1.0.1
+# 2020-10-22 - v1.0.1 (STABLE)
 
 - Changement de la méthode de gestion de l'energie du véhicule (passage en liste déroulante à la place de case à cocher)
   - Les véhicules déjà créé doivent normalement migrer automatiquement dans le nouveau mode de gestion des énergie. Dans le cas contraire, il vous faudra sauvegarder manuellement l'energie du véhicule.
@@ -77,6 +81,6 @@
 - Blocage de la création d'un véhicule avec un VIN déjà utilisé (pour éviter les doublons)
 - Optimisation de l'affichage des images de vehicule
 
-# 2020-10-18 - v1.0
+# 2020-10-18 - v1.0 (STABLE)
 
 - Sortie de la première version stable. Merci à __Robin86__ et __Petit_Malin__ pour leur beta-test.
