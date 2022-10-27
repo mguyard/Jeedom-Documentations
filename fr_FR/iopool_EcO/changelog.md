@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-05-27 - v2.0.15 (BETA)
+
+- Prise en charge du nouveau mode d'hivernage 'ACTIVE_WINTER'
+
 # 2022-05-24 - v2.0.14 (STABLE)
 
 - Passage en stable de la version 2.0.13
