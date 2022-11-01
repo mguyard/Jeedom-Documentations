@@ -2,9 +2,13 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-11-01 - v2.0.17 (BETA)
+
+- Correction d'un bug d'affichage sur le widget, du temps de filtration (hors hivernage) qui ne prenait pas en compte la configuration de filtration mininum ou maximum qui pouvait écraser la recommandation iopool
+
 # 2022-11-01 - v2.0.16 (BETA)
 
-- Correction d'un bug d'affichage du temps de filtration suite à la prise en charge du nouveau mode d'hivernage 'ACTIVE_WINTER' en 2.0.15
+- Correction d'un bug d'affichage sur le widget, du temps de filtration suite à la prise en charge du nouveau mode d'hivernage 'ACTIVE_WINTER' en 2.0.15
 
 # 2022-10-27 - v2.0.15 (BETA)
 
