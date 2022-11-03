@@ -2,6 +2,14 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2022-11-03 - v2.0.18 (STABLE)
+
+- Passage en stable de la version 2.0.18
+
+# 2022-11-03 - v2.0.18 (BETA)
+
+- Correction d'un log (https://community.jeedom.com/t/error-la-commande-de-notification-nest-pas-valide-ou-nst-pas-historisee-pourquoi/94064/2)[https://community.jeedom.com/t/error-la-commande-de-notification-nest-pas-valide-ou-nst-pas-historisee-pourquoi/94064/2]
+
 # 2022-11-01 - v2.0.17 (BETA)
 
 - Correction d'un bug d'affichage sur le widget, du temps de filtration (hors hivernage) qui ne prenait pas en compte la configuration de filtration mininum ou maximum qui pouvait écraser la recommandation iopool
