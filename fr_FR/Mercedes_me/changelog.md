@@ -5,7 +5,7 @@
 - Mise en place de la nouvelle API de connexion [https://developer.mercedes-benz.com/content-page/migration_2022](https://developer.mercedes-benz.com/content-page/migration_2022)
 
 > <span style="color:red">_La migration de la nouvelle API Mercedes nécessite de retourner dans votre [console Mercedes](https://developer.mercedes-benz.com/console) pour générer à nouveau votre  API Key, ClientID, Client Secret et les reporter dans la configuration du plugin.
-Il vous faudrait aussi remettre la Redirect URL disponible dans la configuration du plugin. Vous pouvez relire la documentation au besoin qui explique cela lors d'une première installation du plugin._</span>
+Il vous faudrait aussi remettre dans la [console Mercedes](https://developer.mercedes-benz.com/console), la Redirect URL disponible dans la configuration du plugin. Vous pouvez relire la documentation au besoin qui explique cela lors d'une première installation du plugin._</span>
 
 # 2022-06-13 - v1.2.11 (STABLE)
 
