@@ -4,10 +4,6 @@ __Lorsque aucunes informations ne sont disponibles sur le changelog, cela impliq
 
 # 2022-11-03 - v2.0.18 (STABLE)
 
-- Passage en stable de la version 2.0.18
-
-# 2022-11-03 - v2.0.18 (BETA)
-
 - Correction d'un log (https://community.jeedom.com/t/error-la-commande-de-notification-nest-pas-valide-ou-nst-pas-historisee-pourquoi/94064/2)[https://community.jeedom.com/t/error-la-commande-de-notification-nest-pas-valide-ou-nst-pas-historisee-pourquoi/94064/2]
 
 # 2022-11-01 - v2.0.17 (BETA)
