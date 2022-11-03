@@ -1,9 +1,17 @@
 # Important à lire !
 
+# 2022-11-03 - v1.3.0 (BETA)
+
+- Mise en place de la nouvelle API de connexion (https://developer.mercedes-benz.com/content-page/migration_2022)
+
+> <span style="color:red">_La migration de la nouvelle API Mercedes nécessite de retourner dans votre [console Mercedes](https://developer.mercedes-benz.com/console) pour générer à nouveau votre  API Key, ClientID, Client Secret et les reporter dans la configuration du plugin.
+Il vous faudrait aussi remettre la Redirect URL disponible dans la configuration du plugin. Vous pouvez relire la documentation au besoin qui explique cela lors d'une première installation du plugin._</span>
+
 # 2022-06-13 - v1.2.11 (STABLE)
 
 - Passage en stable de la version 1.2.10
 - Ajout du VIN W1V
+
 # 2022-04-28 - v1.2.10 (BETA)
 
 - Correction d'un bug de récuperation de fuelstatus pour les véhicules hybrides
