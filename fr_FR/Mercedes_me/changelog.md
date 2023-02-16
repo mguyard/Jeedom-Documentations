@@ -1,5 +1,9 @@
 # Important à lire !
 
+# 2023-02-16 - v1.3.1 (BETA)
+
+- Compatibilité 4.3
+
 # 2022-11-03 - v1.3.0 (STABLE)
 
 - Mise en place de la nouvelle API de connexion [https://developer.mercedes-benz.com/content-page/migration_2022](https://developer.mercedes-benz.com/content-page/migration_2022)

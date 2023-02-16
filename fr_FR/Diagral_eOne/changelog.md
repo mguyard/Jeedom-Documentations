@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2023-02-16 - v2.4.1 (BETA)
+
+- Compatibilité 4.3
+
 # 2022-06-10 - v2.4.0 (STABLE)
 
 Suite aux saturations de serveurs Diagral et des échanges avec eux, cette version apporte les changements suivants :
