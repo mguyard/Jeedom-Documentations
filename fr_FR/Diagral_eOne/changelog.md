@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2023-05-07 - v2.4.3 (BETA)
+
+- Ajout de la gestion des portes de garage KNX
+
 # 2023-05-07 - v2.4.2 (BETA)
 
 - Notification lors de la tentative d'ajout d'un module non supporté. Jusqu'alors, un message d'erreur indiqué qu'un fichier de configuration n'était pas présent. Désormais un message plus explicite est ajouté. Pour connaitre le module concerné lors d'une synchronisation, il suffit d'activer les logs en debug.

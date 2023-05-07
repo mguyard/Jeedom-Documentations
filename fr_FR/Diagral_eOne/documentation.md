@@ -25,6 +25,7 @@ C'est donc une interface __CLOUD__
 - Commandes / Transmetteurs / Sensors / Sirenes
 - Camera
 - Motorisation Portail Adyx
+- Motorisation Garage KNX
 - Motorisation Garage Adyx
 - Module KNX Light (DIAG65AVX)
 - Motorisation Volet Adyx
