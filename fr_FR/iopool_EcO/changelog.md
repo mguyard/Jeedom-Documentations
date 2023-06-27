@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2023-06-27 - v2.0.19 (STABLE)
+
+- Passage en stable de la version 2.0.19
+
 # 2023-02-16 - v2.0.19 (BETA)
 
 - Compatibilité 4.3

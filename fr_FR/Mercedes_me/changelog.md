@@ -1,6 +1,6 @@
 # Important à lire !
 
-# 2023-02-16 - v1.3.1 (STABLE)
+# 2023-06-27 - v1.3.1 (STABLE)
 
 - Passage en stable de la version 1.3.1
 

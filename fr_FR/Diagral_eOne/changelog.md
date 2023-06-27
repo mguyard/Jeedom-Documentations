@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2023-06-27 - v2.4.3 (STABLE)
+
+- Passage en stable de la version 2.4.3
+
 # 2023-05-07 - v2.4.3 (BETA)
 
 - Ajout de la gestion des portes de garage KNX
