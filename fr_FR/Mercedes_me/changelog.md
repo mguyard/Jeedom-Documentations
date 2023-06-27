@@ -1,5 +1,9 @@
 # Important à lire !
 
+# 2023-02-16 - v1.3.1 (STABLE)
+
+- Passage en stable de la version 1.3.1
+
 # 2023-02-16 - v1.3.1 (BETA)
 
 - Compatibilité 4.3
