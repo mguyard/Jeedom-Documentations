@@ -2,8 +2,8 @@
 
 # 2023-08-09 - PASSAGE EN PRIVEE DU PLUGIN
 
-Le plugin est désormais en privé (achat impossible) suite à l'annonce de la fin de l'API Bring Your Own Car (https://developer.mercedes-benz.com/news/bringyourowncar-sundown) utilisé par ce plugin.
-Le plugin est toujours fonctionnel jusqu'à la date du 28 Aout 2023. Passer cette date, je demanderais le passage du plugin en ***Obsolete***.
+> <span style="color:red">_Le plugin est désormais en privé (achat impossible) suite à l'annonce de la fin de l'API Bring Your Own Car (https://developer.mercedes-benz.com/news/bringyourowncar-sundown) utilisé par ce plugin.
+Le plugin est toujours fonctionnel jusqu'à la date du 28 Aout 2023. Passer cette date, je demanderais le passage du plugin en ***Obsolete***._</span>
 
 # 2023-06-27 - v1.3.1 (STABLE)
 
