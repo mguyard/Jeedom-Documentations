@@ -2,6 +2,10 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2024-03-31 - v2.5.0 (BETA)
+
+- Support de la version Jeedom 4.4
+
 # 2023-06-27 - v2.4.3 (STABLE)
 
 - Passage en stable de la version 2.4.3

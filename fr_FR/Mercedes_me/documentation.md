@@ -1,6 +1,6 @@
 ![Logo](images/Mercedes_me_icon.png)
 
-> <span style="color:red">_Le plugin ne sera plus fonctionnel à partir du 28 Août 2023, date à laquelle Mercedes arrête l'API __BRING YOUR OWN CAR (BYOC)__ utilisé dans ce plugin : [Annonce de l'arrêt](https://developer.mercedes-benz.com/news/bringyourowncar-sundown)_</span>
+> <span style="color:red">_Le plugin n'est plus fonctionnel à partir du 28 Août 2023, date à laquelle Mercedes à arrêté l'API __BRING YOUR OWN CAR (BYOC)__ utilisé dans ce plugin : [Annonce de l'arrêt](https://developer.mercedes-benz.com/news/bringyourowncar-sundown)_</span>
 
 # Présentation 
 
