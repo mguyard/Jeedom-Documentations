@@ -2,9 +2,18 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2024-04-05 - v2.5.2 (BETA)
+
+- Réintégration du Widget 4.0 pour toute les plateformes Jeedom inférieure à 4.4.0 pour eviter les problématiques de CSS.
+
+# 2024-04-05 - v2.5.1 (BETA)
+
+- Correction d'un bug qui empechait l'affichage des modules knx-garage_door de s'afficher dans la categorie "Mes Automatisations ADYX/KNX" et donc empechait le module d'être visible.
+
 # 2024-03-31 - v2.5.0 (BETA)
 
 - Support de la version Jeedom 4.4
+- Modification du Widget pour être compatible avec Jeedom 4.4 (legère refonte graphique)
 
 # 2023-06-27 - v2.4.3 (STABLE)
 
