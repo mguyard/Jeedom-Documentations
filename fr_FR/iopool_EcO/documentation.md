@@ -51,7 +51,7 @@ Une fois actif, vous devez saisir dans la configuration du plugin, votre clé AP
 
 ## Avoir votre clé API
 
-Faites simplement une demande au support iopool au travers de votre application mobile : Plus > Support > Envoyez-nous un message
+Allez dans les paramètres de votre application mobile iopool (Plus > Paramètres). Votre clé API y sera accessible.
 
 # Découverte des sondes
 
