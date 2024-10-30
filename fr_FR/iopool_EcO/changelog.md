@@ -2,6 +2,17 @@
 
 __Lorsque aucunes informations ne sont disponibles sur le changelog, cela implique un changement de documentation uniquement__
 
+# 2.1.1-beta.2 (2024-10-30)
+
+### Bug Fixes
+Update info.json (6d71bd4)
+
+# 2.1.1-beta.1 (2024-10-30)
+
+### Bug Fixes
+Fix error when retrieving pool from iopool API with a empty result (5934c2e)
+Import Montserrat font to avoid CSP error on fonts.googleapis.com (not allowed by Jeedom in default CSP configuration) (f7cf5cd)
+
 # 2024-03-31 - v2.1.0 (BETA)
 
 - Support de la version Jeedom 4.4
